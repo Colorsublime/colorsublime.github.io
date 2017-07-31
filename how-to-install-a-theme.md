@@ -1,6 +1,7 @@
 ---
 layout: default
 title: How to install a theme
+exclude_from_search: true
 ---
 # How to install a Sublime Text theme (the easy way)
 

@@ -5,13 +5,14 @@ permalink:           pretty
 # Setup
 title:               Colorsublime
 tagline:             Color your Sublime Text editor trying your favorite theme online before downloading it for free
-
+baseurl:
 # Handling Reading
 encoding:           "utf-8"
 markdown_ext:       "markdown,md"
 
 gems:
   - jekyll-paginate-v2
+  - jekyll-lunr-js-search
 
 exclude: [node_modules,build,Makefile]
 
@@ -22,7 +23,8 @@ sass:
   style:            :compressed
 
 collections:
-  - themes
+  themes:
+    output: true
 
 # Pagination Settings
 pagination:
@@ -32,3 +34,6 @@ pagination:
   limit: 0
 
 github_download_base_url: https://raw.githubusercontent.com/Colorsublime/Colorsublime-Themes/master/themes/
+
+lunr_search:
+  js_dir: assets/js

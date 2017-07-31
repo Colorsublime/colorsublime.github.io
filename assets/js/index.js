@@ -4,43 +4,23 @@
  * maintained by @gianlucaguarini
  */
 
-/*global ace*/
-
-/**
- * Shorter and fast way to select multiple nodes in the DOM
- * @param   { String } selector - DOM selector
- * @param   { Object } ctx - DOM node where the targets of our search will is located
- * @returns { Object } dom nodes found
- */
-function $$(selector, ctx) {
-  return Array.prototype.slice.call((ctx || document).querySelectorAll(selector))
-}
-
-/**
- * Shorter and fast way to select a single node in the DOM
- * @param   { String } selector - unique dom selector
- * @param   { Object } ctx - DOM node where the target of our search will is located
- * @returns { Object } dom node found
- */
-function $(selector, ctx) {
-  return (ctx || document).querySelector(selector)
-}
+/*global ace $ */
 
 const
   langArray = ['javascript', 'php', 'css', 'ruby'],
   ua = navigator.userAgent,
   snippets = {
-    javascript: $('#javascriptTemplate').innerHTML,
-    html: $('#htmlTemplate').innerHTML,
-    python: $('#pythonTemplate').innerHTML,
-    java: $('#javaTemplate').innerHTML,
-    php: $('#phpTemplate').innerHTML,
-    css: $('#cssTemplate').innerHTML,
-    ruby: $('#rubyTemplate').innerHTML,
-    scss: $('#scssTemplate').innerHTML,
-    latex: $('#latexTemplate').innerHTML,
-    sql: $('#sqlTemplate').innerHTML,
-    markdown: $('#markdownTemplate').innerHTML
+    javascript: $('#javascriptTemplate').text(),
+    html: $('#htmlTemplate').text(),
+    python: $('#pythonTemplate').text(),
+    java: $('#javaTemplate').text(),
+    php: $('#phpTemplate').text(),
+    css: $('#cssTemplate').text(),
+    ruby: $('#rubyTemplate').text(),
+    scss: $('#scssTemplate').text(),
+    latex: $('#latexTemplate').text(),
+    sql: $('#sqlTemplate').text(),
+    markdown: $('#markdownTemplate').text()
   }
 
 function initEditor($wrapper, themeId, Language) {
@@ -51,12 +31,22 @@ function initEditor($wrapper, themeId, Language) {
 
 // Load the ace editor inside all the div having "editor" class
 function bootThemes() {
-  $$('.theme').forEach(function(el) {
-    const $editor = $('.editor', el)
-    initEditor($editor, el.getAttribute('id'), el.getAttribute('data-language'))
-    $editor.classList.add('loaded')
+  $('.theme').each(function(i, el) {
+    var $el = $(el)
+    var $editor = $('.editor', el)
+    initEditor($editor.get(0), $el.attr('id'), $el.data('language'))
+    $editor.addClass('loaded')
   })
 }
+
+// search stuff
+$('#search-query').lunrSearch({
+  indexUrl: '/assets/js/index.json',           // url for the .json file containing search index data
+  results: '#search-results',          // selector for containing search results element
+  template: '#search-results-template', // selector for Mustache.js template
+  titleMsg: '<h1>Search results<h1>',   // message attached in front of results (can be empty)
+  emptyMsg: '<p>Nothing found.</p>'     // shown message if search returns no results
+})
 
 /*
 var changeLanguage = function(e) {

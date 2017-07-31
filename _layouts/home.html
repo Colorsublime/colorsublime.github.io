@@ -16,6 +16,8 @@
 <main class='content'>
   {{ content }}
 
+  {% include search.html %}
+
   <ul class="themes-collection pure-g">
       {% for theme in paginator.posts %}
         <li class="pure-u-1 pure-u-md-1-3">
@@ -32,7 +34,7 @@
               <a class='button secondary' href='{{ theme.url }}' class='btn preview'>
                 Preview <i class='icon-eye-open'></i>
               </a>
-              <a class='button secondary' href='{{ site.github_download_base_url }}{{ theme.FileName }}' target='_blank'>
+              <a download class='button secondary' href='{{ site.github_download_base_url }}{{ theme.FileName }}' target='_blank'>
                 Download <i class='icon-download'></i>
               </a>
             </div>

@@ -1,0 +1,18 @@
+<div class='search pure-g'>
+  <form class='form pure-u-1' method='get'>
+    <input type='search' id='search-query' name='q' placeholder='Find your favorite theme...' autocomplete='off'>
+    <button><i class='icon-search'></i></button>
+  </form>
+  <section class='results pure-u-1' id='search-results' style='display: none;'> </section>
+  {% raw %}
+  <script id='search-results-template' type='text/mustache'>
+    {{#entries}}
+      <article>
+        <h2>
+          <a href='{{url}}'>{{title}}</a>
+        </h2>
+      </article>
+    {{/entries}}
+  </script>
+  {% endraw %}
+</div>

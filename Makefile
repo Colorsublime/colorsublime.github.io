@@ -18,7 +18,7 @@ build:
 	@ make clean-tmp
 
 deploy:
-	@ git subtree push --prefix _site origin gh-pages
+	@ git subtree push --prefix _site origin master
 
 serve:
 	@ jekyll serve

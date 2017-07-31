@@ -1,22 +1,27 @@
 {% include head.html %}
 
 <main class='content'>
-  <div class='theme-container'>
-    <div class='content' id='theme-{{page.ID}}' >
-      <div class='info'>
-        <h2>{{page.Title}}</h2>
+  <div class='theme-detail'>
+    <div class='theme' id='theme-{{page.ID}}' data-language='javascript'>
+      <h2 class='title'>{{page.Title}}</h2>
+      {% if page.Author != '' %}
         <p class='metadata'>
-          By <b>{{page.Author}}</b>  <i>{{page.Description}}</i>
+          By <b>{{ page.Author }}</b>  <i>{{page.Description}}</i>
         </p>
-        <div class='share-btn'></div>
-        <a href='{{ site.github_download_base_url }}{{ page.FileName }}' target='_blank' class='btn btn-download'>
-          <i class='icon-download'></i>
-          Download
-        </a>
-      </div>
-      {% include languages-menu.html %}
+      {% endif %}
+      <div class='editor'>function foo(items) {
+  const x = 2;
+  const y = 'unicorn';
+
+  return x + items;
+}</div>
+      <a download href='{{ site.github_download_base_url }}{{ page.FileName }}' target='_blank' class='button secondary'>
+        Download
+        <i class='icon-download'></i>
+      </a>
     </div>
-  </div>
+    {% include languages-menu.html %}
+    </div>
 </main>
 
 {% include tail.html %}

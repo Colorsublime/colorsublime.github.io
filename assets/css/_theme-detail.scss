@@ -1,0 +1,22 @@
+.theme-detail {
+  .title {
+    background: #222;
+    font-size: 1.2rem;
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+    margin: 0;
+    padding: 0.5rem $lateral-padding;
+  }
+
+  .metadata {
+    background: #111;
+    color: #fff;
+    margin: 0;
+    padding: 0.5rem $lateral-padding;
+  }
+
+  .editor {
+    min-height: 50vh;
+    margin-bottom: 2rem;
+  }
+}
