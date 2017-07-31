@@ -1,0 +1,20 @@
+---
+# global style
+---
+
+// general stuff
+@import 'variables';
+@import 'colors';
+@import 'buttons';
+@import 'fonts';
+@import 'icons';
+@import 'base';
+@import 'typography';
+
+// components
+@import 'splash';
+@import 'themes-collection';
+@import 'editor';
+@import 'nav';
+@import 'pagination';
+@import 'header';

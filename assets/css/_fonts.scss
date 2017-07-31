@@ -1,0 +1,24 @@
+// Here you can import the fonts
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+@font-face {
+  font-family: 'RalewayThin';
+  src: url('../fonts/raleway_thin-webfont.eot');
+  src: url('../fonts/raleway_thin-webfont.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/raleway_thin-webfont.woff') format('woff'),
+     url('../fonts/raleway_thin-webfont.ttf') format('truetype'),
+     url('../fonts/raleway_thin-webfont.svg#RalewayThin') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Elusive-Icons';
+  src:url('../fonts/Elusive-Icons.eot');
+  src:url('../fonts/Elusive-Icons.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Elusive-Icons.woff') format('woff'),
+    url('../fonts/Elusive-Icons.ttf') format('truetype'),
+    url('../fonts/Elusive-Icons.svg#Elusive-Icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

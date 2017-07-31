@@ -1,0 +1,100 @@
+.ace-3024--night .ace_gutter {
+  background: rgba(9,3,0,1);
+  color: rgb(87,83,81)
+}
+
+.ace-3024--night .ace_print-margin {
+  width: 1px;
+  background: #e8e8e8
+}
+
+.ace-3024--night {
+  background-color: rgba(9,3,0,1);
+  color: rgba(165,162,162,1)
+}
+
+.ace-3024--night .ace_cursor,
+.ace-3024--night .ace_keyword.ace_operator {
+  color: rgba(165,162,162,1)
+}
+
+.ace-3024--night .ace_marker-layer .ace_selection {
+  background: rgba(74,69,67,1)
+}
+
+.ace-3024--night.ace_multiselect .ace_selection.ace_start {
+  box-shadow: 0 0 3px 0px rgba(9,3,0,1);
+  border-radius: 2px
+}
+
+.ace-3024--night .ace_marker-layer .ace_step {
+  background: rgb(198, 219, 174)
+}
+
+.ace-3024--night .ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 1px solid rgba(92,88,85,1)
+}
+
+.ace-3024--night .ace_marker-layer .ace_active-line {
+  background: rgba(58,52,50,1)
+}
+
+.ace-3024--night .ace_gutter-active-line {
+  background-color: rgba(58,52,50,1)
+}
+
+.ace-3024--night .ace_marker-layer .ace_selected-word {
+  border: 1px solid rgba(74,69,67,1)
+}
+
+.ace-3024--night .ace_fold {
+  background-color: rgba(1,160,228,1);
+  border-color: rgba(165,162,162,1)
+}
+
+.ace-3024--night .ace_keyword,
+.ace-3024--night .ace_meta.ace_selector,
+.ace-3024--night .ace_storage {
+  color: rgba(161,106,148,1)
+}
+
+.ace-3024--night .ace_constant,
+.ace-3024--night .ace_constant.ace_numeric,
+.ace-3024--night .ace_entity.ace_other.ace_attribute-name,
+.ace-3024--night .ace_keyword.ace_other.ace_unit {
+  color: rgba(232,187,208,1)
+}
+
+.ace-3024--night .ace_constant.ace_character.ace_escape,
+.ace-3024--night .ace_string.ace_regexp,
+.ace-3024--night .ace_support.ace_function {
+  color: rgba(181,228,244,1)
+}
+
+.ace-3024--night .ace_support.ace_class {
+  color: rgba(253,237,2,1)
+}
+
+.ace-3024--night .ace_invalid.ace_illegal {
+  color: rgba(9,3,0,1);
+  background-color: rgba(219,45,32,1)
+}
+
+.ace-3024--night .ace_string {
+  color: rgba(1,162,82,1)
+}
+
+.ace-3024--night .ace_comment {
+  color: rgba(92,88,85,1)
+}
+
+.ace-3024--night .ace_entity.ace_name.ace_tag,
+.ace-3024--night .ace_markup.ace_list,
+.ace-3024--night .ace_variable {
+  color: rgba(219,45,32,1)
+}
+
+.ace-3024--night .ace_entity.ace_name.ace_function {
+  color: rgba(1,160,228,1)
+}

@@ -1,0 +1,98 @@
+.ace--gloom .ace_gutter {
+  background: rgba(42,51,43,1);
+  color: rgb(129,143,136)
+}
+
+.ace--gloom .ace_print-margin {
+  width: 1px;
+  background: #e8e8e8
+}
+
+.ace--gloom {
+  background-color: rgba(42,51,43,1);
+  color: rgba(216,235,229,1)
+}
+
+.ace--gloom .ace_cursor {
+  color: rgba(248,248,240,1)
+}
+
+.ace--gloom .ace_marker-layer .ace_selection {
+  background: rgba(255,93,56,1)
+}
+
+.ace--gloom.ace_multiselect .ace_selection.ace_start {
+  box-shadow: 0 0 3px 0px rgba(42,51,43,1);
+  border-radius: 2px
+}
+
+.ace--gloom .ace_marker-layer .ace_step {
+  background: rgb(198, 219, 174)
+}
+
+.ace--gloom .ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 1px solid rgba(59,58,50,1)
+}
+
+.ace--gloom .ace_marker-layer .ace_active-line {
+  background: rgba(60,77,62,1)
+}
+
+.ace--gloom .ace_gutter-active-line {
+  background-color: rgba(60,77,62,1)
+}
+
+.ace--gloom .ace_marker-layer .ace_selected-word {
+  border: 1px solid rgba(255,93,56,1)
+}
+
+.ace--gloom .ace_fold {
+  background-color: rgba(188,212,42,1);
+  border-color: rgba(216,235,229,1)
+}
+
+.ace--gloom .ace_entity.ace_name.ace_tag,
+.ace--gloom .ace_keyword,
+.ace--gloom .ace_keyword.ace_other.ace_unit,
+.ace--gloom .ace_storage.ace_type {
+  color: rgba(38,166,166,1)
+}
+
+.ace--gloom .ace_constant.ace_character,
+.ace--gloom .ace_constant.ace_language,
+.ace--gloom .ace_constant.ace_other,
+.ace--gloom .ace_entity.ace_other.ace_attribute-name,
+.ace--gloom .ace_storage,
+.ace--gloom .ace_support.ace_constant,
+.ace--gloom .ace_support.ace_function {
+  color: rgba(255,93,56,1)
+}
+
+.ace--gloom .ace_constant.ace_numeric,
+.ace--gloom .ace_entity.ace_name.ace_function,
+.ace--gloom .ace_string,
+.ace--gloom .ace_support.ace_constant.ace_property-value,
+.ace--gloom .ace_variable {
+  color: rgba(188,212,42,1)
+}
+
+.ace--gloom .ace_support.ace_class,
+.ace--gloom .ace_support.ace_type {
+  font-style: italic;
+  color: rgba(255,93,56,1)
+}
+
+.ace--gloom .ace_invalid,
+.ace--gloom .ace_invalid.ace_deprecated {
+  color: rgba(248,248,240,1);
+  background-color: rgba(0,168,198,1)
+}
+
+.ace--gloom .ace_comment {
+  color: rgba(79,110,100,1)
+}
+
+.ace--gloom .ace_variable.ace_parameter {
+  font-style: italic
+}

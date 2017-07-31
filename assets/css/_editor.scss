@@ -1,0 +1,14 @@
+.editor {
+  width:100%;
+  min-height:180px;
+  border-radius: 0 0 10px 10px;
+
+  .ace_gutter {
+    color:#3d3d3d;
+  }
+
+  .ace_scrollbar {
+    display:none;
+  }
+}
+

@@ -1,0 +1,108 @@
+.ace--cozy .ace_gutter {
+  background: rgba(38,50,56,1);
+  color: rgb(123,147,156)
+}
+
+.ace--cozy .ace_print-margin {
+  width: 1px;
+  background: #e8e8e8
+}
+
+.ace--cozy {
+  background-color: rgba(38,50,56,1);
+  color: rgba(207,243,255,1)
+}
+
+.ace--cozy .ace_cursor {
+  color: rgba(255,255,255,1)
+}
+
+.ace--cozy .ace_marker-layer .ace_active-line,
+.ace--cozy .ace_marker-layer .ace_selection {
+  background: rgba(43,73,89,1)
+}
+
+.ace--cozy.ace_multiselect .ace_selection.ace_start {
+  box-shadow: 0 0 3px 0px rgba(38,50,56,1);
+  border-radius: 2px
+}
+
+.ace--cozy .ace_marker-layer .ace_step {
+  background: rgb(198, 219, 174)
+}
+
+.ace--cozy .ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 1px solid rgba(43,73,89,1)
+}
+
+.ace--cozy .ace_gutter-active-line {
+  background-color: rgba(43,73,89,1)
+}
+
+.ace--cozy .ace_marker-layer .ace_selected-word {
+  border: 1px solid rgba(43,73,89,1)
+}
+
+.ace--cozy .ace_fold {
+  background-color: rgba(0,255,204,1);
+  border-color: rgba(207,243,255,1)
+}
+
+.ace--cozy .ace_keyword {
+  color: rgba(255,92,92,1)
+}
+
+.ace--cozy .ace_constant.ace_character,
+.ace--cozy .ace_constant.ace_language,
+.ace--cozy .ace_constant.ace_numeric,
+.ace--cozy .ace_constant.ace_other,
+.ace--cozy .ace_string,
+.ace--cozy .ace_support.ace_function {
+  color: rgba(0,240,192,1)
+}
+
+.ace--cozy .ace_support.ace_constant,
+.ace--cozy .ace_variable.ace_parameter {
+  color: rgba(255,232,82,1)
+}
+
+.ace--cozy .ace_storage,
+.ace--cozy .ace_support.ace_class,
+.ace--cozy .ace_support.ace_type {
+  color: rgba(255,148,148,1)
+}
+
+.ace--cozy .ace_storage.ace_type {
+  color: rgba(105,200,255,1)
+}
+
+.ace--cozy .ace_invalid {
+  color: rgba(248,248,240,1);
+  background-color: rgba(255,84,84,1)
+}
+
+.ace--cozy .ace_invalid.ace_deprecated {
+  color: rgba(248,248,240,1);
+  background-color: rgba(102,150,255,1)
+}
+
+.ace--cozy .ace_comment {
+  color: rgba(145,145,145,1.58)
+}
+
+.ace--cozy .ace_variable {
+  color: rgba(207,243,255,1)
+}
+
+.ace--cozy .ace_entity.ace_other.ace_attribute-name {
+  color: rgba(56,255,245,1)
+}
+
+.ace--cozy .ace_entity.ace_name.ace_function {
+  color: rgba(0,255,204,1)
+}
+
+.ace--cozy .ace_entity.ace_name.ace_tag {
+  color: rgba(255,122,122,1)
+}

@@ -1,0 +1,107 @@
+.ace--brunette .ace_gutter {
+  background: rgba(32,16,0,1);
+  color: rgb(118,93,60)
+}
+
+.ace--brunette .ace_print-margin {
+  width: 1px;
+  background: #e8e8e8
+}
+
+.ace--brunette {
+  background-color: rgba(32,16,0,1);
+  color: rgba(204,170,119,1)
+}
+
+.ace--brunette .ace_cursor {
+  color: rgba(204,153,102,1)
+}
+
+.ace--brunette .ace_marker-layer .ace_selection {
+  background: rgba(68,17,34,1)
+}
+
+.ace--brunette.ace_multiselect .ace_selection.ace_start {
+  box-shadow: 0 0 3px 0px rgba(32,16,0,1);
+  border-radius: 2px
+}
+
+.ace--brunette .ace_marker-layer .ace_step {
+  background: rgb(198, 219, 174)
+}
+
+.ace--brunette .ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 1px solid rgba(64,32,0,1)
+}
+
+.ace--brunette .ace_marker-layer .ace_active-line {
+  background: rgba(64,32,0,1)
+}
+
+.ace--brunette .ace_gutter-active-line {
+  background-color: rgba(64,32,0,1)
+}
+
+.ace--brunette .ace_marker-layer .ace_selected-word {
+  border: 1px solid rgba(68,17,34,1)
+}
+
+.ace--brunette .ace_fold {
+  background-color: rgba(119,102,187,1);
+  border-color: rgba(204,170,119,1)
+}
+
+.ace--brunette .ace_entity.ace_name.ace_tag,
+.ace--brunette .ace_keyword,
+.ace--brunette .ace_storage {
+  color: rgba(136,85,34,1)
+}
+
+.ace--brunette .ace_constant.ace_character,
+.ace--brunette .ace_constant.ace_language,
+.ace--brunette .ace_constant.ace_numeric,
+.ace--brunette .ace_constant.ace_other {
+  color: rgba(238,204,51,1)
+}
+
+.ace--brunette .ace_entity.ace_other.ace_attribute-name,
+.ace--brunette .ace_support.ace_constant,
+.ace--brunette .ace_support.ace_function {
+  color: rgba(184,34,34,1)
+}
+
+.ace--brunette .ace_storage.ace_type,
+.ace--brunette .ace_support.ace_class,
+.ace--brunette .ace_support.ace_type {
+  font-style: italic;
+  color: rgba(184,34,34,1)
+}
+
+.ace--brunette .ace_invalid {
+  color: rgba(248,248,240,1);
+  background-color: rgba(249,38,114,1)
+}
+
+.ace--brunette .ace_invalid.ace_deprecated {
+  color: rgba(248,248,240,1);
+  background-color: rgba(174,129,255,1)
+}
+
+.ace--brunette .ace_string {
+  color: rgba(204,102,34,1)
+}
+
+.ace--brunette .ace_comment {
+  color: rgba(85,68,51,1)
+}
+
+.ace--brunette .ace_entity.ace_name.ace_function,
+.ace--brunette .ace_variable {
+  color: rgba(119,102,187,1)
+}
+
+.ace--brunette .ace_variable.ace_parameter {
+  font-style: italic;
+  color: rgba(221,153,34,1)
+}

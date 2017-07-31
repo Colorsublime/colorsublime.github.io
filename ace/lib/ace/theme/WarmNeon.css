@@ -1,0 +1,117 @@
+.ace--warm-neon .ace_gutter {
+  background: rgba(69,69,69,1);
+  color: rgb(112,132,106)
+}
+
+.ace--warm-neon .ace_print-margin {
+  width: 1px;
+  background: #e8e8e8
+}
+
+.ace--warm-neon {
+  background-color: rgba(69,69,69,1);
+  color: rgba(155,194,142,1)
+}
+
+.ace--warm-neon .ace_cursor {
+  color: rgba(248,248,240,1)
+}
+
+.ace--warm-neon .ace_marker-layer .ace_selection {
+  background: rgba(67,154,72,1)
+}
+
+.ace--warm-neon.ace_multiselect .ace_selection.ace_start {
+  box-shadow: 0 0 3px 0px rgba(69,69,69,1);
+  border-radius: 2px
+}
+
+.ace--warm-neon .ace_marker-layer .ace_step {
+  background: rgb(198, 219, 174)
+}
+
+.ace--warm-neon .ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 1px solid rgba(73,72,62,1)
+}
+
+.ace--warm-neon .ace_marker-layer .ace_active-line {
+  background: rgba(53,53,53,1)
+}
+
+.ace--warm-neon .ace_gutter-active-line {
+  background-color: rgba(53,53,53,1)
+}
+
+.ace--warm-neon .ace_marker-layer .ace_selected-word {
+  border: 1px solid rgba(67,154,72,1)
+}
+
+.ace--warm-neon .ace_fold {
+  background-color: rgba(255,255,255,1);
+  border-color: rgba(155,194,142,1)
+}
+
+.ace--warm-neon .ace_keyword,
+.ace--warm-neon .ace_storage.ace_type,
+.ace--warm-neon .ace_variable.ace_parameter {
+  color: rgba(204,160,0,1)
+}
+
+.ace--warm-neon .ace_constant.ace_language {
+  color: rgba(0,204,204,1)
+}
+
+.ace--warm-neon .ace_constant.ace_numeric {
+  color: rgba(229,66,66,1)
+}
+
+.ace--warm-neon .ace_constant.ace_character,
+.ace--warm-neon .ace_constant.ace_other {
+  color: rgba(178,129,255,1)
+}
+
+.ace--warm-neon .ace_support.ace_class,
+.ace--warm-neon .ace_support.ace_function,
+.ace--warm-neon .ace_support.ace_type {
+  color: rgba(0,197,204,1)
+}
+
+.ace--warm-neon .ace_support.ace_constant {
+  color: rgba(102,212,239,1)
+}
+
+.ace--warm-neon .ace_storage {
+  color: rgba(249,38,107,1)
+}
+
+.ace--warm-neon .ace_invalid {
+  color: rgba(0,0,0,1);
+  background-color: rgba(255,204,204,1)
+}
+
+.ace--warm-neon .ace_invalid.ace_deprecated {
+  color: rgba(248,248,240,1);
+  background-color: rgba(178,129,255,1)
+}
+
+.ace--warm-neon .ace_string {
+  color: rgba(126,205,0,1)
+}
+
+.ace--warm-neon .ace_comment {
+  color: rgba(255,102,102,1)
+}
+
+.ace--warm-neon .ace_entity.ace_name.ace_function,
+.ace--warm-neon .ace_variable {
+  color: rgba(255,255,255,1)
+}
+
+.ace--warm-neon .ace_entity.ace_other.ace_attribute-name {
+  color: rgba(222,219,114,1)
+}
+
+.ace--warm-neon .ace_entity.ace_name.ace_tag {
+  color: rgba(198,153,87,1)
+}

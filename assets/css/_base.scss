@@ -1,0 +1,13 @@
+a {
+  color: $color-secondary-1-4;
+
+  &:hover, &:active, &:focus {
+    color: $color-secondary-1-2;
+  }
+}
+
+.container {
+  max-width: $container-width;
+  margin: 0 auto;
+  padding: 0 $lateral-padding;
+}

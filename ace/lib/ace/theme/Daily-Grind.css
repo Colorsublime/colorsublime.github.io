@@ -1,0 +1,110 @@
+.ace--daily--grind .ace_gutter {
+  background: rgba(22,23,20,1);
+  color: rgb(126,125,119)
+}
+
+.ace--daily--grind .ace_print-margin {
+  width: 1px;
+  background: #e8e8e8
+}
+
+.ace--daily--grind {
+  background-color: rgba(22,23,20,1);
+  color: rgba(230,226,218,1)
+}
+
+.ace--daily--grind .ace_cursor {
+  color: rgba(248,248,240,1)
+}
+
+.ace--daily--grind .ace_marker-layer .ace_selection {
+  background: rgba(44,44,44,1)
+}
+
+.ace--daily--grind.ace_multiselect .ace_selection.ace_start {
+  box-shadow: 0 0 3px 0px rgba(22,23,20,1);
+  border-radius: 2px
+}
+
+.ace--daily--grind .ace_marker-layer .ace_step {
+  background: rgb(198, 219, 174)
+}
+
+.ace--daily--grind .ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 1px solid rgba(59,58,50,1)
+}
+
+.ace--daily--grind .ace_marker-layer .ace_active-line {
+  background: rgba(62,61,50,1)
+}
+
+.ace--daily--grind .ace_gutter-active-line {
+  background-color: rgba(62,61,50,1)
+}
+
+.ace--daily--grind .ace_marker-layer .ace_selected-word {
+  border: 1px solid rgba(44,44,44,1)
+}
+
+.ace--daily--grind .ace_fold {
+  background-color: rgba(165,207,225,1);
+  border-color: rgba(230,226,218,1)
+}
+
+.ace--daily--grind .ace_entity.ace_name.ace_tag,
+.ace--daily--grind .ace_keyword,
+.ace--daily--grind .ace_storage,
+.ace--daily--grind .ace_support.ace_constant,
+.ace--daily--grind .ace_support.ace_function {
+  color: rgba(215,110,40,1)
+}
+
+.ace--daily--grind .ace_constant.ace_language,
+.ace--daily--grind .ace_constant.ace_numeric {
+  color: rgba(253,224,100,1)
+}
+
+.ace--daily--grind .ace_constant.ace_character,
+.ace--daily--grind .ace_constant.ace_other {
+  color: rgba(186,182,253,1)
+}
+
+.ace--daily--grind .ace_storage.ace_type,
+.ace--daily--grind .ace_support.ace_class,
+.ace--daily--grind .ace_support.ace_type {
+  font-style: italic;
+  color: rgba(215,110,40,1)
+}
+
+.ace--daily--grind .ace_invalid {
+  color: rgba(248,248,240,1);
+  background-color: rgba(215,110,40,1)
+}
+
+.ace--daily--grind .ace_invalid.ace_deprecated {
+  color: rgba(248,248,240,1);
+  background-color: rgba(253,224,100,1)
+}
+
+.ace--daily--grind .ace_string {
+  color: rgba(173,188,104,1)
+}
+
+.ace--daily--grind .ace_comment {
+  color: rgba(104,103,96,1)
+}
+
+.ace--daily--grind .ace_variable {
+  color: rgba(71,147,203,1)
+}
+
+.ace--daily--grind .ace_variable.ace_parameter {
+  font-style: italic;
+  color: rgba(253,151,31,1)
+}
+
+.ace--daily--grind .ace_entity.ace_name.ace_function,
+.ace--daily--grind .ace_entity.ace_other.ace_attribute-name {
+  color: rgba(165,207,225,1)
+}

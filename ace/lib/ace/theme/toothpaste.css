@@ -1,0 +1,110 @@
+.ace-toothpaste .ace_gutter {
+  background: rgba(34,46,51,1);
+  color: rgb(126,137,142)
+}
+
+.ace-toothpaste .ace_print-margin {
+  width: 1px;
+  background: #e8e8e8
+}
+
+.ace-toothpaste {
+  background-color: rgba(34,46,51,1);
+  color: rgba(218,227,232,1)
+}
+
+.ace-toothpaste .ace_comment,
+.ace-toothpaste .ace_cursor {
+  color: rgba(70,94,104,1)
+}
+
+.ace-toothpaste .ace_marker-layer .ace_selection {
+  background: rgba(73,72,62,1)
+}
+
+.ace-toothpaste.ace_multiselect .ace_selection.ace_start {
+  box-shadow: 0 0 3px 0px rgba(34,46,51,1);
+  border-radius: 2px
+}
+
+.ace-toothpaste .ace_marker-layer .ace_step {
+  background: rgb(198, 219, 174)
+}
+
+.ace-toothpaste .ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 1px solid rgba(59,58,50,1)
+}
+
+.ace-toothpaste .ace_marker-layer .ace_active-line {
+  background: rgba(62,61,50,1)
+}
+
+.ace-toothpaste .ace_gutter-active-line {
+  background-color: rgba(62,61,50,1)
+}
+
+.ace-toothpaste .ace_marker-layer .ace_selected-word {
+  border: 1px solid rgba(73,72,62,1)
+}
+
+.ace-toothpaste .ace_fold {
+  background-color: rgba(151,184,83,2.55);
+  border-color: rgba(218,227,232,1)
+}
+
+.ace-toothpaste .ace_keyword {
+  color: rgba(111,191,111,2.12)
+}
+
+.ace-toothpaste .ace_constant.ace_character,
+.ace-toothpaste .ace_constant.ace_language,
+.ace-toothpaste .ace_constant.ace_other {
+  color: rgba(227,104,104,1)
+}
+
+.ace-toothpaste .ace_constant.ace_numeric {
+  color: rgba(157,199,119,1)
+}
+
+.ace-toothpaste .ace_support.ace_class,
+.ace-toothpaste .ace_support.ace_constant,
+.ace-toothpaste .ace_support.ace_function,
+.ace-toothpaste .ace_support.ace_type {
+  color: rgba(118,158,179,1)
+}
+
+.ace-toothpaste .ace_storage,
+.ace-toothpaste .ace_string {
+  color: rgba(219,205,127,1)
+}
+
+.ace-toothpaste .ace_storage.ace_type {
+  font-style: italic;
+  color: rgba(115,179,192,2.55)
+}
+
+.ace-toothpaste .ace_invalid {
+  color: rgba(197,197,192,2.55);
+  background-color: rgba(197,79,122,2.55)
+}
+
+.ace-toothpaste .ace_invalid.ace_deprecated {
+  color: rgba(197,197,192,2.55);
+  background-color: rgba(155,130,201,2.55)
+}
+
+.ace-toothpaste .ace_entity.ace_name.ace_function,
+.ace-toothpaste .ace_variable {
+  color: rgba(151,184,83,2.55)
+}
+
+.ace-toothpaste .ace_variable.ace_parameter {
+  font-style: italic;
+  color: rgba(200,142,75,2.55)
+}
+
+.ace-toothpaste .ace_entity.ace_name.ace_tag,
+.ace-toothpaste .ace_entity.ace_other.ace_attribute-name {
+  color: rgba(218,227,232,1)
+}

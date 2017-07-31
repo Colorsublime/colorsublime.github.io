@@ -1,0 +1,113 @@
+.ace--pastels-on--dark .ace_gutter {
+  background: rgba(44,40,40,1);
+  color: rgb(94,94,92)
+}
+
+.ace--pastels-on--dark .ace_print-margin {
+  width: 1px;
+  background: #e8e8e8
+}
+
+.ace--pastels-on--dark {
+  background-color: rgba(44,40,40,1);
+  color: rgba(143,147,143,1)
+}
+
+.ace--pastels-on--dark .ace_cursor {
+  color: rgba(167,167,167,1)
+}
+
+.ace--pastels-on--dark .ace_marker-layer .ace_selection {
+  background: rgba(221,240,255,0.51)
+}
+
+.ace--pastels-on--dark.ace_multiselect .ace_selection.ace_start {
+  box-shadow: 0 0 3px 0px rgba(44,40,40,1);
+  border-radius: 2px
+}
+
+.ace--pastels-on--dark .ace_marker-layer .ace_step {
+  background: rgb(198, 219, 174)
+}
+
+.ace--pastels-on--dark .ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 1px solid rgba(255,255,255,0.64)
+}
+
+.ace--pastels-on--dark .ace_marker-layer .ace_active-line {
+  background: rgba(255,255,255,0.08)
+}
+
+.ace--pastels-on--dark .ace_gutter-active-line {
+  background-color: rgba(255,255,255,0.08)
+}
+
+.ace--pastels-on--dark .ace_marker-layer .ace_selected-word {
+  border: 1px solid rgba(221,240,255,0.51)
+}
+
+.ace--pastels-on--dark .ace_fold {
+  background-color: rgba(117,122,216,1);
+  border-color: rgba(143,147,143,1)
+}
+
+.ace--pastels-on--dark .ace_keyword {
+  color: rgba(117,122,216,1)
+}
+
+.ace--pastels-on--dark .ace_keyword.ace_operator {
+  color: rgba(121,120,120,1)
+}
+
+.ace--pastels-on--dark .ace_constant {
+  color: rgba(79,183,197,1)
+}
+
+.ace--pastels-on--dark .ace_constant.ace_language {
+  color: rgba(222,142,48,1)
+}
+
+.ace--pastels-on--dark .ace_constant.ace_numeric {
+  color: rgba(204,204,204,1)
+}
+
+.ace--pastels-on--dark .ace_constant.ace_character {
+  color: rgba(175,164,114,1)
+}
+
+.ace--pastels-on--dark .ace_support.ace_function {
+  color: rgba(174,178,248,1)
+}
+
+.ace--pastels-on--dark .ace_invalid,
+.ace--pastels-on--dark .ace_invalid.ace_illegal {
+  color: rgba(248,248,248,1);
+  background-color: rgba(86,45,86,1.91)
+}
+
+.ace--pastels-on--dark .ace_invalid.ace_deprecated {
+  text-decoration: underline;
+  font-style: italic;
+  color: rgba(210,168,161,1)
+}
+
+.ace--pastels-on--dark .ace_string {
+  color: rgba(102,169,104,1)
+}
+
+.ace--pastels-on--dark .ace_string.ace_regexp {
+  color: rgba(233,192,98,1)
+}
+
+.ace--pastels-on--dark .ace_comment {
+  color: rgba(166,198,255,1)
+}
+
+.ace--pastels-on--dark .ace_variable {
+  color: rgba(190,191,85,1)
+}
+
+.ace--pastels-on--dark .ace_variable.ace_language {
+  color: rgba(193,193,68,1)
+}

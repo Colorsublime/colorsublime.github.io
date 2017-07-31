@@ -1,0 +1,102 @@
+.ace--dark-mosquito .ace_gutter {
+  background: rgba(36,36,36,1);
+  color: rgb(125,125,125)
+}
+
+.ace--dark-mosquito .ace_print-margin {
+  width: 1px;
+  background: #e8e8e8
+}
+
+.ace--dark-mosquito {
+  background-color: rgba(36,36,36,1);
+  color: rgba(213,213,213,1)
+}
+
+.ace--dark-mosquito .ace_cursor {
+  color: rgba(167,167,167,1)
+}
+
+.ace--dark-mosquito .ace_marker-layer .ace_selection {
+  background: rgba(229,243,255,0.51)
+}
+
+.ace--dark-mosquito.ace_multiselect .ace_selection.ace_start {
+  box-shadow: 0 0 3px 0px rgba(36,36,36,1);
+  border-radius: 2px
+}
+
+.ace--dark-mosquito .ace_marker-layer .ace_step {
+  background: rgb(198, 219, 174)
+}
+
+.ace--dark-mosquito .ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 1px solid rgba(202,226,251,0.61)
+}
+
+.ace--dark-mosquito .ace_marker-layer .ace_active-line {
+  background: rgba(255,255,255,0.42)
+}
+
+.ace--dark-mosquito .ace_gutter-active-line {
+  background-color: rgba(255,255,255,0.42)
+}
+
+.ace--dark-mosquito .ace_marker-layer .ace_selected-word {
+  border: 1px solid rgba(229,243,255,0.51)
+}
+
+.ace--dark-mosquito .ace_fold {
+  background-color: rgba(154,127,213,1);
+  border-color: rgba(213,213,213,1)
+}
+
+.ace--dark-mosquito .ace_keyword {
+  color: rgba(154,127,213,1)
+}
+
+.ace--dark-mosquito .ace_constant {
+  color: rgba(161,247,181,1)
+}
+
+.ace--dark-mosquito .ace_support {
+  color: rgba(215,186,217,1)
+}
+
+.ace--dark-mosquito .ace_storage,
+.ace--dark-mosquito .ace_support.ace_function {
+  color: rgba(210,192,87,1)
+}
+
+.ace--dark-mosquito .ace_support.ace_constant {
+  color: rgba(207,167,209,1)
+}
+
+.ace--dark-mosquito .ace_invalid.ace_illegal {
+  color: rgba(253,95,241,1);
+  background-color: rgba(79,10,79,0.95)
+}
+
+.ace--dark-mosquito .ace_invalid.ace_deprecated {
+  text-decoration: underline;
+  font-style: italic;
+  color: rgba(253,95,241,1)
+}
+
+.ace--dark-mosquito .ace_string {
+  color: rgba(242,151,102,1)
+}
+
+.ace--dark-mosquito .ace_string.ace_regexp {
+  color: rgba(233,192,98,1)
+}
+
+.ace--dark-mosquito .ace_comment {
+  color: rgba(137,137,137,1)
+}
+
+.ace--dark-mosquito .ace_meta.ace_tag,
+.ace--dark-mosquito .ace_variable {
+  color: rgba(93,176,215,1)
+}

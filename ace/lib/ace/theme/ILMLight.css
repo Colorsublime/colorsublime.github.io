@@ -1,0 +1,109 @@
+.ace--i-l-m-light .ace_gutter {
+  background: rgba(255,255,255,1);
+  color: rgb(128,128,128)
+}
+
+.ace--i-l-m-light .ace_print-margin {
+  width: 1px;
+  background: #e8e8e8
+}
+
+.ace--i-l-m-light {
+  background-color: rgba(255,255,255,1);
+  color: rgba(0,0,0,1)
+}
+
+.ace--i-l-m-light .ace_cursor {
+  color: rgba(0,0,0,1)
+}
+
+.ace--i-l-m-light .ace_marker-layer .ace_selection {
+  background: rgba(189,213,252,1)
+}
+
+.ace--i-l-m-light.ace_multiselect .ace_selection.ace_start {
+  box-shadow: 0 0 3px 0px rgba(255,255,255,1);
+  border-radius: 2px
+}
+
+.ace--i-l-m-light .ace_marker-layer .ace_step {
+  background: rgb(198, 219, 174)
+}
+
+.ace--i-l-m-light .ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 1px solid rgba(191,191,191,1)
+}
+
+.ace--i-l-m-light .ace_marker-layer .ace_active-line {
+  background: rgba(255,251,209,1)
+}
+
+.ace--i-l-m-light .ace_gutter-active-line {
+  background-color: rgba(255,251,209,1)
+}
+
+.ace--i-l-m-light .ace_marker-layer .ace_selected-word {
+  border: 1px solid rgba(189,213,252,1)
+}
+
+.ace--i-l-m-light .ace_fold {
+  background-color: rgba(25,71,181,2.55);
+  border-color: rgba(0,0,0,1)
+}
+
+.ace--i-l-m-light .ace_keyword,
+.ace--i-l-m-light .ace_support.ace_constant.ace_property-value {
+  color: rgba(239,25,103,2.55)
+}
+
+.ace--i-l-m-light .ace_keyword.ace_operator {
+  color: rgba(90,84,101,2.55)
+}
+
+.ace--i-l-m-light .ace_keyword.ace_other.ace_unit {
+  color: rgba(220,207,95,2.55)
+}
+
+.ace--i-l-m-light .ace_constant.ace_language {
+  color: rgba(69,148,57,2.55)
+}
+
+.ace--i-l-m-light .ace_constant.ace_numeric {
+  color: rgba(166,157,9,2.55)
+}
+
+.ace--i-l-m-light .ace_constant.ace_character.ace_entity {
+  color: rgba(135,120,204,2.55)
+}
+
+.ace--i-l-m-light .ace_storage,
+.ace--i-l-m-light .ace_support.ace_function {
+  color: rgba(197,39,144,2.55)
+}
+
+.ace--i-l-m-light .ace_invalid {
+  background-color: rgba(255,0,212,2.55)
+}
+
+.ace--i-l-m-light .ace_string {
+  color: rgba(93,205,191,2.55)
+}
+
+.ace--i-l-m-light .ace_comment {
+  color: rgba(197,200,186,2.55)
+}
+
+.ace--i-l-m-light .ace_entity.ace_name.ace_function,
+.ace--i-l-m-light .ace_variable {
+  color: rgba(25,71,181,2.55)
+}
+
+.ace--i-l-m-light .ace_variable.ace_language {
+  color: rgba(127,153,27,2.55)
+}
+
+.ace--i-l-m-light .ace_entity.ace_name.ace_tag,
+.ace--i-l-m-light .ace_entity.ace_other.ace_attribute-name {
+  color: rgba(96,96,96,2.55)
+}

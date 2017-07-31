@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+
+  <title>
+    {{ page.title }}
+  </title>
+  <meta property='og:title' content='{{ page.title }}'/>
+  <meta property='og:type' content='website'/>
+  <meta property='og:url' content='http://colorsublime.com/'/>
+  <meta property='og:image' content='http://colorsublime.com/img/share.png'/>
+  <meta property='og:site_name' content='Colorsublime'/>
+
+  {% if page.description %}
+    <meta name='description' content='{{page.description}}'>
+    <meta property='og:description'
+        content='{{page.description}}'/>
+  {% else %}
+    <meta name='description' content='{{site.tagline}}'>
+    <meta property='og:description'
+        content='{{site.tagline}}'/>
+  {% endif %}
+
+  <link rel='shortcut icon' href='/assets/img/favicon.ico'>
+  <link rel='apple-itouch-icon' href='/assets/img/favicon.png'>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css'>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
+  <link rel='stylesheet' href='/assets/css/styles.css'>
+</head>
+<body>
+  {% include nav.html %}
+  <div class='container'>

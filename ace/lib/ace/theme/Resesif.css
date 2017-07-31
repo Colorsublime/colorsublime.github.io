@@ -1,0 +1,114 @@
+.ace--resesif .ace_gutter {
+  background: rgba(43,43,43,1);
+  color: rgb(137,134,132)
+}
+
+.ace--resesif .ace_print-margin {
+  width: 1px;
+  background: #e8e8e8
+}
+
+.ace--resesif {
+  background-color: rgba(43,43,43,1);
+  color: rgba(230,225,220,1)
+}
+
+.ace--resesif .ace_cursor {
+  color: rgba(255,255,255,1)
+}
+
+.ace--resesif .ace_marker-layer .ace_selection {
+  background: rgba(90,100,126,2.24)
+}
+
+.ace--resesif.ace_multiselect .ace_selection.ace_start {
+  box-shadow: 0 0 3px 0px rgba(43,43,43,1);
+  border-radius: 2px
+}
+
+.ace--resesif .ace_marker-layer .ace_step {
+  background: rgb(198, 219, 174)
+}
+
+.ace--resesif .ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 1px solid rgba(64,64,64,1)
+}
+
+.ace--resesif .ace_marker-layer .ace_active-line {
+  background: rgba(51,52,53,1)
+}
+
+.ace--resesif .ace_gutter-active-line {
+  background-color: rgba(51,52,53,1)
+}
+
+.ace--resesif .ace_marker-layer .ace_selected-word {
+  border: 1px solid rgba(90,100,126,2.24)
+}
+
+.ace--resesif .ace_fold {
+  background-color: rgba(182,195,77,1);
+  border-color: rgba(230,225,220,1)
+}
+
+.ace--resesif .ace_keyword {
+  color: rgba(182,195,77,1)
+}
+
+.ace--resesif .ace_constant {
+  color: rgba(194,155,122,1);
+  background-color: rgba(186,136,102,0.26)
+}
+
+.ace--resesif .ace_constant.ace_language {
+  color: rgba(113,186,204,1)
+}
+
+.ace--resesif .ace_constant.ace_numeric {
+  color: rgba(180,156,218,1);
+  background-color: rgba(141,118,172,0.26)
+}
+
+.ace--resesif .ace_constant.ace_character.ace_escape {
+  color: rgba(63,193,114,1)
+}
+
+.ace--resesif .ace_support.ace_function {
+  color: rgba(217,131,57,1)
+}
+
+.ace--resesif .ace_support.ace_constant {
+  color: rgba(187,201,77,1)
+}
+
+.ace--resesif .ace_support.ace_type {
+  color: rgba(110,156,190,1)
+}
+
+.ace--resesif .ace_storage {
+  color: rgba(232,191,106,1)
+}
+
+.ace--resesif .ace_invalid {
+  color: rgba(255,255,255,1);
+  background-color: rgba(153,0,0,1)
+}
+
+.ace--resesif .ace_string {
+  color: rgba(176,204,102,1);
+  background-color: rgba(157,187,83,0.15)
+}
+
+.ace--resesif .ace_comment {
+  color: rgba(139,139,139,1)
+}
+
+.ace--resesif .ace_variable.ace_language {
+  color: rgba(219,215,107,1)
+}
+
+.ace--resesif .ace_entity.ace_name {
+  color: rgba(225,108,91,1);
+  background-color: rgba(190,73,60,0.26)
+}

@@ -1,0 +1,117 @@
+.ace-monokai-fresh .ace_gutter {
+  background: rgba(21,21,21,1);
+  color: rgb(135,135,132)
+}
+
+.ace-monokai-fresh .ace_print-margin {
+  width: 1px;
+  background: #e8e8e8
+}
+
+.ace-monokai-fresh {
+  background-color: rgba(21,21,21,1);
+  color: rgba(248,248,242,1)
+}
+
+.ace-monokai-fresh .ace_cursor {
+  color: rgba(248,248,240,1)
+}
+
+.ace-monokai-fresh .ace_marker-layer .ace_selection {
+  background: rgba(238,238,238,1)
+}
+
+.ace-monokai-fresh.ace_multiselect .ace_selection.ace_start {
+  box-shadow: 0 0 3px 0px rgba(21,21,21,1);
+  border-radius: 2px
+}
+
+.ace-monokai-fresh .ace_marker-layer .ace_step {
+  background: rgb(198, 219, 174)
+}
+
+.ace-monokai-fresh .ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 1px solid rgba(59,58,50,1)
+}
+
+.ace-monokai-fresh .ace_marker-layer .ace_active-line {
+  background: rgba(62,61,50,1)
+}
+
+.ace-monokai-fresh .ace_gutter-active-line {
+  background-color: rgba(62,61,50,1)
+}
+
+.ace-monokai-fresh .ace_marker-layer .ace_selected-word {
+  border: 1px solid rgba(238,238,238,1)
+}
+
+.ace-monokai-fresh .ace_fold {
+  background-color: rgba(255,255,102,1);
+  border-color: rgba(248,248,242,1)
+}
+
+.ace-monokai-fresh .ace_entity.ace_name.ace_tag,
+.ace-monokai-fresh .ace_keyword {
+  color: rgba(255,0,94,1)
+}
+
+.ace-monokai-fresh .ace_constant.ace_character,
+.ace-monokai-fresh .ace_constant.ace_language,
+.ace-monokai-fresh .ace_constant.ace_numeric,
+.ace-monokai-fresh .ace_constant.ace_other {
+  color: rgba(240,130,255,1)
+}
+
+.ace-monokai-fresh .ace_support.ace_constant,
+.ace-monokai-fresh .ace_support.ace_function {
+  color: rgba(65,255,255,1)
+}
+
+.ace-monokai-fresh .ace_storage.ace_type,
+.ace-monokai-fresh .ace_support.ace_class,
+.ace-monokai-fresh .ace_support.ace_type {
+  font-style: italic;
+  color: rgba(65,255,255,1)
+}
+
+.ace-monokai-fresh .ace_storage {
+  color: rgba(238,0,94,1)
+}
+
+.ace-monokai-fresh .ace_invalid {
+  color: rgba(255,255,255,1);
+  background-color: rgba(255,0,94,1)
+}
+
+.ace-monokai-fresh .ace_invalid.ace_deprecated {
+  color: rgba(255,255,255,1);
+  background-color: rgba(240,130,255,1)
+}
+
+.ace-monokai-fresh .ace_string {
+  color: rgba(255,255,99,1)
+}
+
+.ace-monokai-fresh .ace_comment {
+  font-style: italic;
+  color: rgba(98,122,121,1)
+}
+
+.ace-monokai-fresh .ace_variable {
+  color: rgba(119,238,34,1)
+}
+
+.ace-monokai-fresh .ace_variable.ace_parameter {
+  font-style: italic;
+  color: rgba(255,184,0,1)
+}
+
+.ace-monokai-fresh .ace_entity.ace_other.ace_attribute-name {
+  color: rgba(27,255,0,1)
+}
+
+.ace-monokai-fresh .ace_entity.ace_name.ace_function {
+  color: rgba(255,255,102,1)
+}

@@ -1,0 +1,100 @@
+.ace--gooey-pastel .ace_gutter {
+  background: rgba(33,41,46,1);
+  color: rgb(128,139,146)
+}
+
+.ace--gooey-pastel .ace_print-margin {
+  width: 1px;
+  background: #e8e8e8
+}
+
+.ace--gooey-pastel {
+  background-color: rgba(33,41,46,1);
+  color: rgba(223,236,245,1)
+}
+
+.ace--gooey-pastel .ace_cursor {
+  color: rgba(190,197,209,1)
+}
+
+.ace--gooey-pastel .ace_marker-layer .ace_selection {
+  background: rgba(58,70,74,1)
+}
+
+.ace--gooey-pastel.ace_multiselect .ace_selection.ace_start {
+  box-shadow: 0 0 3px 0px rgba(33,41,46,1);
+  border-radius: 2px
+}
+
+.ace--gooey-pastel .ace_marker-layer .ace_step {
+  background: rgb(198, 219, 174)
+}
+
+.ace--gooey-pastel .ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 1px solid rgba(178,184,194,1)
+}
+
+.ace--gooey-pastel .ace_marker-layer .ace_active-line {
+  background: rgba(64,76,77,1)
+}
+
+.ace--gooey-pastel .ace_gutter-active-line {
+  background-color: rgba(64,76,77,1)
+}
+
+.ace--gooey-pastel .ace_marker-layer .ace_selected-word {
+  border: 1px solid rgba(58,70,74,1)
+}
+
+.ace--gooey-pastel .ace_fold {
+  background-color: rgba(148,255,237,1);
+  border-color: rgba(223,236,245,1)
+}
+
+.ace--gooey-pastel .ace_keyword {
+  color: rgba(255,148,177,1)
+}
+
+.ace--gooey-pastel .ace_constant.ace_character,
+.ace--gooey-pastel .ace_constant.ace_language,
+.ace--gooey-pastel .ace_constant.ace_numeric,
+.ace--gooey-pastel .ace_constant.ace_other,
+.ace--gooey-pastel .ace_variable.ace_parameter {
+  color: rgba(201,178,255,1)
+}
+
+.ace--gooey-pastel .ace_entity.ace_name.ace_tag,
+.ace--gooey-pastel .ace_storage,
+.ace--gooey-pastel .ace_storage.ace_type,
+.ace--gooey-pastel .ace_support.ace_class,
+.ace--gooey-pastel .ace_support.ace_constant,
+.ace--gooey-pastel .ace_support.ace_function,
+.ace--gooey-pastel .ace_support.ace_type,
+.ace--gooey-pastel .ace_variable {
+  color: rgba(104,227,252,1)
+}
+
+.ace--gooey-pastel .ace_invalid {
+  color: rgba(145,18,98,1);
+  background-color: rgba(255,148,177,1)
+}
+
+.ace--gooey-pastel .ace_invalid.ace_deprecated {
+  color: rgba(64,14,87,1);
+  background-color: rgba(146,82,176,1)
+}
+
+.ace--gooey-pastel .ace_string {
+  color: rgba(255,243,196,1)
+}
+
+.ace--gooey-pastel .ace_comment {
+  font-style: italic;
+  color: rgba(97,108,130,1)
+}
+
+.ace--gooey-pastel .ace_entity.ace_name.ace_function,
+.ace--gooey-pastel .ace_entity.ace_other.ace_attribute-name {
+  color: rgba(148,255,237,1)
+}

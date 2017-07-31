@@ -1,0 +1,98 @@
+.ace-turnip .ace_gutter {
+  background: rgba(26,27,29,1);
+  color: rgb(132,126,118)
+}
+
+.ace-turnip .ace_print-margin {
+  width: 1px;
+  background: #e8e8e8
+}
+
+.ace-turnip {
+  background-color: rgba(26,27,29,1);
+  color: rgba(237,224,206,1)
+}
+
+.ace-turnip .ace_cursor {
+  color: rgba(248,248,240,1)
+}
+
+.ace-turnip .ace_marker-layer .ace_selection {
+  background: rgba(72,125,118,1)
+}
+
+.ace-turnip.ace_multiselect .ace_selection.ace_start {
+  box-shadow: 0 0 3px 0px rgba(26,27,29,1);
+  border-radius: 2px
+}
+
+.ace-turnip .ace_marker-layer .ace_step {
+  background: rgb(198, 219, 174)
+}
+
+.ace-turnip .ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 1px solid rgba(59,58,50,1)
+}
+
+.ace-turnip .ace_marker-layer .ace_active-line {
+  background: rgba(34,34,34,1)
+}
+
+.ace-turnip .ace_gutter-active-line {
+  background-color: rgba(34,34,34,1)
+}
+
+.ace-turnip .ace_marker-layer .ace_selected-word {
+  border: 1px solid rgba(72,125,118,1)
+}
+
+.ace-turnip .ace_fold {
+  background-color: rgba(232,218,94,1);
+  border-color: rgba(237,224,206,1)
+}
+
+.ace-turnip .ace_entity.ace_name.ace_tag,
+.ace-turnip .ace_keyword,
+.ace-turnip .ace_keyword.ace_other.ace_unit,
+.ace-turnip .ace_storage.ace_type {
+  color: rgba(146,181,95,1)
+}
+
+.ace-turnip .ace_constant.ace_character,
+.ace-turnip .ace_constant.ace_language,
+.ace-turnip .ace_constant.ace_other,
+.ace-turnip .ace_entity.ace_other.ace_attribute-name,
+.ace-turnip .ace_storage,
+.ace-turnip .ace_support.ace_constant,
+.ace-turnip .ace_support.ace_function {
+  color: rgba(72,125,118,1)
+}
+
+.ace-turnip .ace_constant.ace_numeric,
+.ace-turnip .ace_entity.ace_name.ace_function,
+.ace-turnip .ace_string,
+.ace-turnip .ace_support.ace_constant.ace_property-value,
+.ace-turnip .ace_variable {
+  color: rgba(232,218,94,1)
+}
+
+.ace-turnip .ace_support.ace_class,
+.ace-turnip .ace_support.ace_type {
+  font-style: italic;
+  color: rgba(72,125,118,1)
+}
+
+.ace-turnip .ace_invalid,
+.ace-turnip .ace_invalid.ace_deprecated {
+  color: rgba(248,248,240,1);
+  background-color: rgba(0,168,198,1)
+}
+
+.ace-turnip .ace_comment {
+  color: rgba(122,114,103,1)
+}
+
+.ace-turnip .ace_variable.ace_parameter {
+  font-style: italic
+}

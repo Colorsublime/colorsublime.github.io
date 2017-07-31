@@ -1,0 +1,101 @@
+.ace-bold .ace_gutter {
+  background: rgba(42,38,38,1);
+  color: rgb(149,147,147)
+}
+
+.ace-bold .ace_print-margin {
+  width: 1px;
+  background: #e8e8e8
+}
+
+.ace-bold {
+  background-color: rgba(42,38,38,1);
+  color: rgba(255,255,255,1)
+}
+
+.ace-bold .ace_cursor {
+  color: rgba(248,248,240,1)
+}
+
+.ace-bold .ace_marker-layer .ace_selection {
+  background: rgba(61,142,145,1)
+}
+
+.ace-bold.ace_multiselect .ace_selection.ace_start {
+  box-shadow: 0 0 3px 0px rgba(42,38,38,1);
+  border-radius: 2px
+}
+
+.ace-bold .ace_marker-layer .ace_step {
+  background: rgb(198, 219, 174)
+}
+
+.ace-bold .ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 1px solid rgba(59,58,50,1)
+}
+
+.ace-bold .ace_marker-layer .ace_active-line {
+  background: rgba(57,52,52,1)
+}
+
+.ace-bold .ace_gutter-active-line {
+  background-color: rgba(57,52,52,1)
+}
+
+.ace-bold .ace_marker-layer .ace_selected-word {
+  border: 1px solid rgba(61,142,145,1)
+}
+
+.ace-bold .ace_fold {
+  background-color: rgba(180,183,173,1);
+  border-color: rgba(255,255,255,1)
+}
+
+.ace-bold .ace_constant.ace_character,
+.ace-bold .ace_constant.ace_language,
+.ace-bold .ace_constant.ace_other,
+.ace-bold .ace_entity.ace_other.ace_attribute-name,
+.ace-bold .ace_keyword,
+.ace-bold .ace_storage,
+.ace-bold .ace_support.ace_constant {
+  color: rgba(240,98,75,1)
+}
+
+.ace-bold .ace_entity.ace_name.ace_tag,
+.ace-bold .ace_keyword.ace_other.ace_unit,
+.ace-bold .ace_storage.ace_type,
+.ace-bold .ace_support.ace_function {
+  color: rgba(61,142,145,1)
+}
+
+.ace-bold .ace_constant.ace_numeric,
+.ace-bold .ace_string,
+.ace-bold .ace_support.ace_constant.ace_property-value {
+  color: rgba(247,162,27,1)
+}
+
+.ace-bold .ace_support.ace_class,
+.ace-bold .ace_support.ace_type {
+  font-style: italic;
+  color: rgba(240,98,75,1)
+}
+
+.ace-bold .ace_invalid,
+.ace-bold .ace_invalid.ace_deprecated {
+  color: rgba(248,248,240,1);
+  background-color: rgba(0,168,198,1)
+}
+
+.ace-bold .ace_comment {
+  color: rgba(83,75,75,1)
+}
+
+.ace-bold .ace_entity.ace_name.ace_function,
+.ace-bold .ace_variable {
+  color: rgba(180,183,173,1)
+}
+
+.ace-bold .ace_variable.ace_parameter {
+  font-style: italic
+}

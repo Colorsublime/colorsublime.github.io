@@ -1,0 +1,88 @@
+.ace--whiteboard .ace_gutter {
+  background: rgba(255,255,255,1);
+  color: rgb(128,128,128)
+}
+
+.ace--whiteboard .ace_print-margin {
+  width: 1px;
+  background: #e8e8e8
+}
+
+.ace--whiteboard {
+  background-color: rgba(255,255,255,1);
+  color: rgba(0,0,0,1)
+}
+
+.ace--whiteboard .ace_cursor {
+  color: rgba(0,0,0,1.66)
+}
+
+.ace--whiteboard .ace_marker-layer .ace_selection {
+  background: rgba(153,180,255,1)
+}
+
+.ace--whiteboard.ace_multiselect .ace_selection.ace_start {
+  box-shadow: 0 0 3px 0px rgba(255,255,255,1);
+  border-radius: 2px
+}
+
+.ace--whiteboard .ace_marker-layer .ace_step {
+  background: rgb(198, 219, 174)
+}
+
+.ace--whiteboard .ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 1px solid rgba(0,0,0,0.64)
+}
+
+.ace--whiteboard .ace_marker-layer .ace_active-line {
+  background: rgba(0,0,0,0.15)
+}
+
+.ace--whiteboard .ace_gutter-active-line {
+  background-color: rgba(0,0,0,0.15)
+}
+
+.ace--whiteboard .ace_marker-layer .ace_selected-word {
+  border: 1px solid rgba(153,180,255,1)
+}
+
+.ace--whiteboard .ace_fold {
+  background-color: rgba(181,145,0,1);
+  border-color: rgba(0,0,0,1)
+}
+
+.ace--whiteboard .ace_keyword,
+.ace--whiteboard .ace_storage {
+  color: rgba(181,145,0,1)
+}
+
+.ace--whiteboard .ace_constant {
+  color: rgba(127,155,0,1)
+}
+
+.ace--whiteboard .ace_support {
+  color: rgba(58,103,174,1)
+}
+
+.ace--whiteboard .ace_invalid.ace_illegal {
+  color: rgba(17,17,17,1);
+  background-color: rgba(157,30,21,1)
+}
+
+.ace--whiteboard .ace_invalid.ace_deprecated {
+  font-style: italic;
+  color: rgba(206,62,48,1)
+}
+
+.ace--whiteboard .ace_string {
+  color: rgba(48,124,22,1)
+}
+
+.ace--whiteboard .ace_comment {
+  color: rgba(102,102,102,1)
+}
+
+.ace--whiteboard .ace_meta.ace_tag {
+  color: rgba(58,82,118,1)
+}

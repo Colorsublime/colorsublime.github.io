@@ -1,0 +1,101 @@
+.ace--github-v2 .ace_gutter {
+  background: rgba(238,233,203,1);
+  color: rgb(144,142,127)
+}
+
+.ace--github-v2 .ace_print-margin {
+  width: 1px;
+  background: #e8e8e8
+}
+
+.ace--github-v2 {
+  background-color: rgba(238,233,203,1);
+  color: rgba(50,50,50,1)
+}
+
+.ace--github-v2 .ace_cursor,
+.ace--github-v2 .ace_variable {
+  color: rgba(50,50,50,1)
+}
+
+.ace--github-v2 .ace_marker-layer .ace_selection {
+  background: rgba(226,197,0,1)
+}
+
+.ace--github-v2.ace_multiselect .ace_selection.ace_start {
+  box-shadow: 0 0 3px 0px rgba(238,233,203,1);
+  border-radius: 2px
+}
+
+.ace--github-v2 .ace_marker-layer .ace_step {
+  background: rgb(198, 219, 174)
+}
+
+.ace--github-v2 .ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 1px solid rgba(0,0,0,1)
+}
+
+.ace--github-v2 .ace_marker-layer .ace_active-line {
+  background: rgba(250,255,187,1)
+}
+
+.ace--github-v2 .ace_gutter-active-line {
+  background-color: rgba(250,255,187,1)
+}
+
+.ace--github-v2 .ace_marker-layer .ace_selected-word {
+  border: 1px solid rgba(226,197,0,1)
+}
+
+.ace--github-v2 .ace_fold {
+  background-color: rgba(121,93,163,1);
+  border-color: rgba(50,50,50,1)
+}
+
+.ace--github-v2 .ace_keyword,
+.ace--github-v2 .ace_storage,
+.ace--github-v2 .ace_storage.ace_type {
+  color: rgba(167,29,93,1)
+}
+
+.ace--github-v2 .ace_constant.ace_character,
+.ace--github-v2 .ace_constant.ace_language,
+.ace--github-v2 .ace_constant.ace_numeric,
+.ace--github-v2 .ace_constant.ace_other,
+.ace--github-v2 .ace_support.ace_class,
+.ace--github-v2 .ace_support.ace_constant,
+.ace--github-v2 .ace_support.ace_type {
+  color: rgba(0,134,179,1)
+}
+
+.ace--github-v2 .ace_entity.ace_name.ace_tag,
+.ace--github-v2 .ace_support.ace_function {
+  color: rgba(67,132,60,1)
+}
+
+.ace--github-v2 .ace_invalid,
+.ace--github-v2 .ace_invalid.ace_deprecated,
+.ace--github-v2 .ace_invalid.ace_illegal {
+  color: rgba(181,42,29,1);
+  background-color: rgba(245,245,245,1)
+}
+
+.ace--github-v2 .ace_string {
+  color: rgba(24,54,145,1)
+}
+
+.ace--github-v2 .ace_comment {
+  font-style: italic;
+  color: rgba(150,152,150,1)
+}
+
+.ace--github-v2 .ace_variable.ace_parameter {
+  font-style: italic;
+  color: rgba(188,52,5,1)
+}
+
+.ace--github-v2 .ace_entity.ace_name.ace_function,
+.ace--github-v2 .ace_entity.ace_other.ace_attribute-name {
+  color: rgba(121,93,163,1)
+}

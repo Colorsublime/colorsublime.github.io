@@ -1,0 +1,112 @@
+.ace--frank--sinatra .ace_gutter {
+  background: rgba(238,233,203,1);
+  color: rgb(165,162,141)
+}
+
+.ace--frank--sinatra .ace_print-margin {
+  width: 1px;
+  background: #e8e8e8
+}
+
+.ace--frank--sinatra {
+  background-color: rgba(238,233,203,1);
+  color: rgba(91,90,78,1)
+}
+
+.ace--frank--sinatra .ace_cursor {
+  color: rgba(237,9,9,1)
+}
+
+.ace--frank--sinatra .ace_marker-layer .ace_selection {
+  background: rgba(227,252,141,1)
+}
+
+.ace--frank--sinatra.ace_multiselect .ace_selection.ace_start {
+  box-shadow: 0 0 3px 0px rgba(238,233,203,1);
+  border-radius: 2px
+}
+
+.ace--frank--sinatra .ace_marker-layer .ace_step {
+  background: rgb(198, 219, 174)
+}
+
+.ace--frank--sinatra .ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 1px solid rgb(192, 192, 192)
+}
+
+.ace--frank--sinatra .ace_marker-layer .ace_active-line {
+  background: rgba(238,233,203,1)
+}
+
+.ace--frank--sinatra .ace_gutter-active-line {
+  background-color: rgba(238,233,203,1)
+}
+
+.ace--frank--sinatra .ace_marker-layer .ace_selected-word {
+  border: 1px solid rgba(227,252,141,1)
+}
+
+.ace--frank--sinatra .ace_fold {
+  background-color: rgba(130,186,56,1);
+  border-color: rgba(91,90,78,1)
+}
+
+.ace--frank--sinatra .ace_keyword {
+  color: null
+}
+
+.ace--frank--sinatra .ace_constant.ace_character,
+.ace--frank--sinatra .ace_constant.ace_language,
+.ace--frank--sinatra .ace_constant.ace_numeric {
+  color: rgba(124,0,255,1)
+}
+
+.ace--frank--sinatra .ace_constant.ace_other {
+  color: rgba(127,180,67,1);
+  background-color: rgba(244,241,227,1)
+}
+
+.ace--frank--sinatra .ace_support {
+  color: rgba(0,148,163,1)
+}
+
+.ace--frank--sinatra .ace_entity.ace_name.ace_function,
+.ace--frank--sinatra .ace_support.ace_function,
+.ace--frank--sinatra .ace_variable {
+  color: rgba(130,186,56,1);
+  background-color: null
+}
+
+.ace--frank--sinatra .ace_storage {
+  color: rgba(205,101,186,1)
+}
+
+.ace--frank--sinatra .ace_invalid {
+  color: rgba(255,11,0,1)
+}
+
+.ace--frank--sinatra .ace_string {
+  color: rgba(219,68,135,1)
+}
+
+.ace--frank--sinatra .ace_comment {
+  font-style: italic;
+  color: rgba(172,171,148,1)
+}
+
+.ace--frank--sinatra .ace_variable.ace_parameter {
+  color: rgba(247,172,32,1)
+}
+
+.ace--frank--sinatra .ace_meta.ace_tag {
+  color: rgba(100,98,86,1)
+}
+
+.ace--frank--sinatra .ace_entity.ace_other.ace_attribute-name {
+  color: rgba(130,186,56,1)
+}
+
+.ace--frank--sinatra .ace_entity.ace_name.ace_tag {
+  color: rgba(65,125,209,1)
+}

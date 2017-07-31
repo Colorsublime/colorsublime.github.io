@@ -1,0 +1,47 @@
+.nav {
+  $colors: (
+    ($color-primary-3, $color-primary-0),
+    ($color-secondary-2-3, $color-secondary-2-0),
+    ($color-complement-3, $color-complement-0),
+  );
+
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+
+  > ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+    > li {
+      display: flex;
+      box-sizing: border-box;
+      padding: 12px $lateral-padding 6px;
+
+      > a {
+        font-size: 1.4rem;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        flex: 1 1 100%;
+        text-decoration: none;
+        color: white;
+      }
+
+      @for $i from 1 through 3 {
+        &:nth-child(#{$i}) {
+          background: nth(nth($colors, $i), 1);
+
+          &.active,
+          &:hover,
+          &:active,
+          &:focus {
+            background: nth(nth($colors, $i), 2);
+          }
+        }
+      }
+    }
+  }
+}

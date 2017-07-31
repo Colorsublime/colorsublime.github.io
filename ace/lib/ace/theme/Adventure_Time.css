@@ -1,0 +1,132 @@
+.ace--adventure--time .ace_gutter {
+  background: #191B1F;
+  color: rgb(108,121,125)
+}
+
+.ace--adventure--time .ace_print-margin {
+  width: 1px;
+  background: #e8e8e8
+}
+
+.ace--adventure--time {
+  background-color: #191B1F;
+  color: #BFD7DB
+}
+
+.ace--adventure--time .ace_cursor {
+  color: #F8F8F0
+}
+
+.ace--adventure--time .ace_marker-layer .ace_active-line,
+.ace--adventure--time .ace_marker-layer .ace_selection {
+  background: #30343B
+}
+
+.ace--adventure--time.ace_multiselect .ace_selection.ace_start {
+  box-shadow: 0 0 3px 0px #191B1F;
+  border-radius: 2px
+}
+
+.ace--adventure--time .ace_marker-layer .ace_step {
+  background: rgb(198, 219, 174)
+}
+
+.ace--adventure--time .ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 1px solid #373B41
+}
+
+.ace--adventure--time .ace_gutter-active-line {
+  background-color: #30343B
+}
+
+.ace--adventure--time .ace_marker-layer .ace_selected-word {
+  border: 1px solid #30343B
+}
+
+.ace--adventure--time .ace_fold {
+  background-color: #277BD3;
+  border-color: #BFD7DB
+}
+
+.ace--adventure--time .ace_keyword {
+  color: #D3422E
+}
+
+.ace--adventure--time .ace_keyword.ace_operator {
+  color: #F5BB12
+}
+
+.ace--adventure--time .ace_keyword.ace_other.ace_unit {
+  font-style: italic;
+  color: #F5BB12
+}
+
+.ace--adventure--time .ace_constant,
+.ace--adventure--time .ace_entity.ace_name.ace_function {
+  color: #277BD3
+}
+
+.ace--adventure--time .ace_constant.ace_character,
+.ace--adventure--time .ace_constant.ace_language,
+.ace--adventure--time .ace_constant.ace_other {
+  color: #de347a
+}
+
+.ace--adventure--time .ace_constant.ace_numeric {
+  color: #FD971F
+}
+
+.ace--adventure--time .ace_entity.ace_name.ace_tag,
+.ace--adventure--time .ace_entity.ace_other.ace_attribute-name,
+.ace--adventure--time .ace_support.ace_function {
+  color: #FFC620
+}
+
+.ace--adventure--time .ace_support.ace_constant {
+  color: #DE347A
+}
+
+.ace--adventure--time .ace_support.ace_class,
+.ace--adventure--time .ace_support.ace_type {
+  font-style: italic;
+  color: #4BAE16
+}
+
+.ace--adventure--time .ace_storage {
+  font-style: italic;
+  color: #f25a55
+}
+
+.ace--adventure--time .ace_storage.ace_type {
+  font-style: italic;
+  color: #D3422E
+}
+
+.ace--adventure--time .ace_invalid {
+  color: #191B1F;
+  background-color: #f25a55
+}
+
+.ace--adventure--time .ace_invalid.ace_deprecated {
+  color: #191B1F;
+  background-color: #3299CC
+}
+
+.ace--adventure--time .ace_string {
+  color: #7FD6FA
+}
+
+.ace--adventure--time .ace_comment {
+  font-style: italic;
+  color: #404449
+}
+
+.ace--adventure--time .ace_variable {
+  color: #BFD7DB
+}
+
+.ace--adventure--time .ace_variable.ace_parameter {
+  font-style: italic;
+  color: #FFC620
+}

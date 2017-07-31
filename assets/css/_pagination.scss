@@ -1,0 +1,30 @@
+.pagination {
+  margin: 1rem auto;
+  display: flex;
+  min-height: 2rem;
+  justify-content: center;
+
+  .previous {
+    margin-right: $lateral-padding;
+  }
+
+  .next {
+    margin-left: $lateral-padding;
+  }
+
+  > ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    > li {
+      padding: 0 $lateral-padding/2;
+      &.selected {
+        > a {
+          color: $color-secondary-1-1;
+        }
+      }
+    }
+  }
+}

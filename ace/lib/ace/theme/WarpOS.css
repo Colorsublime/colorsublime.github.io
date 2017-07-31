@@ -1,0 +1,113 @@
+.ace--warp-o-s .ace_gutter {
+  background: rgba(50,50,50,1);
+  color: rgb(128,138,139)
+}
+
+.ace--warp-o-s .ace_print-margin {
+  width: 1px;
+  background: #e8e8e8
+}
+
+.ace--warp-o-s {
+  background-color: rgba(50,50,50,1);
+  color: rgba(206,226,227,1)
+}
+
+.ace--warp-o-s .ace_cursor {
+  color: rgba(206,226,227,1)
+}
+
+.ace--warp-o-s .ace_marker-layer .ace_selection {
+  background: rgba(68,68,68,1)
+}
+
+.ace--warp-o-s.ace_multiselect .ace_selection.ace_start {
+  box-shadow: 0 0 3px 0px rgba(50,50,50,1);
+  border-radius: 2px
+}
+
+.ace--warp-o-s .ace_marker-layer .ace_step {
+  background: rgb(198, 219, 174)
+}
+
+.ace--warp-o-s .ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 1px solid rgba(103,102,80,1)
+}
+
+.ace--warp-o-s .ace_marker-layer .ace_active-line {
+  background: rgba(59,59,59,1)
+}
+
+.ace--warp-o-s .ace_gutter-active-line {
+  background-color: rgba(59,59,59,1)
+}
+
+.ace--warp-o-s .ace_marker-layer .ace_selected-word {
+  border: 1px solid rgba(68,68,68,1)
+}
+
+.ace--warp-o-s .ace_fold {
+  background-color: rgba(79,160,223,1);
+  border-color: rgba(206,226,227,1)
+}
+
+.ace--warp-o-s .ace_keyword,
+.ace--warp-o-s .ace_meta.ace_selector {
+  color: rgba(255,153,0,1)
+}
+
+.ace--warp-o-s .ace_keyword.ace_operator {
+  color: rgba(192,192,192,1)
+}
+
+.ace--warp-o-s .ace_constant,
+.ace--warp-o-s .ace_constant.ace_numeric,
+.ace--warp-o-s .ace_entity.ace_other.ace_attribute-name,
+.ace--warp-o-s .ace_keyword.ace_other.ace_unit {
+  color: rgba(250,37,0,1)
+}
+
+.ace--warp-o-s .ace_constant.ace_character.ace_escape {
+  color: rgba(55,77,165,1)
+}
+
+.ace--warp-o-s .ace_support.ace_function {
+  color: rgba(71,194,102,1)
+}
+
+.ace--warp-o-s .ace_support.ace_class {
+  color: rgba(231,182,182,1)
+}
+
+.ace--warp-o-s .ace_storage {
+  color: rgba(255,255,149,1)
+}
+
+.ace--warp-o-s .ace_invalid.ace_illegal {
+  color: rgba(50,50,50,1);
+  background-color: rgba(138,113,162,1)
+}
+
+.ace--warp-o-s .ace_string {
+  color: rgba(0,174,153,1)
+}
+
+.ace--warp-o-s .ace_string.ace_regexp {
+  color: rgba(157,217,42,1)
+}
+
+.ace--warp-o-s .ace_comment {
+  font-style: italic;
+  color: rgba(103,102,80,1)
+}
+
+.ace--warp-o-s .ace_entity.ace_name.ace_tag,
+.ace--warp-o-s .ace_markup.ace_list,
+.ace--warp-o-s .ace_variable {
+  color: rgba(138,113,162,1)
+}
+
+.ace--warp-o-s .ace_entity.ace_name.ace_function {
+  color: rgba(79,160,223,1)
+}
