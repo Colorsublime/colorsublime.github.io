@@ -1,0 +1,99 @@
+.ace--symfony .ace_gutter {
+  background: rgba(255,255,255,1);
+  color: rgb(128,128,128)
+}
+
+.ace--symfony .ace_print-margin {
+  width: 1px;
+  background: #e8e8e8
+}
+
+.ace--symfony {
+  background-color: rgba(255,255,255,1);
+  color: rgba(0,0,0,1)
+}
+
+.ace--symfony .ace_cursor,
+.ace--symfony .ace_entity.ace_name.ace_function,
+.ace--symfony .ace_support.ace_class,
+.ace--symfony .ace_support.ace_function,
+.ace--symfony .ace_support.ace_type,
+.ace--symfony .ace_variable {
+  color: rgba(0,0,0,1)
+}
+
+.ace--symfony .ace_marker-layer .ace_selection {
+  background: rgba(186,214,253,1)
+}
+
+.ace--symfony.ace_multiselect .ace_selection.ace_start {
+  box-shadow: 0 0 3px 0px rgba(255,255,255,1);
+  border-radius: 2px
+}
+
+.ace--symfony .ace_marker-layer .ace_step {
+  background: rgb(198, 219, 174)
+}
+
+.ace--symfony .ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 1px solid rgba(153,153,177,1)
+}
+
+.ace--symfony .ace_marker-layer .ace_active-line {
+  background: rgba(0,0,0,0.18)
+}
+
+.ace--symfony .ace_gutter-active-line {
+  background-color: rgba(0,0,0,0.18)
+}
+
+.ace--symfony .ace_marker-layer .ace_selected-word {
+  border: 1px solid rgba(186,214,253,1)
+}
+
+.ace--symfony .ace_fold {
+  background-color: rgba(0,0,0,1);
+  border-color: rgba(0,0,0,1)
+}
+
+.ace--symfony .ace_keyword {
+  color: rgba(255,132,0,1)
+}
+
+.ace--symfony .ace_constant.ace_language {
+  color: rgba(165,53,174,1)
+}
+
+.ace--symfony .ace_constant.ace_numeric {
+  color: rgba(18,153,218,1)
+}
+
+.ace--symfony .ace_support.ace_constant {
+  color: rgba(183,115,76,1)
+}
+
+.ace--symfony .ace_storage {
+  color: rgba(255,132,46,1)
+}
+
+.ace--symfony .ace_invalid {
+  color: rgba(255,255,255,1);
+  background-color: rgba(153,0,0,1)
+}
+
+.ace--symfony .ace_string {
+  color: rgba(86,219,58,1)
+}
+
+.ace--symfony .ace_meta.ace_tag {
+  color: rgba(122,122,122,1)
+}
+
+.ace--symfony .ace_entity.ace_other.ace_attribute-name {
+  color: rgba(150,61,255,1)
+}
+
+.ace--symfony .ace_entity.ace_name.ace_tag {
+  color: rgba(1,108,255,1)
+}

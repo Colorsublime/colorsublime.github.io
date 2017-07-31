@@ -1,0 +1,276 @@
+.ace-textmate .ace_gutter {
+  background: rgba(255,255,255,1);
+  color: rgb(128,128,128)
+}
+
+.ace-textmate .ace_print-margin,
+.ace-tm .ace_print-margin {
+  width: 1px;
+  background: #e8e8e8
+}
+
+.ace-textmate {
+  background-color: rgba(255,255,255,1);
+  color: rgba(0,0,0,1)
+}
+
+.ace-textmate .ace_cursor {
+  color: rgba(0,0,0,1)
+}
+
+.ace-textmate .ace_marker-layer .ace_selection {
+  background: rgba(77,151,255,0.84)
+}
+
+.ace-textmate.ace_multiselect .ace_selection.ace_start {
+  box-shadow: 0 0 3px 0px rgba(255,255,255,1);
+  border-radius: 2px
+}
+
+.ace-textmate .ace_marker-layer .ace_step {
+  background: rgb(198, 219, 174)
+}
+
+.ace-textmate .ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 1px solid rgba(191,191,191,1)
+}
+
+.ace-textmate .ace_marker-layer .ace_active-line {
+  background: rgba(0,0,0,0.18)
+}
+
+.ace-textmate .ace_gutter-active-line {
+  background-color: rgba(0,0,0,0.18)
+}
+
+.ace-textmate .ace_marker-layer .ace_selected-word {
+  border: 1px solid rgba(77,151,255,0.84)
+}
+
+.ace-textmate .ace_fold {
+  background-color: rgba(0,0,162,1);
+  border-color: rgba(0,0,0,1)
+}
+
+.ace-textmate .ace_keyword,
+.ace-textmate .ace_storage {
+  color: rgba(0,0,255,1)
+}
+
+.ace-textmate .ace_constant {
+  color: rgba(197,6,11,1)
+}
+
+.ace-textmate .ace_constant.ace_language {
+  color: rgba(88,92,246,1)
+}
+
+.ace-textmate .ace_constant.ace_numeric {
+  color: rgba(0,0,205,1)
+}
+
+.ace-textmate .ace_constant.ace_character.ace_escape {
+  color: rgba(38,179,26,1)
+}
+
+.ace-textmate .ace_support.ace_function {
+  color: rgba(60,76,114,1)
+}
+
+.ace-textmate .ace_support.ace_constant {
+  color: rgba(6,150,14,1)
+}
+
+.ace-textmate .ace_support.ace_class,
+.ace-textmate .ace_support.ace_type {
+  color: rgba(109,121,222,1)
+}
+
+.ace-textmate .ace_invalid {
+  color: rgba(255,255,255,1);
+  background-color: rgba(153,0,0,1)
+}
+
+.ace-textmate .ace_string {
+  color: rgba(3,106,7,1)
+}
+
+.ace-textmate .ace_comment {
+  font-style: italic;
+  color: rgba(0,102,255,1)
+}
+
+.ace-textmate .ace_entity.ace_name.ace_function,
+.ace-textmate .ace_variable {
+  color: rgba(0,0,162,1)
+}
+
+.ace-textmate .ace_variable.ace_language {
+  color: rgba(49,132,149,1)
+}
+
+.ace-textmate .ace_entity.ace_other.ace_attribute-name,
+.ace-textmate .ace_variable.ace_parameter {
+  font-style: italic
+}
+
+.ace-textmate .ace_meta.ace_tag {
+  color: rgba(28,2,255,1)
+}
+
+.ace-textmate .ace_markup.ace_heading {
+  color: rgba(12,7,255,1)
+}
+
+.ace-textmate .ace_markup.ace_list {
+  color: rgba(185,6,144,1)
+}
+
+.ace-tm .ace_gutter {
+  background: #f0f0f0;
+  color: #333
+}
+
+.ace-tm .ace_fold {
+  background-color: #6B72E6
+}
+
+.ace-tm {
+  background-color: #FFFFFF;
+  color: black
+}
+
+.ace-tm .ace_cursor {
+  color: black
+}
+
+.ace-tm .ace_invisible {
+  color: rgb(191, 191, 191)
+}
+
+.ace-tm .ace_keyword,
+.ace-tm .ace_storage {
+  color: blue
+}
+
+.ace-tm .ace_constant {
+  color: rgb(197, 6, 11)
+}
+
+.ace-tm .ace_constant.ace_buildin {
+  color: rgb(88, 72, 246)
+}
+
+.ace-tm .ace_constant.ace_language {
+  color: rgb(88, 92, 246)
+}
+
+.ace-tm .ace_constant.ace_library,
+.ace-tm .ace_support.ace_constant {
+  color: rgb(6, 150, 14)
+}
+
+.ace-tm .ace_invalid {
+  background-color: rgba(255, 0, 0, 0.1);
+  color: red
+}
+
+.ace-tm .ace_support.ace_function {
+  color: rgb(60, 76, 114)
+}
+
+.ace-tm .ace_support.ace_class,
+.ace-tm .ace_support.ace_type {
+  color: rgb(109, 121, 222)
+}
+
+.ace-tm .ace_keyword.ace_operator {
+  color: rgb(104, 118, 135)
+}
+
+.ace-tm .ace_string {
+  color: rgb(3, 106, 7)
+}
+
+.ace-tm .ace_comment {
+  color: rgb(76, 136, 107)
+}
+
+.ace-tm .ace_comment.ace_doc {
+  color: rgb(0, 102, 255)
+}
+
+.ace-tm .ace_comment.ace_doc.ace_tag {
+  color: rgb(128, 159, 191)
+}
+
+.ace-tm .ace_constant.ace_numeric {
+  color: rgb(0, 0, 205)
+}
+
+.ace-tm .ace_variable {
+  color: rgb(49, 132, 149)
+}
+
+.ace-tm .ace_xml-pe {
+  color: rgb(104, 104, 91)
+}
+
+.ace-tm .ace_entity.ace_name.ace_function {
+  color: #0000A2
+}
+
+.ace-tm .ace_heading {
+  color: rgb(12, 7, 255)
+}
+
+.ace-tm .ace_list {
+  color: rgb(185, 6, 144)
+}
+
+.ace-tm .ace_meta.ace_tag {
+  color: rgb(0, 22, 142)
+}
+
+.ace-tm .ace_string.ace_regex {
+  color: rgb(255, 0, 0)
+}
+
+.ace-tm .ace_marker-layer .ace_selection {
+  background: rgb(181, 213, 255)
+}
+
+.ace-tm.ace_multiselect .ace_selection.ace_start {
+  box-shadow: 0 0 3px 0px white
+}
+
+.ace-tm .ace_marker-layer .ace_step {
+  background: rgb(252, 255, 0)
+}
+
+.ace-tm .ace_marker-layer .ace_stack {
+  background: rgb(164, 229, 101)
+}
+
+.ace-tm .ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 1px solid rgb(192, 192, 192)
+}
+
+.ace-tm .ace_marker-layer .ace_active-line {
+  background: rgba(0, 0, 0, 0.07)
+}
+
+.ace-tm .ace_gutter-active-line {
+  background-color : #dcdcdc
+}
+
+.ace-tm .ace_marker-layer .ace_selected-word {
+  background: rgb(250, 250, 255);
+  border: 1px solid rgb(200, 200, 250)
+}
+
+.ace-tm .ace_indent-guide {
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAE0lEQVQImWP4////f4bLly//BwAmVgd1/w11/gAAAABJRU5ErkJggg==") right repeat-y
+}

@@ -1,0 +1,106 @@
+.ace--flat--dark .ace_gutter {
+  background: rgba(41,47,57,1);
+  color: rgb(110,116,126)
+}
+
+.ace--flat--dark .ace_print-margin {
+  width: 1px;
+  background: #e8e8e8
+}
+
+.ace--flat--dark {
+  background-color: rgba(41,47,57,1);
+  color: rgba(178,184,194,1)
+}
+
+.ace--flat--dark .ace_cursor {
+  color: rgba(178,184,194,1)
+}
+
+.ace--flat--dark .ace_marker-layer .ace_selection {
+  background: rgba(64,75,86,1)
+}
+
+.ace--flat--dark.ace_multiselect .ace_selection.ace_start {
+  box-shadow: 0 0 3px 0px rgba(41,47,57,1);
+  border-radius: 2px
+}
+
+.ace--flat--dark .ace_marker-layer .ace_step {
+  background: rgb(198, 219, 174)
+}
+
+.ace--flat--dark .ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 1px solid rgba(178,184,194,1)
+}
+
+.ace--flat--dark .ace_marker-layer .ace_active-line {
+  background: rgba(46,53,63,1)
+}
+
+.ace--flat--dark .ace_gutter-active-line {
+  background-color: rgba(46,53,63,1)
+}
+
+.ace--flat--dark .ace_marker-layer .ace_selected-word {
+  border: 1px solid rgba(64,75,86,1)
+}
+
+.ace--flat--dark .ace_fold {
+  background-color: rgba(23,188,156,1);
+  border-color: rgba(178,184,194,1)
+}
+
+.ace--flat--dark .ace_keyword,
+.ace--flat--dark .ace_storage,
+.ace--flat--dark .ace_storage.ace_type {
+  color: rgba(46,141,205,1)
+}
+
+.ace--flat--dark .ace_constant.ace_language,
+.ace--flat--dark .ace_constant.ace_numeric {
+  color: rgba(162,107,190,1)
+}
+
+.ace--flat--dark .ace_constant.ace_character,
+.ace--flat--dark .ace_constant.ace_other {
+  color: rgba(163,107,190,1)
+}
+
+.ace--flat--dark .ace_entity.ace_name.ace_tag,
+.ace--flat--dark .ace_support.ace_class,
+.ace--flat--dark .ace_support.ace_constant,
+.ace--flat--dark .ace_support.ace_function,
+.ace--flat--dark .ace_support.ace_type {
+  color: rgba(73,163,223,1)
+}
+
+.ace--flat--dark .ace_invalid {
+  color: rgba(177,184,193,1);
+  background-color: rgba(223,51,45,1)
+}
+
+.ace--flat--dark .ace_invalid.ace_deprecated {
+  color: rgba(178,184,194,1);
+  background-color: rgba(146,82,176,1)
+}
+
+.ace--flat--dark .ace_entity.ace_name.ace_function,
+.ace--flat--dark .ace_entity.ace_other.ace_attribute-name,
+.ace--flat--dark .ace_string {
+  color: rgba(23,188,156,1)
+}
+
+.ace--flat--dark .ace_comment {
+  font-style: italic;
+  color: rgba(82,86,94,1)
+}
+
+.ace--flat--dark .ace_variable {
+  color: rgba(72,163,223,1)
+}
+
+.ace--flat--dark .ace_variable.ace_parameter {
+  color: rgba(121,42,156,1)
+}

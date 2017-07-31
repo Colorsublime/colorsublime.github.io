@@ -1,0 +1,104 @@
+.ace--flat .ace_gutter {
+  background: rgba(253,253,253,1);
+  color: rgb(155,167,176)
+}
+
+.ace--flat .ace_print-margin {
+  width: 1px;
+  background: #e8e8e8
+}
+
+.ace--flat {
+  background-color: rgba(253,253,253,1);
+  color: rgba(57,80,99,1)
+}
+
+.ace--flat .ace_cursor {
+  color: rgba(57,80,99,1)
+}
+
+.ace--flat .ace_marker-layer .ace_selection {
+  background: rgba(212,241,255,1)
+}
+
+.ace--flat.ace_multiselect .ace_selection.ace_start {
+  box-shadow: 0 0 3px 0px rgba(253,253,253,1);
+  border-radius: 2px
+}
+
+.ace--flat .ace_marker-layer .ace_step {
+  background: rgb(198, 219, 174)
+}
+
+.ace--flat .ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 1px solid rgba(57,80,99,1)
+}
+
+.ace--flat .ace_marker-layer .ace_active-line {
+  background: rgba(253,253,253,1)
+}
+
+.ace--flat .ace_gutter-active-line {
+  background-color: rgba(253,253,253,1)
+}
+
+.ace--flat .ace_marker-layer .ace_selected-word {
+  border: 1px solid rgba(212,241,255,1)
+}
+
+.ace--flat .ace_fold {
+  background-color: rgba(161,94,187,1);
+  border-color: rgba(57,80,99,1)
+}
+
+.ace--flat .ace_constant.ace_numeric,
+.ace--flat .ace_keyword {
+  color: rgba(211,84,0,1)
+}
+
+.ace--flat .ace_constant.ace_character,
+.ace--flat .ace_constant.ace_language,
+.ace--flat .ace_constant.ace_other {
+  color: rgba(237,145,44,1)
+}
+
+.ace--flat .ace_support.ace_function {
+  color: rgba(48,146,198,1)
+}
+
+.ace--flat .ace_entity.ace_name.ace_tag,
+.ace--flat .ace_support.ace_class,
+.ace--flat .ace_support.ace_constant,
+.ace--flat .ace_support.ace_type,
+.ace--flat .ace_variable {
+  color: rgba(49,147,198,1)
+}
+
+.ace--flat .ace_invalid,
+.ace--flat .ace_storage {
+  color: rgba(205,78,56,1)
+}
+
+.ace--flat .ace_storage.ace_type {
+  color: rgba(192,57,43,1)
+}
+
+.ace--flat .ace_entity.ace_name.ace_function,
+.ace--flat .ace_entity.ace_other.ace_attribute-name,
+.ace--flat .ace_invalid.ace_deprecated {
+  color: rgba(161,94,187,1)
+}
+
+.ace--flat .ace_string {
+  color: rgba(5,173,151,1)
+}
+
+.ace--flat .ace_comment {
+  font-style: italic;
+  color: rgba(145,157,159,1)
+}
+
+.ace--flat .ace_variable.ace_parameter {
+  color: rgba(247,171,19,1)
+}

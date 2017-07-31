@@ -1,0 +1,115 @@
+.ace--monokai--dev .ace_gutter {
+  background: rgba(0,0,0,1);
+  color: rgb(128,128,128)
+}
+
+.ace--monokai--dev .ace_print-margin {
+  width: 1px;
+  background: #e8e8e8
+}
+
+.ace--monokai--dev {
+  background-color: rgba(0,0,0,1);
+  color: rgba(255,255,255,1)
+}
+
+.ace--monokai--dev .ace_cursor {
+  color: rgba(0,255,21,1)
+}
+
+.ace--monokai--dev .ace_marker-layer .ace_selection {
+  background: rgba(255,255,255,1.12)
+}
+
+.ace--monokai--dev.ace_multiselect .ace_selection.ace_start {
+  box-shadow: 0 0 3px 0px rgba(0,0,0,1);
+  border-radius: 2px
+}
+
+.ace--monokai--dev .ace_marker-layer .ace_step {
+  background: rgb(198, 219, 174)
+}
+
+.ace--monokai--dev .ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 1px solid rgba(135,209,96,1)
+}
+
+.ace--monokai--dev .ace_marker-layer .ace_active-line {
+  background: rgba(255,255,255,0.79)
+}
+
+.ace--monokai--dev .ace_gutter-active-line {
+  background-color: rgba(255,255,255,0.79)
+}
+
+.ace--monokai--dev .ace_marker-layer .ace_selected-word {
+  border: 1px solid rgba(255,255,255,1.12)
+}
+
+.ace--monokai--dev .ace_fold {
+  background-color: rgba(170,255,51,1);
+  border-color: rgba(255,255,255,1)
+}
+
+.ace--monokai--dev .ace_entity.ace_name.ace_tag,
+.ace--monokai--dev .ace_keyword,
+.ace--monokai--dev .ace_storage {
+  color: rgba(255,51,119,1)
+}
+
+.ace--monokai--dev .ace_constant.ace_language,
+.ace--monokai--dev .ace_constant.ace_numeric {
+  color: rgba(255,153,255,1)
+}
+
+.ace--monokai--dev .ace_constant.ace_character,
+.ace--monokai--dev .ace_constant.ace_other {
+  color: rgba(170,136,255,1)
+}
+
+.ace--monokai--dev .ace_support.ace_function {
+  font-style: italic;
+  color: rgba(119,238,255,1)
+}
+
+.ace--monokai--dev .ace_storage.ace_type,
+.ace--monokai--dev .ace_support.ace_class,
+.ace--monokai--dev .ace_support.ace_constant,
+.ace--monokai--dev .ace_support.ace_type {
+  font-style: italic;
+  color: rgba(102,221,255,1)
+}
+
+.ace--monokai--dev .ace_invalid {
+  color: rgba(248,248,240,1);
+  background-color: rgba(249,38,114,1)
+}
+
+.ace--monokai--dev .ace_invalid.ace_deprecated {
+  color: rgba(248,248,240,1);
+  background-color: rgba(174,129,255,1)
+}
+
+.ace--monokai--dev .ace_string {
+  color: rgba(255,231,146,1);
+  background-color: rgba(92,92,92,0.97)
+}
+
+.ace--monokai--dev .ace_comment {
+  font-style: italic;
+  color: rgba(181,181,181,1);
+  background-color: rgba(36,36,36,0)
+}
+
+.ace--monokai--dev .ace_entity.ace_name.ace_function,
+.ace--monokai--dev .ace_entity.ace_other.ace_attribute-name,
+.ace--monokai--dev .ace_variable {
+  color: rgba(170,255,51,1)
+}
+
+.ace--monokai--dev .ace_variable.ace_parameter {
+  font-style: italic;
+  color: rgba(255,114,20,1);
+  background-color: rgba(36,36,36,1)
+}

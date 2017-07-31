@@ -1,0 +1,75 @@
+.ace--ascetic .ace_gutter {
+  background: rgba(243,242,239,1);
+  color: rgb(169,169,167)
+}
+
+.ace--ascetic .ace_print-margin {
+  width: 1px;
+  background: #e8e8e8
+}
+
+.ace--ascetic {
+  background-color: rgba(243,242,239,1);
+  color: rgba(95,95,94,1)
+}
+
+.ace--ascetic .ace_cursor {
+  color: rgba(15,15,14,1)
+}
+
+.ace--ascetic .ace_marker-layer .ace_selection {
+  background: rgba(217,218,210,1)
+}
+
+.ace--ascetic.ace_multiselect .ace_selection.ace_start {
+  box-shadow: 0 0 3px 0px rgba(243,242,239,1);
+  border-radius: 2px
+}
+
+.ace--ascetic .ace_marker-layer .ace_step {
+  background: rgb(198, 219, 174)
+}
+
+.ace--ascetic .ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 1px solid rgba(229,228,225,1)
+}
+
+.ace--ascetic .ace_marker-layer .ace_active-line {
+  background: rgba(233,233,230,1)
+}
+
+.ace--ascetic .ace_gutter-active-line {
+  background-color: rgba(233,233,230,1)
+}
+
+.ace--ascetic .ace_marker-layer .ace_selected-word {
+  border: 1px solid rgba(217,218,210,1)
+}
+
+.ace--ascetic .ace_fold {
+  background-color: italic;
+  border-color: rgba(95,95,94,1)
+}
+
+.ace--ascetic .ace_keyword {
+  font-style: italic
+}
+
+.ace--ascetic .ace_constant.ace_character,
+.ace--ascetic .ace_constant.ace_language,
+.ace--ascetic .ace_constant.ace_numeric,
+.ace--ascetic .ace_constant.ace_other,
+.ace--ascetic .ace_string {
+  color: rgba(26,26,25,1)
+}
+
+.ace--ascetic .ace_comment {
+  color: rgba(145,165,31,1)
+}
+
+.ace--ascetic .ace_entity.ace_name.ace_tag,
+.ace--ascetic .ace_entity.ace_other.ace_attribute-name,
+.ace--ascetic .ace_meta.ace_tag {
+  color: rgba(164,163,161,1)
+}

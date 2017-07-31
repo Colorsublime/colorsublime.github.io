@@ -1,0 +1,115 @@
+.ace--dark--dracula .ace_gutter {
+  background: rgba(32,32,32,1);
+  color: rgb(140,140,137)
+}
+
+.ace--dark--dracula .ace_print-margin {
+  width: 1px;
+  background: #e8e8e8
+}
+
+.ace--dark--dracula {
+  background-color: rgba(32,32,32,1);
+  color: rgba(248,248,242,1)
+}
+
+.ace--dark--dracula .ace_cursor {
+  color: rgba(248,248,240,1)
+}
+
+.ace--dark--dracula .ace_marker-layer .ace_selection {
+  background: rgba(68,71,90,1)
+}
+
+.ace--dark--dracula.ace_multiselect .ace_selection.ace_start {
+  box-shadow: 0 0 3px 0px rgba(32,32,32,1);
+  border-radius: 2px
+}
+
+.ace--dark--dracula .ace_marker-layer .ace_step {
+  background: rgb(198, 219, 174)
+}
+
+.ace--dark--dracula .ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 1px solid rgba(59,58,50,1)
+}
+
+.ace--dark--dracula .ace_marker-layer .ace_active-line {
+  background: rgba(53,53,53,1)
+}
+
+.ace--dark--dracula .ace_gutter-active-line {
+  background-color: rgba(53,53,53,1)
+}
+
+.ace--dark--dracula .ace_marker-layer .ace_selected-word {
+  border: 1px solid rgba(68,71,90,1)
+}
+
+.ace--dark--dracula .ace_fold {
+  background-color: rgba(80,250,123,1);
+  border-color: rgba(248,248,242,1)
+}
+
+.ace--dark--dracula .ace_constant.ace_character.ace_escape,
+.ace--dark--dracula .ace_entity.ace_name.ace_tag,
+.ace--dark--dracula .ace_keyword,
+.ace--dark--dracula .ace_storage {
+  color: rgba(255,121,198,1)
+}
+
+.ace--dark--dracula .ace_constant.ace_character,
+.ace--dark--dracula .ace_constant.ace_language,
+.ace--dark--dracula .ace_constant.ace_numeric,
+.ace--dark--dracula .ace_constant.ace_other {
+  color: rgba(189,147,249,1)
+}
+
+.ace--dark--dracula .ace_support.ace_function {
+  color: rgba(139,233,253,1)
+}
+
+.ace--dark--dracula .ace_support.ace_constant {
+  color: rgba(107,229,253,1)
+}
+
+.ace--dark--dracula .ace_support.ace_class,
+.ace--dark--dracula .ace_support.ace_type {
+  font-style: italic;
+  color: rgba(102,217,239,1)
+}
+
+.ace--dark--dracula .ace_storage.ace_type {
+  font-style: italic;
+  color: rgba(139,233,253,1)
+}
+
+.ace--dark--dracula .ace_invalid {
+  color: rgba(248,248,240,1);
+  background-color: rgba(255,121,198,1)
+}
+
+.ace--dark--dracula .ace_invalid.ace_deprecated {
+  color: rgba(248,248,240,1);
+  background-color: rgba(189,147,249,1)
+}
+
+.ace--dark--dracula .ace_string {
+  color: rgba(241,250,140,1)
+}
+
+.ace--dark--dracula .ace_comment {
+  color: rgba(98,114,164,1)
+}
+
+.ace--dark--dracula .ace_entity.ace_name.ace_function,
+.ace--dark--dracula .ace_entity.ace_other.ace_attribute-name,
+.ace--dark--dracula .ace_variable {
+  color: rgba(80,250,123,1)
+}
+
+.ace--dark--dracula .ace_variable.ace_parameter {
+  font-style: italic;
+  color: rgba(255,184,108,1)
+}

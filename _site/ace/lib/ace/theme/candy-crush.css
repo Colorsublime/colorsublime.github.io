@@ -1,0 +1,111 @@
+.ace-candy-crush .ace_gutter {
+  background: rgba(255,255,255,0.41);
+  color: rgb(128,128,128)
+}
+
+.ace-candy-crush .ace_print-margin {
+  width: 1px;
+  background: #e8e8e8
+}
+
+.ace-candy-crush {
+  background-color: rgba(255,255,255,0.41);
+  color: rgba(0,0,0,2.55)
+}
+
+.ace-candy-crush .ace_cursor {
+  color: rgba(0,0,0,2.55)
+}
+
+.ace-candy-crush .ace_marker-layer .ace_selection {
+  background: rgb(181, 213, 255)
+}
+
+.ace-candy-crush.ace_multiselect .ace_selection.ace_start {
+  box-shadow: 0 0 3px 0px rgba(255,255,255,0.41);
+  border-radius: 2px
+}
+
+.ace-candy-crush .ace_marker-layer .ace_step {
+  background: rgb(198, 219, 174)
+}
+
+.ace-candy-crush .ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 1px solid rgb(192, 192, 192)
+}
+
+.ace-candy-crush .ace_marker-layer .ace_active-line {
+  background: rgba(0, 0, 0, 0.07)
+}
+
+.ace-candy-crush .ace_gutter-active-line {
+  background-color: rgba(0, 0, 0, 0.07)
+}
+
+.ace-candy-crush .ace_marker-layer .ace_selected-word {
+  border: 1px solid rgb(181, 213, 255)
+}
+
+.ace-candy-crush .ace_fold {
+  background-color: rgba(163,213,62,1);
+  border-color: rgba(0,0,0,2.55)
+}
+
+.ace-candy-crush .ace_entity.ace_name.ace_tag,
+.ace-candy-crush .ace_keyword,
+.ace-candy-crush .ace_storage {
+  color: rgba(238,92,165,1)
+}
+
+.ace-candy-crush .ace_constant.ace_character,
+.ace-candy-crush .ace_constant.ace_language,
+.ace-candy-crush .ace_constant.ace_numeric,
+.ace-candy-crush .ace_constant.ace_other {
+  color: rgba(166,169,238,1)
+}
+
+.ace-candy-crush .ace_support.ace_constant,
+.ace-candy-crush .ace_support.ace_function {
+  color: rgba(122,202,203,1)
+}
+
+.ace-candy-crush .ace_support.ace_class,
+.ace-candy-crush .ace_support.ace_type {
+  font-style: italic;
+  color: rgba(122,202,203,1)
+}
+
+.ace-candy-crush .ace_storage.ace_type {
+  font-style: italic;
+  color: rgba(109,206,224,1)
+}
+
+.ace-candy-crush .ace_invalid {
+  color: rgba(232,232,225,1);
+  background-color: rgba(213,74,54,1)
+}
+
+.ace-candy-crush .ace_invalid.ace_deprecated {
+  color: rgba(232,232,225,1);
+  background-color: rgba(166,169,238,1)
+}
+
+.ace-candy-crush .ace_string {
+  color: rgba(238,202,78,1)
+}
+
+.ace-candy-crush .ace_comment {
+  color: rgba(105,109,117,1)
+}
+
+.ace-candy-crush .ace_entity.ace_name.ace_function,
+.ace-candy-crush .ace_entity.ace_other.ace_attribute-name,
+.ace-candy-crush .ace_variable {
+  color: rgba(163,213,62,1)
+}
+
+.ace-candy-crush .ace_variable.ace_parameter {
+  font-style: italic;
+  color: rgba(238,127,23,1)
+}

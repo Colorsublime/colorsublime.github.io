@@ -1,0 +1,91 @@
+.ace--jellybeams .ace_gutter {
+  background: rgba(21,21,21,1);
+  color: rgb(127,127,116)
+}
+
+.ace--jellybeams .ace_print-margin {
+  width: 1px;
+  background: #e8e8e8
+}
+
+.ace--jellybeams {
+  background-color: rgba(21,21,21,1);
+  color: rgba(232,232,211,1)
+}
+
+.ace--jellybeams .ace_cursor {
+  color: rgba(176,208,240,1)
+}
+
+.ace--jellybeams .ace_marker-layer .ace_selection {
+  background: rgba(64,64,64,1)
+}
+
+.ace--jellybeams.ace_multiselect .ace_selection.ace_start {
+  box-shadow: 0 0 3px 0px rgba(21,21,21,1);
+  border-radius: 2px
+}
+
+.ace--jellybeams .ace_marker-layer .ace_step {
+  background: rgb(198, 219, 174)
+}
+
+.ace--jellybeams .ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 1px solid rgba(232,232,211,1)
+}
+
+.ace--jellybeams .ace_marker-layer .ace_active-line {
+  background: rgba(1,1,1,1)
+}
+
+.ace--jellybeams .ace_gutter-active-line {
+  background-color: rgba(1,1,1,1)
+}
+
+.ace--jellybeams .ace_marker-layer .ace_selected-word {
+  border: 1px solid rgba(64,64,64,1)
+}
+
+.ace--jellybeams .ace_fold {
+  background-color: rgba(250,208,122,1);
+  border-color: rgba(232,232,211,1)
+}
+
+.ace--jellybeams .ace_constant.ace_numeric {
+  color: rgba(207,106,76,1)
+}
+
+.ace--jellybeams .ace_constant.ace_character.ace_escape {
+  color: rgba(180,201,115,1)
+}
+
+.ace--jellybeams .ace_constant.ace_other,
+.ace--jellybeams .ace_storage {
+  color: rgba(129,151,191,1)
+}
+
+.ace--jellybeams .ace_support.ace_class,
+.ace--jellybeams .ace_support.ace_type {
+  color: rgba(251,227,191,1)
+}
+
+.ace--jellybeams .ace_string {
+  color: rgba(153,173,106,1)
+}
+
+.ace--jellybeams .ace_string.ace_regexp {
+  color: rgba(221,0,147,1)
+}
+
+.ace--jellybeams .ace_comment {
+  color: rgba(136,136,136,1)
+}
+
+.ace--jellybeams .ace_variable {
+  color: rgba(255,185,100,1)
+}
+
+.ace--jellybeams .ace_entity.ace_name.ace_function {
+  color: rgba(250,208,122,1)
+}

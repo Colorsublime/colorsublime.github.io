@@ -1,0 +1,117 @@
+.ace--two-stones .ace_gutter {
+  background: rgba(23,26,39,1);
+  color: rgb(126,128,134)
+}
+
+.ace--two-stones .ace_print-margin {
+  width: 1px;
+  background: #e8e8e8
+}
+
+.ace--two-stones {
+  background-color: rgba(23,26,39,1);
+  color: rgba(229,229,229,1)
+}
+
+.ace--two-stones .ace_cursor {
+  color: rgba(125,128,159,1)
+}
+
+.ace--two-stones .ace_marker-layer .ace_active-line,
+.ace--two-stones .ace_marker-layer .ace_selection {
+  background: rgba(73,72,62,1)
+}
+
+.ace--two-stones.ace_multiselect .ace_selection.ace_start {
+  box-shadow: 0 0 3px 0px rgba(23,26,39,1);
+  border-radius: 2px
+}
+
+.ace--two-stones .ace_marker-layer .ace_step {
+  background: rgb(198, 219, 174)
+}
+
+.ace--two-stones .ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 1px solid rgba(73,72,62,1)
+}
+
+.ace--two-stones .ace_gutter-active-line {
+  background-color: rgba(73,72,62,1)
+}
+
+.ace--two-stones .ace_marker-layer .ace_selected-word {
+  border: 1px solid rgba(73,72,62,1)
+}
+
+.ace--two-stones .ace_fold {
+  background-color: rgba(39,195,202,1);
+  border-color: rgba(229,229,229,1)
+}
+
+.ace--two-stones .ace_entity.ace_other.ace_attribute-name,
+.ace--two-stones .ace_keyword {
+  color: rgba(255,142,48,1)
+}
+
+.ace--two-stones .ace_constant.ace_language,
+.ace--two-stones .ace_entity.ace_name.ace_function,
+.ace--two-stones .ace_support.ace_function {
+  color: rgba(39,195,202,1)
+}
+
+.ace--two-stones .ace_constant.ace_numeric,
+.ace--two-stones .ace_entity.ace_name.ace_tag {
+  color: rgba(0,172,246,1)
+}
+
+.ace--two-stones .ace_constant.ace_character,
+.ace--two-stones .ace_constant.ace_other {
+  color: rgba(65,188,142,1)
+}
+
+.ace--two-stones .ace_support.ace_constant {
+  color: rgba(254,251,246,1)
+}
+
+.ace--two-stones .ace_support.ace_class,
+.ace--two-stones .ace_support.ace_type {
+  font-style: italic;
+  color: rgba(234,191,77,1)
+}
+
+.ace--two-stones .ace_storage {
+  color: rgba(236,228,29,1)
+}
+
+.ace--two-stones .ace_storage.ace_type {
+  font-style: italic;
+  color: rgba(242,242,242,1)
+}
+
+.ace--two-stones .ace_invalid {
+  color: rgba(248,248,240,1);
+  background-color: rgba(215,30,36,1)
+}
+
+.ace--two-stones .ace_invalid.ace_deprecated {
+  color: rgba(248,248,240,1);
+  background-color: rgba(174,129,255,1)
+}
+
+.ace--two-stones .ace_string {
+  color: rgba(251,206,51,1)
+}
+
+.ace--two-stones .ace_comment {
+  color: rgba(184,127,98,1)
+}
+
+.ace--two-stones .ace_variable {
+  color: rgba(116,217,146,1)
+}
+
+.ace--two-stones .ace_variable.ace_parameter {
+  font-style: italic;
+  color: rgba(253,134,31,1)
+}

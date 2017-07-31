@@ -1,0 +1,102 @@
+.ace-azure .ace_gutter {
+  background: rgba(24,29,38,1);
+  color: rgb(140,142,147)
+}
+
+.ace-azure .ace_print-margin {
+  width: 1px;
+  background: #e8e8e8
+}
+
+.ace-azure {
+  background-color: rgba(24,29,38,1);
+  color: rgba(255,255,255,1)
+}
+
+.ace-azure .ace_cursor {
+  color: rgba(248,248,240,1)
+}
+
+.ace-azure .ace_marker-layer .ace_selection {
+  background: rgba(71,149,154,1)
+}
+
+.ace-azure.ace_multiselect .ace_selection.ace_start {
+  box-shadow: 0 0 3px 0px rgba(24,29,38,1);
+  border-radius: 2px
+}
+
+.ace-azure .ace_marker-layer .ace_step {
+  background: rgb(198, 219, 174)
+}
+
+.ace-azure .ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 1px solid rgba(59,58,50,1)
+}
+
+.ace-azure .ace_marker-layer .ace_active-line {
+  background: rgba(51,51,60,1)
+}
+
+.ace-azure .ace_gutter-active-line {
+  background-color: rgba(51,51,60,1)
+}
+
+.ace-azure .ace_marker-layer .ace_selected-word {
+  border: 1px solid rgba(71,149,154,1)
+}
+
+.ace-azure .ace_fold {
+  background-color: rgba(80,138,170,1);
+  border-color: rgba(255,255,255,1)
+}
+
+.ace-azure .ace_entity.ace_name.ace_function,
+.ace-azure .ace_keyword,
+.ace-azure .ace_variable {
+  color: rgba(80,138,170,1)
+}
+
+.ace-azure .ace_entity.ace_name.ace_tag,
+.ace-azure .ace_keyword.ace_other.ace_unit,
+.ace-azure .ace_storage.ace_type,
+.ace-azure .ace_support.ace_function {
+  color: rgba(106,176,163,1)
+}
+
+.ace-azure .ace_constant.ace_character,
+.ace-azure .ace_constant.ace_language,
+.ace-azure .ace_constant.ace_other,
+.ace-azure .ace_entity.ace_other.ace_attribute-name,
+.ace-azure .ace_storage,
+.ace-azure .ace_support.ace_constant {
+  color: rgba(82,112,139,1)
+}
+
+.ace-azure .ace_constant.ace_numeric,
+.ace-azure .ace_string,
+.ace-azure .ace_support.ace_constant.ace_property-value {
+  color: rgba(100,174,179,1)
+}
+
+.ace-azure .ace_support.ace_class,
+.ace-azure .ace_support.ace_type {
+  font-style: italic;
+  color: rgba(82,112,139,1)
+}
+
+.ace-azure .ace_invalid,
+.ace-azure .ace_invalid.ace_deprecated {
+  color: rgba(248,248,240,1);
+  background-color: rgba(0,168,198,1)
+}
+
+.ace-azure .ace_comment {
+  color: rgba(65,77,98,1)
+}
+
+.ace-azure .ace_variable.ace_parameter {
+  font-style: italic;
+  color: rgba(255,255,255,1)
+}
