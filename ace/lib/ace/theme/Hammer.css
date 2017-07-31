@@ -1,0 +1,95 @@
+.ace--hammer .ace_gutter {
+  background: rgba(0,0,0,1);
+  color: rgb(95,87,79)
+}
+
+.ace--hammer .ace_print-margin {
+  width: 1px;
+  background: #e8e8e8
+}
+
+.ace--hammer {
+  background-color: rgba(0,0,0,1);
+  color: rgba(189,174,157,1)
+}
+
+.ace--hammer .ace_cursor {
+  color: rgba(255,255,255,1)
+}
+
+.ace--hammer .ace_marker-layer .ace_selection {
+  background: rgba(55,168,237,0.48)
+}
+
+.ace--hammer.ace_multiselect .ace_selection.ace_start {
+  box-shadow: 0 0 3px 0px rgba(0,0,0,1);
+  border-radius: 2px
+}
+
+.ace--hammer .ace_marker-layer .ace_step {
+  background: rgb(198, 219, 174)
+}
+
+.ace--hammer .ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 1px solid rgba(255,0,0,1)
+}
+
+.ace--hammer .ace_marker-layer .ace_active-line {
+  background: rgba(255,255,255,0.32)
+}
+
+.ace--hammer .ace_gutter-active-line {
+  background-color: rgba(255,255,255,0.32)
+}
+
+.ace--hammer .ace_marker-layer .ace_selected-word {
+  border: 1px solid rgba(55,168,237,0.48)
+}
+
+.ace--hammer .ace_fold {
+  background-color: rgba(255,58,131,1);
+  border-color: rgba(189,174,157,1)
+}
+
+.ace--hammer .ace_constant,
+.ace--hammer .ace_keyword {
+  color: rgba(255,58,131,1)
+}
+
+.ace--hammer .ace_support {
+  color: rgba(235,147,154,1)
+}
+
+.ace--hammer .ace_entity.ace_name.ace_tag,
+.ace--hammer .ace_storage {
+  color: rgba(55,168,237,1)
+}
+
+.ace--hammer .ace_invalid.ace_illegal {
+  color: rgba(248,248,248,1);
+  background-color: rgba(255,0,0,1)
+}
+
+.ace--hammer .ace_invalid.ace_deprecated {
+  text-decoration: underline;
+  font-style: italic;
+  color: rgba(255,0,0,1)
+}
+
+.ace--hammer .ace_string {
+  color: rgba(85,228,57,1)
+}
+
+.ace--hammer .ace_comment {
+  font-style: italic;
+  color: rgba(102,102,102,1)
+}
+
+.ace--hammer .ace_variable {
+  color: rgba(255,128,128,1)
+}
+
+.ace--hammer .ace_entity.ace_other.ace_attribute-name {
+  color: rgba(229,193,56,1)
+}

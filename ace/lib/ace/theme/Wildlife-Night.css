@@ -1,0 +1,128 @@
+.ace--wildlife--night .ace_gutter {
+  background: rgba(0,0,17,1);
+  color: rgb(111,111,119)
+}
+
+.ace--wildlife--night .ace_print-margin {
+  width: 1px;
+  background: #e8e8e8
+}
+
+.ace--wildlife--night {
+  background-color: rgba(0,0,17,1);
+  color: rgba(221,221,221,1)
+}
+
+.ace--wildlife--night .ace_cursor {
+  color: rgba(204,255,255,1)
+}
+
+.ace--wildlife--night .ace_marker-layer .ace_selection {
+  background: rgba(0,31,76,1)
+}
+
+.ace--wildlife--night.ace_multiselect .ace_selection.ace_start {
+  box-shadow: 0 0 3px 0px rgba(0,0,17,1);
+  border-radius: 2px
+}
+
+.ace--wildlife--night .ace_marker-layer .ace_step {
+  background: rgb(198, 219, 174)
+}
+
+.ace--wildlife--night .ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 1px solid rgba(191,191,191,1)
+}
+
+.ace--wildlife--night .ace_marker-layer .ace_active-line {
+  background: rgba(31,15,0,1)
+}
+
+.ace--wildlife--night .ace_gutter-active-line {
+  background-color: rgba(31,15,0,1)
+}
+
+.ace--wildlife--night .ace_marker-layer .ace_selected-word {
+  border: 1px solid rgba(0,31,76,1)
+}
+
+.ace--wildlife--night .ace_fold {
+  background-color: italic;
+  border-color: rgba(221,221,221,1)
+}
+
+.ace--wildlife--night .ace_keyword,
+.ace--wildlife--night .ace_storage {
+  color: rgba(255,133,51,1)
+}
+
+.ace--wildlife--night .ace_constant.ace_character,
+.ace--wildlife--night .ace_constant.ace_language,
+.ace--wildlife--night .ace_constant.ace_other {
+  font-style: italic
+}
+
+.ace--wildlife--night .ace_constant.ace_numeric {
+  color: rgba(0,153,204,1)
+}
+
+.ace--wildlife--night .ace_constant.ace_character.ace_escape {
+  font-style: italic;
+  color: rgba(255,255,153,1);
+  background-color: rgba(32,32,32,1)
+}
+
+.ace--wildlife--night .ace_support.ace_constant,
+.ace--wildlife--night .ace_support.ace_function,
+.ace--wildlife--night .ace_support.ace_type {
+  color: rgba(221,0,238,1)
+}
+
+.ace--wildlife--night .ace_support.ace_class {
+  font-style: italic;
+  color: rgba(241,41,88,1)
+}
+
+.ace--wildlife--night .ace_invalid {
+  color: rgba(255,255,255,1);
+  background-color: rgba(153,0,0,1)
+}
+
+.ace--wildlife--night .ace_string {
+  color: rgba(51,204,51,1)
+}
+
+.ace--wildlife--night .ace_comment {
+  font-style: italic;
+  color: rgba(161,161,161,1);
+  background-color: rgba(32,32,32,1)
+}
+
+.ace--wildlife--night .ace_entity.ace_name.ace_function,
+.ace--wildlife--night .ace_variable {
+  font-style: italic;
+  color: rgba(255,255,0,1)
+}
+
+.ace--wildlife--night .ace_variable.ace_parameter {
+  color: rgba(255,187,119,1)
+}
+
+.ace--wildlife--night .ace_entity.ace_other.ace_attribute-name {
+  font-style: italic;
+  color: rgba(0,128,255,1)
+}
+
+.ace--wildlife--night .ace_entity.ace_name.ace_tag {
+  color: rgba(102,255,255,1)
+}
+
+.ace--wildlife--night .ace_markup.ace_heading {
+  color: rgba(255,0,255,1)
+}
+
+.ace--wildlife--night .ace_markup.ace_list {
+  color: rgba(254,150,15,1);
+  background-color: rgba(17,0,17,1)
+}

@@ -1,0 +1,88 @@
+.ace--blackboard .ace_gutter {
+  background: rgba(12,16,33,1);
+  color: rgb(130,132,141)
+}
+
+.ace--blackboard .ace_print-margin {
+  width: 1px;
+  background: #e8e8e8
+}
+
+.ace--blackboard {
+  background-color: rgba(12,16,33,1);
+  color: rgba(248,248,248,1)
+}
+
+.ace--blackboard .ace_cursor {
+  color: rgba(255,255,255,1.66)
+}
+
+.ace--blackboard .ace_marker-layer .ace_selection {
+  background: rgba(37,59,118,1)
+}
+
+.ace--blackboard.ace_multiselect .ace_selection.ace_start {
+  box-shadow: 0 0 3px 0px rgba(12,16,33,1);
+  border-radius: 2px
+}
+
+.ace--blackboard .ace_marker-layer .ace_step {
+  background: rgb(198, 219, 174)
+}
+
+.ace--blackboard .ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 1px solid rgba(255,255,255,0.64)
+}
+
+.ace--blackboard .ace_marker-layer .ace_active-line {
+  background: rgba(255,255,255,0.15)
+}
+
+.ace--blackboard .ace_gutter-active-line {
+  background-color: rgba(255,255,255,0.15)
+}
+
+.ace--blackboard .ace_marker-layer .ace_selected-word {
+  border: 1px solid rgba(37,59,118,1)
+}
+
+.ace--blackboard .ace_fold {
+  background-color: rgba(251,222,45,1);
+  border-color: rgba(248,248,248,1)
+}
+
+.ace--blackboard .ace_keyword,
+.ace--blackboard .ace_storage {
+  color: rgba(251,222,45,1)
+}
+
+.ace--blackboard .ace_constant {
+  color: rgba(216,250,60,1)
+}
+
+.ace--blackboard .ace_support {
+  color: rgba(141,166,206,1)
+}
+
+.ace--blackboard .ace_invalid.ace_illegal {
+  color: rgba(248,248,248,1);
+  background-color: rgba(157,30,21,1)
+}
+
+.ace--blackboard .ace_invalid.ace_deprecated {
+  font-style: italic;
+  color: rgba(171,42,29,1)
+}
+
+.ace--blackboard .ace_string {
+  color: rgba(97,206,60,1)
+}
+
+.ace--blackboard .ace_comment {
+  color: rgba(174,174,174,1)
+}
+
+.ace--blackboard .ace_meta.ace_tag {
+  color: rgba(127,144,170,1)
+}

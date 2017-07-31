@@ -1,0 +1,107 @@
+.ace--meteor .ace_gutter {
+  background: rgba(45,30,60,1);
+  color: rgb(147,139,151)
+}
+
+.ace--meteor .ace_print-margin {
+  width: 1px;
+  background: #e8e8e8
+}
+
+.ace--meteor {
+  background-color: rgba(45,30,60,1);
+  color: rgba(248,248,242,1)
+}
+
+.ace--meteor .ace_cursor {
+  color: rgba(248,248,240,1)
+}
+
+.ace--meteor .ace_marker-layer .ace_active-line,
+.ace--meteor .ace_marker-layer .ace_selection {
+  background: rgba(81,54,108,1)
+}
+
+.ace--meteor.ace_multiselect .ace_selection.ace_start {
+  box-shadow: 0 0 3px 0px rgba(45,30,60,1);
+  border-radius: 2px
+}
+
+.ace--meteor .ace_marker-layer .ace_step {
+  background: rgb(198, 219, 174)
+}
+
+.ace--meteor .ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 1px solid rgba(63,126,151,1)
+}
+
+.ace--meteor .ace_gutter-active-line {
+  background-color: rgba(81,54,108,1)
+}
+
+.ace--meteor .ace_marker-layer .ace_selected-word {
+  border: 1px solid rgba(81,54,108,1)
+}
+
+.ace--meteor .ace_fold {
+  background-color: rgba(254,242,131,1);
+  border-color: rgba(248,248,242,1)
+}
+
+.ace--meteor .ace_keyword,
+.ace--meteor .ace_storage {
+  color: rgba(16,239,220,1)
+}
+
+.ace--meteor .ace_constant.ace_character,
+.ace--meteor .ace_constant.ace_language,
+.ace--meteor .ace_constant.ace_numeric,
+.ace--meteor .ace_constant.ace_other {
+  color: rgba(174,129,255,1)
+}
+
+.ace--meteor .ace_entity.ace_name.ace_tag,
+.ace--meteor .ace_support.ace_constant,
+.ace--meteor .ace_support.ace_function {
+  color: rgba(249,38,114,1)
+}
+
+.ace--meteor .ace_storage.ace_type,
+.ace--meteor .ace_support.ace_class,
+.ace--meteor .ace_support.ace_type {
+  font-style: italic;
+  color: rgba(249,38,114,1)
+}
+
+.ace--meteor .ace_invalid {
+  color: rgba(248,248,240,1);
+  background-color: rgba(249,38,114,1)
+}
+
+.ace--meteor .ace_invalid.ace_deprecated {
+  color: rgba(255,255,255,1);
+  background-color: rgba(174,129,255,1)
+}
+
+.ace--meteor .ace_string {
+  color: rgba(251,184,133,1)
+}
+
+.ace--meteor .ace_comment {
+  color: rgba(116,108,156,1)
+}
+
+.ace--meteor .ace_variable {
+  color: rgba(255,255,255,1)
+}
+
+.ace--meteor .ace_variable.ace_parameter {
+  font-style: italic;
+  color: rgba(16,239,220,1)
+}
+
+.ace--meteor .ace_entity.ace_name.ace_function,
+.ace--meteor .ace_entity.ace_other.ace_attribute-name {
+  color: rgba(254,242,131,1)
+}

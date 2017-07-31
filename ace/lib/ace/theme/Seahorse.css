@@ -1,0 +1,110 @@
+.ace--seahorse .ace_gutter {
+  background: rgba(37,38,43,1);
+  color: rgb(125,126,131)
+}
+
+.ace--seahorse .ace_print-margin {
+  width: 1px;
+  background: #e8e8e8
+}
+
+.ace--seahorse {
+  background-color: rgba(37,38,43,1);
+  color: rgba(213,214,219,1)
+}
+
+.ace--seahorse .ace_cursor {
+  color: rgba(248,248,240,1)
+}
+
+.ace--seahorse .ace_marker-layer .ace_active-line,
+.ace--seahorse .ace_marker-layer .ace_selection {
+  background: rgba(53,54,59,1)
+}
+
+.ace--seahorse.ace_multiselect .ace_selection.ace_start {
+  box-shadow: 0 0 3px 0px rgba(37,38,43,1);
+  border-radius: 2px
+}
+
+.ace--seahorse .ace_marker-layer .ace_step {
+  background: rgb(198, 219, 174)
+}
+
+.ace--seahorse .ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 1px solid rgba(59,58,50,1)
+}
+
+.ace--seahorse .ace_gutter-active-line {
+  background-color: rgba(53,54,59,1)
+}
+
+.ace--seahorse .ace_marker-layer .ace_selected-word {
+  border: 1px solid rgba(53,54,59,1)
+}
+
+.ace--seahorse .ace_fold {
+  background-color: rgba(160,249,140,1);
+  border-color: rgba(213,214,219,1)
+}
+
+.ace--seahorse .ace_entity.ace_name.ace_tag,
+.ace--seahorse .ace_keyword,
+.ace--seahorse .ace_storage {
+  color: rgba(249,140,207,1)
+}
+
+.ace--seahorse .ace_constant.ace_character,
+.ace--seahorse .ace_constant.ace_language,
+.ace--seahorse .ace_constant.ace_numeric,
+.ace--seahorse .ace_constant.ace_other,
+.ace--seahorse .ace_string.ace_regexp {
+  color: rgba(195,149,247,1)
+}
+
+.ace--seahorse .ace_support.ace_constant,
+.ace--seahorse .ace_support.ace_function {
+  color: rgba(140,196,249,1)
+}
+
+.ace--seahorse .ace_storage.ace_type,
+.ace--seahorse .ace_support.ace_class,
+.ace--seahorse .ace_support.ace_type {
+  font-style: italic;
+  color: rgba(140,196,249,1)
+}
+
+.ace--seahorse .ace_invalid {
+  color: rgba(248,248,240,1);
+  background-color: rgba(249,140,207,1)
+}
+
+.ace--seahorse .ace_invalid.ace_deprecated {
+  color: rgba(248,248,240,1);
+  background-color: rgba(195,149,247,1)
+}
+
+.ace--seahorse .ace_markup.ace_heading,
+.ace--seahorse .ace_string {
+  color: rgba(243,249,140,1)
+}
+
+.ace--seahorse .ace_comment {
+  color: rgba(101,102,107,1)
+}
+
+.ace--seahorse .ace_entity.ace_name.ace_function,
+.ace--seahorse .ace_entity.ace_other.ace_attribute-name,
+.ace--seahorse .ace_variable {
+  color: rgba(160,249,140,1)
+}
+
+.ace--seahorse .ace_variable.ace_language {
+  color: rgba(213,214,219,1)
+}
+
+.ace--seahorse .ace_variable.ace_parameter {
+  font-style: italic;
+  color: rgba(249,199,140,1)
+}

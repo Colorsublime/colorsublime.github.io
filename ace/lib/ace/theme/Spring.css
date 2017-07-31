@@ -1,0 +1,84 @@
+.ace--spring .ace_gutter {
+  background: rgba(240,248,255,1);
+  color: rgb(156,160,164)
+}
+
+.ace--spring .ace_print-margin {
+  width: 1px;
+  background: #e8e8e8
+}
+
+.ace--spring {
+  background-color: rgba(240,248,255,1);
+  color: rgba(72,72,72,1)
+}
+
+.ace--spring .ace_cursor {
+  color: #000000
+}
+
+.ace--spring .ace_marker-layer .ace_active-line,
+.ace--spring .ace_marker-layer .ace_selection {
+  background: rgba(153,197,255,1)
+}
+
+.ace--spring.ace_multiselect .ace_selection.ace_start {
+  box-shadow: 0 0 3px 0px rgba(240,248,255,1);
+  border-radius: 2px
+}
+
+.ace--spring .ace_marker-layer .ace_step {
+  background: rgb(198, 219, 174)
+}
+
+.ace--spring .ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 1px solid rgb(192, 192, 192)
+}
+
+.ace--spring .ace_gutter-active-line {
+  background-color: rgba(153,197,255,1)
+}
+
+.ace--spring .ace_marker-layer .ace_selected-word {
+  border: 1px solid rgba(153,197,255,1)
+}
+
+.ace--spring .ace_fold {
+  background-color: rgba(0,128,0,1);
+  border-color: rgba(72,72,72,1)
+}
+
+.ace--spring .ace_entity.ace_name.ace_tag,
+.ace--spring .ace_keyword,
+.ace--spring .ace_storage {
+  color: rgba(0,128,0,1)
+}
+
+.ace--spring .ace_constant.ace_other,
+.ace--spring .ace_keyword.ace_operator,
+.ace--spring .ace_support.ace_class {
+  color: rgba(72,72,72,1)
+}
+
+.ace--spring .ace_constant {
+  color: rgba(218,165,32,1)
+}
+
+.ace--spring .ace_constant.ace_language,
+.ace--spring .ace_constant.ace_numeric {
+  color: rgba(46,139,87,1)
+}
+
+.ace--spring .ace_entity.ace_other.ace_attribute-name,
+.ace--spring .ace_string {
+  color: rgba(220,20,60,1)
+}
+
+.ace--spring .ace_comment {
+  color: rgba(255,140,0,1)
+}
+
+.ace--spring .ace_variable {
+  color: rgba(65,105,225,1)
+}

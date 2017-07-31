@@ -1,0 +1,110 @@
+.ace--oceanic--next .ace_gutter {
+  background: rgba(27,43,52,1);
+  color: rgb(116,127,137)
+}
+
+.ace--oceanic--next .ace_print-margin {
+  width: 1px;
+  background: #e8e8e8
+}
+
+.ace--oceanic--next {
+  background-color: rgba(27,43,52,1);
+  color: rgba(205,211,222,1)
+}
+
+.ace--oceanic--next .ace_cursor {
+  color: rgba(192,197,206,1)
+}
+
+.ace--oceanic--next .ace_marker-layer .ace_selection {
+  background: rgba(79,91,102,1)
+}
+
+.ace--oceanic--next.ace_multiselect .ace_selection.ace_start {
+  box-shadow: 0 0 3px 0px rgba(27,43,52,1);
+  border-radius: 2px
+}
+
+.ace--oceanic--next .ace_marker-layer .ace_step {
+  background: rgb(198, 219, 174)
+}
+
+.ace--oceanic--next .ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 1px solid rgba(101,115,126,1)
+}
+
+.ace--oceanic--next .ace_marker-layer .ace_active-line {
+  background: rgba(101,115,126,0.85)
+}
+
+.ace--oceanic--next .ace_gutter-active-line {
+  background-color: rgba(101,115,126,0.85)
+}
+
+.ace--oceanic--next .ace_marker-layer .ace_selected-word {
+  border: 1px solid rgba(79,91,102,1)
+}
+
+.ace--oceanic--next .ace_fold {
+  background-color: rgba(102,153,204,1);
+  border-color: rgba(205,211,222,1)
+}
+
+.ace--oceanic--next .ace_keyword,
+.ace--oceanic--next .ace_storage.ace_type {
+  color: rgba(197,148,197,1)
+}
+
+.ace--oceanic--next .ace_constant.ace_character.ace_escape,
+.ace--oceanic--next .ace_keyword.ace_operator,
+.ace--oceanic--next .ace_meta.ace_tag,
+.ace--oceanic--next .ace_string.ace_regexp {
+  color: rgba(95,179,179,1)
+}
+
+.ace--oceanic--next .ace_constant.ace_character,
+.ace--oceanic--next .ace_constant.ace_language,
+.ace--oceanic--next .ace_constant.ace_numeric,
+.ace--oceanic--next .ace_keyword.ace_other.ace_unit,
+.ace--oceanic--next .ace_support.ace_constant,
+.ace--oceanic--next .ace_variable.ace_parameter {
+  color: rgba(249,145,87,1)
+}
+
+.ace--oceanic--next .ace_entity.ace_name.ace_function,
+.ace--oceanic--next .ace_support.ace_function {
+  color: rgba(102,153,204,1)
+}
+
+.ace--oceanic--next .ace_support.ace_class,
+.ace--oceanic--next .ace_support.ace_type {
+  color: rgba(250,200,99,1)
+}
+
+.ace--oceanic--next .ace_markup.ace_heading,
+.ace--oceanic--next .ace_string {
+  color: rgba(153,199,148,1)
+}
+
+.ace--oceanic--next .ace_comment {
+  color: rgba(101,115,126,1)
+}
+
+.ace--oceanic--next .ace_variable {
+  color: rgba(205,211,222,1)
+}
+
+.ace--oceanic--next .ace_variable.ace_language {
+  font-style: italic;
+  color: rgba(236,95,103,1)
+}
+
+.ace--oceanic--next .ace_entity.ace_other.ace_attribute-name {
+  color: rgba(187,128,179,1)
+}
+
+.ace--oceanic--next .ace_entity.ace_name.ace_tag {
+  color: rgba(235,96,107,1)
+}

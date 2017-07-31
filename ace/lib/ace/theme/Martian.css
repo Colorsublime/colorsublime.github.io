@@ -1,0 +1,66 @@
+.ace--martian .ace_gutter {
+  background: rgba(53,47,40,1);
+  color: rgb(127,122,112)
+}
+
+.ace--martian .ace_print-margin {
+  width: 1px;
+  background: #e8e8e8
+}
+
+.ace--martian {
+  background-color: rgba(53,47,40,1);
+  color: rgba(201,197,183,1)
+}
+
+.ace--martian .ace_cursor {
+  color: rgba(237,230,222,1)
+}
+
+.ace--martian .ace_marker-layer .ace_selection {
+  background: rgba(74,72,67,1)
+}
+
+.ace--martian.ace_multiselect .ace_selection.ace_start {
+  box-shadow: 0 0 3px 0px rgba(53,47,40,1);
+  border-radius: 2px
+}
+
+.ace--martian .ace_marker-layer .ace_step {
+  background: rgb(198, 219, 174)
+}
+
+.ace--martian .ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 1px solid rgb(192, 192, 192)
+}
+
+.ace--martian .ace_marker-layer .ace_active-line {
+  background: rgba(86,81,78,1)
+}
+
+.ace--martian .ace_gutter-active-line {
+  background-color: rgba(86,81,78,1)
+}
+
+.ace--martian .ace_marker-layer .ace_selected-word {
+  border: 1px solid rgba(74,72,67,1)
+}
+
+.ace--martian .ace_fold {
+  background-color: #6b72e6;
+  border-color: rgba(201,197,183,1)
+}
+
+.ace--martian .ace_constant.ace_language {
+  color: rgba(163,102,221,1)
+}
+
+.ace--martian .ace_constant.ace_numeric {
+  color: rgba(181,197,255,1)
+}
+
+.ace--martian .ace_support.ace_class,
+.ace--martian .ace_support.ace_type {
+  color: rgba(88,158,173,1)
+}

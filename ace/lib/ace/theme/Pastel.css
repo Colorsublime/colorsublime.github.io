@@ -1,0 +1,104 @@
+.ace--pastel .ace_gutter {
+  background: rgba(34,34,34,1);
+  color: rgb(136,136,136)
+}
+
+.ace--pastel .ace_print-margin {
+  width: 1px;
+  background: #e8e8e8
+}
+
+.ace--pastel {
+  background-color: rgba(34,34,34,1);
+  color: rgba(238,238,238,1)
+}
+
+.ace--pastel .ace_cursor {
+  color: rgba(248,248,240,1)
+}
+
+.ace--pastel .ace_marker-layer .ace_selection {
+  background: rgba(0,141,98,1)
+}
+
+.ace--pastel.ace_multiselect .ace_selection.ace_start {
+  box-shadow: 0 0 3px 0px rgba(34,34,34,1);
+  border-radius: 2px
+}
+
+.ace--pastel .ace_marker-layer .ace_step {
+  background: rgb(198, 219, 174)
+}
+
+.ace--pastel .ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 1px solid rgba(59,58,50,1)
+}
+
+.ace--pastel .ace_marker-layer .ace_active-line {
+  background: rgba(51,51,51,1)
+}
+
+.ace--pastel .ace_gutter-active-line {
+  background-color: rgba(51,51,51,1)
+}
+
+.ace--pastel .ace_marker-layer .ace_selected-word {
+  border: 1px solid rgba(0,141,98,1)
+}
+
+.ace--pastel .ace_fold {
+  background-color: rgba(197,108,108,1);
+  border-color: rgba(238,238,238,1)
+}
+
+.ace--pastel .ace_keyword {
+  color: rgba(197,144,108,1)
+}
+
+.ace--pastel .ace_entity.ace_name.ace_tag,
+.ace--pastel .ace_keyword.ace_other.ace_unit,
+.ace--pastel .ace_storage.ace_type {
+  color: rgba(148,116,169,1)
+}
+
+.ace--pastel .ace_constant.ace_character,
+.ace--pastel .ace_constant.ace_language,
+.ace--pastel .ace_constant.ace_other,
+.ace--pastel .ace_entity.ace_other.ace_attribute-name,
+.ace--pastel .ace_storage,
+.ace--pastel .ace_support.ace_constant {
+  color: rgba(4,196,165,1)
+}
+
+.ace--pastel .ace_constant.ace_numeric,
+.ace--pastel .ace_entity.ace_name.ace_function,
+.ace--pastel .ace_string,
+.ace--pastel .ace_support.ace_constant.ace_property-value,
+.ace--pastel .ace_variable {
+  color: rgba(197,108,108,1)
+}
+
+.ace--pastel .ace_support.ace_function {
+  color: rgba(226,224,96,1)
+}
+
+.ace--pastel .ace_support.ace_class,
+.ace--pastel .ace_support.ace_type {
+  font-style: italic;
+  color: rgba(4,196,165,1)
+}
+
+.ace--pastel .ace_invalid,
+.ace--pastel .ace_invalid.ace_deprecated {
+  color: rgba(248,248,240,1);
+  background-color: rgba(0,168,198,1)
+}
+
+.ace--pastel .ace_comment {
+  color: rgba(68,68,68,1)
+}
+
+.ace--pastel .ace_variable.ace_parameter {
+  font-style: italic
+}

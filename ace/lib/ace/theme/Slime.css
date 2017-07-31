@@ -1,0 +1,98 @@
+.ace--slime .ace_gutter {
+  background: rgba(41,45,48,1);
+  color: rgb(148,150,152)
+}
+
+.ace--slime .ace_print-margin {
+  width: 1px;
+  background: #e8e8e8
+}
+
+.ace--slime {
+  background-color: rgba(41,45,48,1);
+  color: rgba(255,255,255,1)
+}
+
+.ace--slime .ace_cursor {
+  color: rgba(248,248,240,1)
+}
+
+.ace--slime .ace_marker-layer .ace_selection {
+  background: rgba(199,175,63,1)
+}
+
+.ace--slime.ace_multiselect .ace_selection.ace_start {
+  box-shadow: 0 0 3px 0px rgba(41,45,48,1);
+  border-radius: 2px
+}
+
+.ace--slime .ace_marker-layer .ace_step {
+  background: rgb(198, 219, 174)
+}
+
+.ace--slime .ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 1px solid rgba(59,58,50,1)
+}
+
+.ace--slime .ace_marker-layer .ace_active-line {
+  background: rgba(56,65,71,1)
+}
+
+.ace--slime .ace_gutter-active-line {
+  background-color: rgba(56,65,71,1)
+}
+
+.ace--slime .ace_marker-layer .ace_selected-word {
+  border: 1px solid rgba(199,175,63,1)
+}
+
+.ace--slime .ace_fold {
+  background-color: rgba(199,175,63,1);
+  border-color: rgba(255,255,255,1)
+}
+
+.ace--slime .ace_constant.ace_character,
+.ace--slime .ace_constant.ace_language,
+.ace--slime .ace_constant.ace_other,
+.ace--slime .ace_entity.ace_other.ace_attribute-name,
+.ace--slime .ace_keyword,
+.ace--slime .ace_storage,
+.ace--slime .ace_support.ace_constant {
+  color: rgba(159,179,194,1)
+}
+
+.ace--slime .ace_entity.ace_name.ace_tag,
+.ace--slime .ace_keyword.ace_other.ace_unit,
+.ace--slime .ace_storage.ace_type,
+.ace--slime .ace_string,
+.ace--slime .ace_support.ace_constant.ace_property-value {
+  color: rgba(250,255,219,1)
+}
+
+.ace--slime .ace_constant.ace_numeric,
+.ace--slime .ace_entity.ace_name.ace_function,
+.ace--slime .ace_support.ace_function,
+.ace--slime .ace_variable {
+  color: rgba(199,175,63,1)
+}
+
+.ace--slime .ace_support.ace_class,
+.ace--slime .ace_support.ace_type {
+  font-style: italic;
+  color: rgba(159,179,194,1)
+}
+
+.ace--slime .ace_invalid,
+.ace--slime .ace_invalid.ace_deprecated {
+  color: rgba(248,248,240,1);
+  background-color: rgba(0,168,198,1)
+}
+
+.ace--slime .ace_comment {
+  color: rgba(79,90,99,1)
+}
+
+.ace--slime .ace_variable.ace_parameter {
+  font-style: italic
+}

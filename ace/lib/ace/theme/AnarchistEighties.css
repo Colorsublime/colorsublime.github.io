@@ -1,0 +1,116 @@
+.ace--anarchist-eighties .ace_gutter {
+  background: rgba(26,26,26,1);
+  color: rgb(115,115,115)
+}
+
+.ace--anarchist-eighties .ace_print-margin {
+  width: 1px;
+  background: #e8e8e8
+}
+
+.ace--anarchist-eighties {
+  background-color: rgba(26,26,26,1);
+  color: rgba(204,204,204,1)
+}
+
+.ace--anarchist-eighties .ace_cursor {
+  color: rgba(204,204,204,1)
+}
+
+.ace--anarchist-eighties .ace_marker-layer .ace_selection {
+  background: rgba(0,0,0,1)
+}
+
+.ace--anarchist-eighties.ace_multiselect .ace_selection.ace_start {
+  box-shadow: 0 0 3px 0px rgba(26,26,26,1);
+  border-radius: 2px
+}
+
+.ace--anarchist-eighties .ace_marker-layer .ace_step {
+  background: rgb(198, 219, 174)
+}
+
+.ace--anarchist-eighties .ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 1px solid rgba(17,17,17,1)
+}
+
+.ace--anarchist-eighties .ace_marker-layer .ace_active-line {
+  background: rgba(17,17,17,1)
+}
+
+.ace--anarchist-eighties .ace_gutter-active-line {
+  background-color: rgba(17,17,17,1)
+}
+
+.ace--anarchist-eighties .ace_marker-layer .ace_selected-word {
+  border: 1px solid rgba(0,0,0,1)
+}
+
+.ace--anarchist-eighties .ace_fold {
+  background-color: rgba(255,255,255,1);
+  border-color: rgba(204,204,204,1)
+}
+
+.ace--anarchist-eighties .ace_entity.ace_name.ace_function,
+.ace--anarchist-eighties .ace_keyword,
+.ace--anarchist-eighties .ace_keyword.ace_other.ace_unit,
+.ace--anarchist-eighties .ace_variable {
+  color: rgba(255,255,255,1)
+}
+
+.ace--anarchist-eighties .ace_constant.ace_language,
+.ace--anarchist-eighties .ace_constant.ace_numeric {
+  color: rgba(22,120,198,1)
+}
+
+.ace--anarchist-eighties .ace_constant.ace_character,
+.ace--anarchist-eighties .ace_constant.ace_other {
+  color: rgba(30,113,69,1)
+}
+
+.ace--anarchist-eighties .ace_support.ace_function {
+  font-style: italic;
+  color: rgba(239,244,255,1)
+}
+
+.ace--anarchist-eighties .ace_entity.ace_other.ace_attribute-name,
+.ace--anarchist-eighties .ace_storage,
+.ace--anarchist-eighties .ace_support.ace_constant {
+  color: rgba(46,111,217,1)
+}
+
+.ace--anarchist-eighties .ace_string,
+.ace--anarchist-eighties .ace_support.ace_constant.ace_property-value {
+  color: rgba(55,144,222,1)
+}
+
+.ace--anarchist-eighties .ace_support.ace_class,
+.ace--anarchist-eighties .ace_support.ace_type {
+  font-style: italic;
+  color: rgba(0,168,198,1)
+}
+
+.ace--anarchist-eighties .ace_storage.ace_type {
+  font-style: italic;
+  color: rgba(30,113,69,1)
+}
+
+.ace--anarchist-eighties .ace_invalid,
+.ace--anarchist-eighties .ace_invalid.ace_deprecated {
+  color: rgba(248,248,240,1);
+  background-color: rgba(0,168,198,1)
+}
+
+.ace--anarchist-eighties .ace_comment {
+  font-style: italic;
+  color: rgba(51,51,51,1)
+}
+
+.ace--anarchist-eighties .ace_variable.ace_language {
+  font-style: italic
+}
+
+.ace--anarchist-eighties .ace_entity.ace_name.ace_tag {
+  color: rgba(126,56,120,1)
+}

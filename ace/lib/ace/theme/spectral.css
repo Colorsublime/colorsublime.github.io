@@ -1,0 +1,106 @@
+.ace-spectral .ace_gutter {
+  background: rgba(27,27,27,1);
+  color: rgb(120,122,130)
+}
+
+.ace-spectral .ace_print-margin {
+  width: 1px;
+  background: #e8e8e8
+}
+
+.ace-spectral {
+  background-color: rgba(27,27,27,1);
+  color: rgba(213,216,233,1)
+}
+
+.ace-spectral .ace_cursor {
+  color: rgba(237,9,9,1)
+}
+
+.ace-spectral .ace_marker-layer .ace_selection {
+  background: rgba(75,16,16,1)
+}
+
+.ace-spectral.ace_multiselect .ace_selection.ace_start {
+  box-shadow: 0 0 3px 0px rgba(27,27,27,1);
+  border-radius: 2px
+}
+
+.ace-spectral .ace_marker-layer .ace_step {
+  background: rgb(198, 219, 174)
+}
+
+.ace-spectral .ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 1px solid rgb(192, 192, 192)
+}
+
+.ace-spectral .ace_marker-layer .ace_active-line {
+  background: rgba(50,50,50,1)
+}
+
+.ace-spectral .ace_gutter-active-line {
+  background-color: rgba(50,50,50,1)
+}
+
+.ace-spectral .ace_marker-layer .ace_selected-word {
+  border: 1px solid rgba(75,16,16,1)
+}
+
+.ace-spectral .ace_fold {
+  background-color: rgba(204,120,50,1);
+  border-color: rgba(213,216,233,1)
+}
+
+.ace-spectral .ace_entity.ace_name.ace_function,
+.ace-spectral .ace_keyword,
+.ace-spectral .ace_storage,
+.ace-spectral .ace_variable {
+  color: rgba(204,120,50,1)
+}
+
+.ace-spectral .ace_constant.ace_language {
+  color: rgba(170,0,0,1)
+}
+
+.ace-spectral .ace_constant.ace_numeric {
+  color: rgba(255,212,66,1)
+}
+
+.ace-spectral .ace_constant.ace_character,
+.ace-spectral .ace_constant.ace_other {
+  color: rgba(165,194,92,1)
+}
+
+.ace-spectral .ace_support {
+  color: rgba(169,183,198,1)
+}
+
+.ace-spectral .ace_meta.ace_tag,
+.ace-spectral .ace_support.ace_function {
+  color: rgba(208,179,68,1)
+}
+
+.ace-spectral .ace_invalid {
+  color: rgba(255,11,0,1)
+}
+
+.ace-spectral .ace_string {
+  color: rgba(53,210,171,1)
+}
+
+.ace-spectral .ace_comment {
+  color: rgba(85,85,85,1)
+}
+
+.ace-spectral .ace_variable.ace_parameter {
+  color: rgba(96,137,180,1)
+}
+
+.ace-spectral .ace_entity.ace_other.ace_attribute-name {
+  color: rgba(49,100,148,1)
+}
+
+.ace-spectral .ace_entity.ace_name.ace_tag {
+  color: rgba(117,172,207,1)
+}

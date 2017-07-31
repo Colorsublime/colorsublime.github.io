@@ -1,0 +1,103 @@
+.ace--solarized-ocean .ace_gutter {
+  background: rgba(0,43,54,1);
+  color: rgb(96,120,130)
+}
+
+.ace--solarized-ocean .ace_print-margin {
+  width: 1px;
+  background: #e8e8e8
+}
+
+.ace--solarized-ocean {
+  background-color: rgba(0,43,54,1);
+  color: rgba(192,197,206,1)
+}
+
+.ace--solarized-ocean .ace_cursor,
+.ace--solarized-ocean .ace_keyword.ace_operator {
+  color: rgba(192,197,206,1)
+}
+
+.ace--solarized-ocean .ace_marker-layer .ace_selection {
+  background: rgba(79,91,102,1)
+}
+
+.ace--solarized-ocean.ace_multiselect .ace_selection.ace_start {
+  box-shadow: 0 0 3px 0px rgba(0,43,54,1);
+  border-radius: 2px
+}
+
+.ace--solarized-ocean .ace_marker-layer .ace_step {
+  background: rgb(198, 219, 174)
+}
+
+.ace--solarized-ocean .ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 1px solid rgba(101,115,126,1)
+}
+
+.ace--solarized-ocean .ace_marker-layer .ace_active-line {
+  background: rgba(101,115,126,0.85)
+}
+
+.ace--solarized-ocean .ace_gutter-active-line {
+  background-color: rgba(101,115,126,0.85)
+}
+
+.ace--solarized-ocean .ace_marker-layer .ace_selected-word {
+  border: 1px solid rgba(79,91,102,1)
+}
+
+.ace--solarized-ocean .ace_fold {
+  background-color: rgba(104,176,184,1);
+  border-color: rgba(192,197,206,1)
+}
+
+.ace--solarized-ocean .ace_keyword {
+  color: rgba(160,184,98,1)
+}
+
+.ace--solarized-ocean .ace_constant,
+.ace--solarized-ocean .ace_constant.ace_numeric,
+.ace--solarized-ocean .ace_entity.ace_other.ace_attribute-name,
+.ace--solarized-ocean .ace_keyword.ace_other.ace_unit {
+  color: rgba(208,135,112,1)
+}
+
+.ace--solarized-ocean .ace_constant.ace_character.ace_escape,
+.ace--solarized-ocean .ace_string.ace_regexp,
+.ace--solarized-ocean .ace_support.ace_function {
+  color: rgba(150,181,180,1)
+}
+
+.ace--solarized-ocean .ace_support.ace_class {
+  color: rgba(236,165,67,1)
+}
+
+.ace--solarized-ocean .ace_meta.ace_selector,
+.ace--solarized-ocean .ace_storage {
+  color: rgba(180,142,173,1)
+}
+
+.ace--solarized-ocean .ace_invalid.ace_illegal {
+  color: rgba(43,48,59,1);
+  background-color: rgba(191,97,106,1)
+}
+
+.ace--solarized-ocean .ace_string {
+  color: rgba(163,190,140,1)
+}
+
+.ace--solarized-ocean .ace_comment {
+  color: rgba(101,115,126,1)
+}
+
+.ace--solarized-ocean .ace_entity.ace_name.ace_tag,
+.ace--solarized-ocean .ace_markup.ace_list,
+.ace--solarized-ocean .ace_variable {
+  color: rgba(191,97,106,1)
+}
+
+.ace--solarized-ocean .ace_entity.ace_name.ace_function {
+  color: rgba(104,176,184,1)
+}

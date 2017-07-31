@@ -1,0 +1,116 @@
+.ace-1-pastel .ace_gutter {
+  background: #FFFBF3;
+  color: rgb(144,142,138)
+}
+
+.ace-1-pastel .ace_print-margin {
+  width: 1px;
+  background: #e8e8e8
+}
+
+.ace-1-pastel {
+  background-color: #FFFBF3;
+  color: #212121
+}
+
+.ace-1-pastel .ace_constant.ace_language,
+.ace-1-pastel .ace_constant.ace_numeric,
+.ace-1-pastel .ace_cursor,
+.ace-1-pastel .ace_string {
+  color: #000000
+}
+
+.ace-1-pastel .ace_marker-layer .ace_selection {
+  background: #FFEBEB
+}
+
+.ace-1-pastel.ace_multiselect .ace_selection.ace_start {
+  box-shadow: 0 0 3px 0px #FFFBF3;
+  border-radius: 2px
+}
+
+.ace-1-pastel .ace_marker-layer .ace_step {
+  background: rgb(198, 219, 174)
+}
+
+.ace-1-pastel .ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 1px solid #D1D1D1
+}
+
+.ace-1-pastel .ace_marker-layer .ace_active-line {
+  background: #FFF700
+}
+
+.ace-1-pastel .ace_gutter-active-line {
+  background-color: #FFF700
+}
+
+.ace-1-pastel .ace_marker-layer .ace_selected-word {
+  border: 1px solid #FFEBEB
+}
+
+.ace-1-pastel .ace_fold {
+  background-color: italic;
+  border-color: #212121
+}
+
+.ace-1-pastel .ace_keyword {
+  color: #B50606
+}
+
+.ace-1-pastel .ace_constant.ace_character,
+.ace-1-pastel .ace_constant.ace_other,
+.ace-1-pastel .ace_entity.ace_name.ace_tag {
+  color: #424242
+}
+
+.ace-1-pastel .ace_support.ace_function {
+  color: #006275
+}
+
+.ace-1-pastel .ace_support.ace_constant {
+  color: #940000
+}
+
+.ace-1-pastel .ace_storage,
+.ace-1-pastel .ace_support.ace_class,
+.ace-1-pastel .ace_support.ace_type {
+  color: #474747
+}
+
+.ace-1-pastel .ace_storage.ace_type {
+  color: #006A91
+}
+
+.ace-1-pastel .ace_invalid {
+  color: #F8F8F0;
+  background-color: #F92672
+}
+
+.ace-1-pastel .ace_invalid.ace_deprecated {
+  color: #F8F8F0;
+  background-color: #AE81FF
+}
+
+.ace-1-pastel .ace_comment {
+  color: #B8B8B8
+}
+
+.ace-1-pastel .ace_variable {
+  color: #5C0000
+}
+
+.ace-1-pastel .ace_variable.ace_parameter {
+  font-style: italic;
+  color: #780000
+}
+
+.ace-1-pastel .ace_entity.ace_other.ace_attribute-name {
+  color: #00542D
+}
+
+.ace-1-pastel .ace_entity.ace_name.ace_function {
+  font-style: italic;
+  color: #FF0000
+}

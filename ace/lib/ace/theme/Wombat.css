@@ -1,0 +1,114 @@
+.ace--wombat .ace_gutter {
+  background: rgba(39,40,34,1);
+  color: rgb(144,144,138)
+}
+
+.ace--wombat .ace_print-margin {
+  width: 1px;
+  background: #e8e8e8
+}
+
+.ace--wombat {
+  background-color: rgba(39,40,34,1);
+  color: rgba(248,248,242,1)
+}
+
+.ace--wombat .ace_cursor {
+  color: rgba(248,248,240,1)
+}
+
+.ace--wombat .ace_marker-layer .ace_selection {
+  background: rgba(68,68,68,1)
+}
+
+.ace--wombat.ace_multiselect .ace_selection.ace_start {
+  box-shadow: 0 0 3px 0px rgba(39,40,34,1);
+  border-radius: 2px
+}
+
+.ace--wombat .ace_marker-layer .ace_step {
+  background: rgb(198, 219, 174)
+}
+
+.ace--wombat .ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 1px solid rgba(59,58,50,1)
+}
+
+.ace--wombat .ace_marker-layer .ace_active-line {
+  background: rgba(51,51,51,1)
+}
+
+.ace--wombat .ace_gutter-active-line {
+  background-color: rgba(51,51,51,1)
+}
+
+.ace--wombat .ace_marker-layer .ace_selected-word {
+  border: 1px solid rgba(68,68,68,1)
+}
+
+.ace--wombat .ace_fold {
+  background-color: rgba(202,230,130,1);
+  border-color: rgba(248,248,242,1)
+}
+
+.ace--wombat .ace_entity.ace_name.ace_tag,
+.ace--wombat .ace_keyword,
+.ace--wombat .ace_storage {
+  color: rgba(255,143,126,1)
+}
+
+.ace--wombat .ace_constant.ace_character,
+.ace--wombat .ace_constant.ace_language,
+.ace--wombat .ace_constant.ace_other {
+  color: rgba(190,132,255,1)
+}
+
+.ace--wombat .ace_constant.ace_numeric,
+.ace--wombat .ace_markup.ace_heading,
+.ace--wombat .ace_string.ace_regexp,
+.ace--wombat .ace_variable.ace_language {
+  color: rgba(255,204,102,1)
+}
+
+.ace--wombat .ace_support.ace_constant,
+.ace--wombat .ace_support.ace_function {
+  color: rgba(136,184,246,1)
+}
+
+.ace--wombat .ace_storage.ace_type,
+.ace--wombat .ace_support.ace_class,
+.ace--wombat .ace_support.ace_type {
+  font-style: italic;
+  color: rgba(136,184,246,1)
+}
+
+.ace--wombat .ace_invalid {
+  color: rgba(248,248,240,1);
+  background-color: rgba(255,143,126,1)
+}
+
+.ace--wombat .ace_invalid.ace_deprecated {
+  color: rgba(248,248,240,1);
+  background-color: rgba(174,129,255,1)
+}
+
+.ace--wombat .ace_string {
+  color: rgba(166,226,46,1)
+}
+
+.ace--wombat .ace_comment {
+  font-style: italic;
+  color: rgba(170,170,170,1)
+}
+
+.ace--wombat .ace_entity.ace_name.ace_function,
+.ace--wombat .ace_entity.ace_other.ace_attribute-name,
+.ace--wombat .ace_variable {
+  color: rgba(202,230,130,1)
+}
+
+.ace--wombat .ace_variable.ace_parameter {
+  font-style: italic;
+  color: rgba(255,204,102,1)
+}

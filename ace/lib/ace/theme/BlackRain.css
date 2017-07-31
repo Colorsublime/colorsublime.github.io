@@ -1,0 +1,143 @@
+.ace--black-rain .ace_gutter {
+  background: rgba(0,0,0,2.55);
+  color: rgb(128,128,128)
+}
+
+.ace--black-rain .ace_print-margin {
+  width: 1px;
+  background: #e8e8e8
+}
+
+.ace--black-rain {
+  background-color: rgba(0,0,0,2.55);
+  color: rgba(255,255,255,2.55)
+}
+
+.ace--black-rain .ace_cursor {
+  color: rgba(255,255,255,2.55)
+}
+
+.ace--black-rain .ace_marker-layer .ace_selection {
+  background: rgb(181, 213, 255)
+}
+
+.ace--black-rain.ace_multiselect .ace_selection.ace_start {
+  box-shadow: 0 0 3px 0px rgba(0,0,0,2.55);
+  border-radius: 2px
+}
+
+.ace--black-rain .ace_marker-layer .ace_step {
+  background: rgb(198, 219, 174)
+}
+
+.ace--black-rain .ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 1px solid rgb(192, 192, 192)
+}
+
+.ace--black-rain .ace_marker-layer .ace_active-line {
+  background: rgba(0, 0, 0, 0.07)
+}
+
+.ace--black-rain .ace_gutter-active-line {
+  background-color: rgba(0, 0, 0, 0.07)
+}
+
+.ace--black-rain .ace_marker-layer .ace_selected-word {
+  border: 1px solid rgb(181, 213, 255)
+}
+
+.ace--black-rain .ace_fold {
+  background-color: rgba(187,0,255,1);
+  border-color: rgba(255,255,255,2.55)
+}
+
+.ace--black-rain .ace_keyword {
+  color: rgba(226,137,100,1)
+}
+
+.ace--black-rain .ace_keyword.ace_operator {
+  color: rgba(255,0,128,1)
+}
+
+.ace--black-rain .ace_keyword.ace_other.ace_unit {
+  color: rgba(128,255,0,2.55)
+}
+
+.ace--black-rain .ace_constant {
+  color: rgba(51,135,204,2.55)
+}
+
+.ace--black-rain .ace_constant.ace_numeric {
+  color: rgba(255,255,102,1)
+}
+
+.ace--black-rain .ace_constant.ace_character.ace_escape {
+  color: rgba(16,207,98,2.55)
+}
+
+.ace--black-rain .ace_support {
+  color: rgba(138,92,141,2.55)
+}
+
+.ace--black-rain .ace_support.ace_function {
+  color: rgba(181,50,255,1)
+}
+
+.ace--black-rain .ace_storage.ace_type,
+.ace--black-rain .ace_support.ace_type {
+  color: rgba(207,153,80,1)
+}
+
+.ace--black-rain .ace_storage {
+  color: rgba(153,207,80,1)
+}
+
+.ace--black-rain .ace_invalid {
+  background-color: rgba(255,0,0,0.34)
+}
+
+.ace--black-rain .ace_invalid.ace_illegal {
+  color: rgba(253,95,241,2.55);
+  background-color: rgba(86,45,86,1.91)
+}
+
+.ace--black-rain .ace_string.ace_regexp {
+  color: rgba(111,255,23,1)
+}
+
+.ace--black-rain .ace_comment {
+  font-style: italic;
+  color: rgba(100,100,100,2.55)
+}
+
+.ace--black-rain .ace_entity.ace_name.ace_function,
+.ace--black-rain .ace_variable {
+  color: rgba(187,0,255,1)
+}
+
+.ace--black-rain .ace_variable.ace_language {
+  color: rgba(170,0,68,1)
+}
+
+.ace--black-rain .ace_variable.ace_parameter {
+  color: rgba(119,255,17,1)
+}
+
+.ace--black-rain .ace_meta.ace_tag {
+  color: rgba(79,158,255,2.55)
+}
+
+.ace--black-rain .ace_entity.ace_other.ace_attribute-name {
+  font-style: italic;
+  color: rgba(115,73,190,2.55)
+}
+
+.ace--black-rain .ace_markup.ace_heading {
+  color: rgba(255,255,255,2.55);
+  background-color: rgba(222,50,128,2.55)
+}
+
+.ace--black-rain .ace_markup.ace_list {
+  color: rgba(102,87,234,2.55)
+}

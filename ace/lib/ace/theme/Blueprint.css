@@ -1,0 +1,70 @@
+.ace--blueprint .ace_gutter {
+  background: rgba(29,40,60,1);
+  color: rgb(127,138,158)
+}
+
+.ace--blueprint .ace_print-margin {
+  width: 1px;
+  background: #e8e8e8
+}
+
+.ace--blueprint {
+  background-color: rgba(29,40,60,1);
+  color: rgba(224,236,255,1)
+}
+
+.ace--blueprint .ace_cursor {
+  color: rgba(193,217,255,1)
+}
+
+.ace--blueprint .ace_marker-layer .ace_active-line,
+.ace--blueprint .ace_marker-layer .ace_selection {
+  background: rgba(83,93,108,1)
+}
+
+.ace--blueprint.ace_multiselect .ace_selection.ace_start {
+  box-shadow: 0 0 3px 0px rgba(29,40,60,1);
+  border-radius: 2px
+}
+
+.ace--blueprint .ace_marker-layer .ace_step {
+  background: rgb(198, 219, 174)
+}
+
+.ace--blueprint .ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 1px solid rgba(164,199,255,1)
+}
+
+.ace--blueprint .ace_gutter-active-line {
+  background-color: rgba(83,93,108,1)
+}
+
+.ace--blueprint .ace_marker-layer .ace_selected-word {
+  border: 1px solid rgba(83,93,108,1)
+}
+
+.ace--blueprint .ace_fold {
+  background-color: rgba(158,170,193,1);
+  border-color: rgba(224,236,255,1)
+}
+
+.ace--blueprint .ace_keyword,
+.ace--blueprint .ace_storage {
+  color: rgba(158,170,193,1)
+}
+
+.ace--blueprint .ace_constant,
+.ace--blueprint .ace_constant.ace_numeric,
+.ace--blueprint .ace_string {
+  color: rgba(249,251,255,1)
+}
+
+.ace--blueprint .ace_invalid {
+  color: rgba(255,255,255,1);
+  background-color: rgba(153,0,0,1)
+}
+
+.ace--blueprint .ace_comment {
+  color: rgba(144,151,163,1)
+}

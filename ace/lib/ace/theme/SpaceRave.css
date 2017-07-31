@@ -1,0 +1,110 @@
+.ace--space-rave .ace_gutter {
+  background: rgba(0,21,61,1);
+  color: rgb(113,128,156)
+}
+
+.ace--space-rave .ace_print-margin {
+  width: 1px;
+  background: #e8e8e8
+}
+
+.ace--space-rave {
+  background-color: rgba(0,21,61,1);
+  color: rgba(225,235,250,1)
+}
+
+.ace--space-rave .ace_cursor,
+.ace--space-rave .ace_storage {
+  color: rgba(255,255,255,1)
+}
+
+.ace--space-rave .ace_marker-layer .ace_selection {
+  background: rgba(24,91,173,1)
+}
+
+.ace--space-rave.ace_multiselect .ace_selection.ace_start {
+  box-shadow: 0 0 3px 0px rgba(0,21,61,1);
+  border-radius: 2px
+}
+
+.ace--space-rave .ace_marker-layer .ace_step {
+  background: rgb(198, 219, 174)
+}
+
+.ace--space-rave .ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 1px solid rgba(53,50,59,1)
+}
+
+.ace--space-rave .ace_marker-layer .ace_active-line {
+  background: rgba(27,35,44,1)
+}
+
+.ace--space-rave .ace_gutter-active-line {
+  background-color: rgba(27,35,44,1)
+}
+
+.ace--space-rave .ace_marker-layer .ace_selected-word {
+  border: 1px solid rgba(24,91,173,1)
+}
+
+.ace--space-rave .ace_fold {
+  background-color: rgba(239,251,255,1);
+  border-color: rgba(225,235,250,1)
+}
+
+.ace--space-rave .ace_keyword {
+  color: rgba(163,237,14,1)
+}
+
+.ace--space-rave .ace_constant.ace_language {
+  color: rgba(233,238,0,1)
+}
+
+.ace--space-rave .ace_constant.ace_numeric,
+.ace--space-rave .ace_support.ace_constant,
+.ace--space-rave .ace_support.ace_function {
+  color: rgba(255,0,119,1)
+}
+
+.ace--space-rave .ace_constant.ace_character,
+.ace--space-rave .ace_constant.ace_other,
+.ace--space-rave .ace_string,
+.ace--space-rave .ace_variable {
+  color: rgba(0,221,255,1)
+}
+
+.ace--space-rave .ace_support.ace_class,
+.ace--space-rave .ace_support.ace_type,
+.ace--space-rave .ace_variable.ace_parameter {
+  font-style: italic;
+  color: rgba(255,0,119,1)
+}
+
+.ace--space-rave .ace_storage.ace_type {
+  font-style: italic;
+  color: rgba(0,221,255,1)
+}
+
+.ace--space-rave .ace_invalid {
+  color: rgba(248,248,240,1);
+  background-color: rgba(7,176,165,1)
+}
+
+.ace--space-rave .ace_invalid.ace_deprecated {
+  color: rgba(248,248,240,1);
+  background-color: rgba(134,194,14,1)
+}
+
+.ace--space-rave .ace_comment {
+  color: rgba(0,221,255,1.3)
+}
+
+.ace--space-rave .ace_entity.ace_other.ace_attribute-name {
+  color: rgba(122,155,194,1)
+}
+
+.ace--space-rave .ace_entity.ace_name.ace_function,
+.ace--space-rave .ace_entity.ace_name.ace_tag {
+  color: rgba(239,251,255,1)
+}

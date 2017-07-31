@@ -1,0 +1,122 @@
+.ace--henanigans .ace_gutter {
+  background: #ffffff;
+  color: rgb(214,201,239)
+}
+
+.ace--henanigans .ace_print-margin {
+  width: 1px;
+  background: #e8e8e8
+}
+
+.ace--henanigans {
+  background-color: #ffffff;
+  color: rgba(172,146,222,1)
+}
+
+.ace--henanigans .ace_cursor {
+  color: #000000
+}
+
+.ace--henanigans .ace_marker-layer .ace_selection {
+  background: rgb(181, 213, 255)
+}
+
+.ace--henanigans.ace_multiselect .ace_selection.ace_start {
+  box-shadow: 0 0 3px 0px #ffffff;
+  border-radius: 2px
+}
+
+.ace--henanigans .ace_marker-layer .ace_step {
+  background: rgb(198, 219, 174)
+}
+
+.ace--henanigans .ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 1px solid rgb(192, 192, 192)
+}
+
+.ace--henanigans .ace_marker-layer .ace_active-line {
+  background: rgba(0, 0, 0, 0.07)
+}
+
+.ace--henanigans .ace_gutter-active-line {
+  background-color: rgba(0, 0, 0, 0.07)
+}
+
+.ace--henanigans .ace_marker-layer .ace_selected-word {
+  border: 1px solid rgb(181, 213, 255)
+}
+
+.ace--henanigans .ace_fold {
+  background-color: rgba(160,209,123,1);
+  border-color: rgba(172,146,222,1)
+}
+
+.ace--henanigans .ace_entity.ace_name.ace_tag,
+.ace--henanigans .ace_keyword,
+.ace--henanigans .ace_storage {
+  color: rgba(222,149,142,1)
+}
+
+.ace--henanigans .ace_constant.ace_language {
+  color: rgba(172,146,222,1)
+}
+
+.ace--henanigans .ace_constant.ace_numeric,
+.ace--henanigans .ace_entity.ace_name.ace_function {
+  color: rgba(160,209,123,1)
+}
+
+.ace--henanigans .ace_constant.ace_character,
+.ace--henanigans .ace_constant.ace_other,
+.ace--henanigans .ace_entity.ace_other.ace_attribute-name {
+  color: rgba(244,244,244,1)
+}
+
+.ace--henanigans .ace_support.ace_function {
+  font-style: italic;
+  color: rgba(160,209,123,1)
+}
+
+.ace--henanigans .ace_support.ace_constant {
+  color: rgba(182,236,243,1)
+}
+
+.ace--henanigans .ace_support.ace_class,
+.ace--henanigans .ace_support.ace_type {
+  font-style: italic;
+  color: rgba(126,196,207,1)
+}
+
+.ace--henanigans .ace_storage.ace_type {
+  font-style: italic;
+  color: rgba(182,236,243,1)
+}
+
+.ace--henanigans .ace_invalid {
+  color: rgba(244,244,244,1);
+  background-color: rgba(222,149,142,1)
+}
+
+.ace--henanigans .ace_invalid.ace_deprecated {
+  color: rgba(244,244,244,1);
+  background-color: rgba(172,146,222,1)
+}
+
+.ace--henanigans .ace_string {
+  color: rgba(233,234,190,1)
+}
+
+.ace--henanigans .ace_comment {
+  color: rgba(164,164,164,1)
+}
+
+.ace--henanigans .ace_variable {
+  font-style: italic;
+  color: rgba(172,146,222,1)
+}
+
+.ace--henanigans .ace_variable.ace_parameter {
+  font-style: italic;
+  color: rgba(235,180,131,1)
+}

@@ -1,0 +1,85 @@
+.ace--l-a-z-y .ace_gutter {
+  background: rgba(255,255,255,1);
+  color: rgb(128,128,128)
+}
+
+.ace--l-a-z-y .ace_print-margin {
+  width: 1px;
+  background: #e8e8e8
+}
+
+.ace--l-a-z-y {
+  background-color: rgba(255,255,255,1);
+  color: rgba(0,0,0,1)
+}
+
+.ace--l-a-z-y .ace_cursor {
+  color: rgba(124,124,124,1)
+}
+
+.ace--l-a-z-y .ace_marker-layer .ace_selection {
+  background: rgba(227,252,141,1)
+}
+
+.ace--l-a-z-y.ace_multiselect .ace_selection.ace_start {
+  box-shadow: 0 0 3px 0px rgba(255,255,255,1);
+  border-radius: 2px
+}
+
+.ace--l-a-z-y .ace_marker-layer .ace_step {
+  background: rgb(198, 219, 174)
+}
+
+.ace--l-a-z-y .ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 1px solid rgba(182,182,182,1)
+}
+
+.ace--l-a-z-y .ace_marker-layer .ace_active-line {
+  background: rgba(239,252,166,1.43)
+}
+
+.ace--l-a-z-y .ace_gutter-active-line {
+  background-color: rgba(239,252,166,1.43)
+}
+
+.ace--l-a-z-y .ace_marker-layer .ace_selected-word {
+  border: 1px solid rgba(227,252,141,1)
+}
+
+.ace--l-a-z-y .ace_fold {
+  background-color: rgba(255,120,0,1);
+  border-color: rgba(0,0,0,1)
+}
+
+.ace--l-a-z-y .ace_keyword,
+.ace--l-a-z-y .ace_storage {
+  color: rgba(255,120,0,1)
+}
+
+.ace--l-a-z-y .ace_constant,
+.ace--l-a-z-y .ace_support {
+  color: rgba(59,91,181,1)
+}
+
+.ace--l-a-z-y .ace_invalid.ace_illegal {
+  color: rgba(248,248,248,1);
+  background-color: rgba(157,30,21,1)
+}
+
+.ace--l-a-z-y .ace_invalid.ace_deprecated {
+  font-style: italic;
+  color: rgba(153,0,0,1)
+}
+
+.ace--l-a-z-y .ace_string {
+  color: rgba(64,155,28,1)
+}
+
+.ace--l-a-z-y .ace_comment {
+  color: rgba(140,134,143,1)
+}
+
+.ace--l-a-z-y .ace_meta.ace_tag {
+  color: rgba(58,74,100,1)
+}

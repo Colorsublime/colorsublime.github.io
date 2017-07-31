@@ -1,0 +1,104 @@
+.ace--oceanic--reef .ace_gutter {
+  background: rgba(13,40,57,1);
+  color: rgb(131,144,149)
+}
+
+.ace--oceanic--reef .ace_print-margin {
+  width: 1px;
+  background: #e8e8e8
+}
+
+.ace--oceanic--reef {
+  background-color: rgba(13,40,57,1);
+  color: rgba(248,248,240,1)
+}
+
+.ace--oceanic--reef .ace_cursor {
+  color: rgba(248,248,240,1)
+}
+
+.ace--oceanic--reef .ace_marker-layer .ace_selection {
+  background: rgba(77,77,77,1.35)
+}
+
+.ace--oceanic--reef.ace_multiselect .ace_selection.ace_start {
+  box-shadow: 0 0 3px 0px rgba(13,40,57,1);
+  border-radius: 2px
+}
+
+.ace--oceanic--reef .ace_marker-layer .ace_step {
+  background: rgb(198, 219, 174)
+}
+
+.ace--oceanic--reef .ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 1px solid rgba(35,65,84,1)
+}
+
+.ace--oceanic--reef .ace_marker-layer .ace_active-line {
+  background: rgba(35,65,84,1)
+}
+
+.ace--oceanic--reef .ace_gutter-active-line {
+  background-color: rgba(35,65,84,1)
+}
+
+.ace--oceanic--reef .ace_marker-layer .ace_selected-word {
+  border: 1px solid rgba(77,77,77,1.35)
+}
+
+.ace--oceanic--reef .ace_fold {
+  background-color: rgba(255,178,102,1);
+  border-color: rgba(248,248,240,1)
+}
+
+.ace--oceanic--reef .ace_keyword,
+.ace--oceanic--reef .ace_storage.ace_type {
+  color: rgba(217,87,87,1)
+}
+
+.ace--oceanic--reef .ace_constant.ace_character,
+.ace--oceanic--reef .ace_constant.ace_language,
+.ace--oceanic--reef .ace_constant.ace_other,
+.ace--oceanic--reef .ace_entity.ace_name.ace_function,
+.ace--oceanic--reef .ace_entity.ace_other.ace_attribute-name,
+.ace--oceanic--reef .ace_storage {
+  color: rgba(255,178,102,1)
+}
+
+.ace--oceanic--reef .ace_constant.ace_numeric {
+  color: rgba(120,189,214,1)
+}
+
+.ace--oceanic--reef .ace_support.ace_class,
+.ace--oceanic--reef .ace_support.ace_constant,
+.ace--oceanic--reef .ace_support.ace_function,
+.ace--oceanic--reef .ace_support.ace_type {
+  color: rgba(86,209,167,1)
+}
+
+.ace--oceanic--reef .ace_invalid,
+.ace--oceanic--reef .ace_invalid.ace_deprecated {
+  color: rgba(248,248,240,1);
+  background-color: rgba(217,87,87,1)
+}
+
+.ace--oceanic--reef .ace_string {
+  color: rgba(158,227,168,1)
+}
+
+.ace--oceanic--reef .ace_comment {
+  color: rgba(109,109,109,1.15)
+}
+
+.ace--oceanic--reef .ace_variable {
+  color: rgba(168,232,255,1)
+}
+
+.ace--oceanic--reef .ace_variable.ace_parameter {
+  color: rgba(255,203,150,1)
+}
+
+.ace--oceanic--reef .ace_entity.ace_name.ace_tag {
+  color: rgba(235,139,42,1)
+}

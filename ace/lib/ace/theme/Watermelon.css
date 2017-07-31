@@ -1,0 +1,120 @@
+.ace--watermelon .ace_gutter {
+  background: rgba(255,255,170,1);
+  color: rgb(255,255,213)
+}
+
+.ace--watermelon .ace_print-margin {
+  width: 1px;
+  background: #e8e8e8
+}
+
+.ace--watermelon {
+  background-color: rgba(255,255,170,1);
+  color: rgba(255,255,255,1)
+}
+
+.ace--watermelon .ace_cursor {
+  color: #000000
+}
+
+.ace--watermelon .ace_marker-layer .ace_selection {
+  background: rgb(181, 213, 255)
+}
+
+.ace--watermelon.ace_multiselect .ace_selection.ace_start {
+  box-shadow: 0 0 3px 0px rgba(255,255,170,1);
+  border-radius: 2px
+}
+
+.ace--watermelon .ace_marker-layer .ace_step {
+  background: rgb(198, 219, 174)
+}
+
+.ace--watermelon .ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 1px solid rgb(192, 192, 192)
+}
+
+.ace--watermelon .ace_marker-layer .ace_active-line {
+  background: rgba(0, 0, 0, 0.07)
+}
+
+.ace--watermelon .ace_gutter-active-line {
+  background-color: rgba(0, 0, 0, 0.07)
+}
+
+.ace--watermelon .ace_marker-layer .ace_selected-word {
+  border: 1px solid rgb(181, 213, 255)
+}
+
+.ace--watermelon .ace_fold {
+  background-color: rgba(166,226,46,1);
+  border-color: rgba(255,255,255,1)
+}
+
+.ace--watermelon .ace_keyword {
+  color: rgba(255,118,96,1)
+}
+
+.ace--watermelon .ace_constant.ace_character,
+.ace--watermelon .ace_constant.ace_language,
+.ace--watermelon .ace_constant.ace_numeric,
+.ace--watermelon .ace_constant.ace_other,
+.ace--watermelon .ace_support.ace_constant {
+  color: rgba(74,176,255,1)
+}
+
+.ace--watermelon .ace_support.ace_function {
+  color: rgba(102,217,239,1)
+}
+
+.ace--watermelon .ace_support.ace_class,
+.ace--watermelon .ace_support.ace_type {
+  font-style: italic;
+  color: rgba(150,200,200,1)
+}
+
+.ace--watermelon .ace_storage {
+  color: rgba(249,38,114,1)
+}
+
+.ace--watermelon .ace_storage.ace_type {
+  font-style: italic;
+  color: rgba(231,140,189,1)
+}
+
+.ace--watermelon .ace_invalid {
+  color: rgba(248,248,240,1);
+  background-color: rgba(249,38,114,1)
+}
+
+.ace--watermelon .ace_invalid.ace_deprecated {
+  color: rgba(248,248,240,1);
+  background-color: rgba(174,129,255,1)
+}
+
+.ace--watermelon .ace_string {
+  color: rgba(181,231,161,1)
+}
+
+.ace--watermelon .ace_comment {
+  color: rgba(85,85,85,1)
+}
+
+.ace--watermelon .ace_entity.ace_name.ace_function,
+.ace--watermelon .ace_variable {
+  color: rgba(166,226,46,1)
+}
+
+.ace--watermelon .ace_variable.ace_parameter {
+  font-style: italic;
+  color: rgba(253,151,31,1)
+}
+
+.ace--watermelon .ace_entity.ace_other.ace_attribute-name {
+  color: rgba(250,120,120,1)
+}
+
+.ace--watermelon .ace_entity.ace_name.ace_tag {
+  color: rgba(245,176,121,1)
+}

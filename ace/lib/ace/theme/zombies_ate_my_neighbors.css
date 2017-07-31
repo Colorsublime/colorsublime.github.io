@@ -1,0 +1,100 @@
+.ace-zombies-ate-my-neighbors .ace_gutter {
+  background: rgba(26,26,26,1);
+  color: rgb(77,77,77)
+}
+
+.ace-zombies-ate-my-neighbors .ace_print-margin {
+  width: 1px;
+  background: #e8e8e8
+}
+
+.ace-zombies-ate-my-neighbors {
+  background-color: rgba(26,26,26,1);
+  color: rgba(128,128,128,1)
+}
+
+.ace-zombies-ate-my-neighbors .ace_cursor,
+.ace-zombies-ate-my-neighbors .ace_entity.ace_name.ace_tag,
+.ace-zombies-ate-my-neighbors .ace_keyword {
+  color: rgba(128,128,128,1)
+}
+
+.ace-zombies-ate-my-neighbors .ace_marker-layer .ace_selection {
+  background: rgba(73,72,62,1)
+}
+
+.ace-zombies-ate-my-neighbors.ace_multiselect .ace_selection.ace_start {
+  box-shadow: 0 0 3px 0px rgba(26,26,26,1);
+  border-radius: 2px
+}
+
+.ace-zombies-ate-my-neighbors .ace_marker-layer .ace_step {
+  background: rgb(198, 219, 174)
+}
+
+.ace-zombies-ate-my-neighbors .ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 1px solid rgba(73,72,62,1)
+}
+
+.ace-zombies-ate-my-neighbors .ace_marker-layer .ace_active-line {
+  background: rgba(54,54,54,1)
+}
+
+.ace-zombies-ate-my-neighbors .ace_gutter-active-line {
+  background-color: rgba(54,54,54,1)
+}
+
+.ace-zombies-ate-my-neighbors .ace_marker-layer .ace_selected-word {
+  border: 1px solid rgba(73,72,62,1)
+}
+
+.ace-zombies-ate-my-neighbors .ace_fold {
+  background-color: rgba(166,226,46,1);
+  border-color: rgba(128,128,128,1)
+}
+
+.ace-zombies-ate-my-neighbors .ace_constant.ace_character,
+.ace-zombies-ate-my-neighbors .ace_constant.ace_language,
+.ace-zombies-ate-my-neighbors .ace_constant.ace_other {
+  color: rgba(255,255,255,1)
+}
+
+.ace-zombies-ate-my-neighbors .ace_constant.ace_numeric {
+  color: rgba(255,255,0,1)
+}
+
+.ace-zombies-ate-my-neighbors .ace_storage,
+.ace-zombies-ate-my-neighbors .ace_storage.ace_type,
+.ace-zombies-ate-my-neighbors .ace_support.ace_class,
+.ace-zombies-ate-my-neighbors .ace_support.ace_constant,
+.ace-zombies-ate-my-neighbors .ace_support.ace_function,
+.ace-zombies-ate-my-neighbors .ace_support.ace_type {
+  color: rgba(0,128,255,1)
+}
+
+.ace-zombies-ate-my-neighbors .ace_invalid,
+.ace-zombies-ate-my-neighbors .ace_invalid.ace_deprecated {
+  color: rgba(248,248,240,1)
+}
+
+.ace-zombies-ate-my-neighbors .ace_string {
+  color: rgba(0,244,62,1)
+}
+
+.ace-zombies-ate-my-neighbors .ace_comment {
+  color: rgba(77,77,77,1)
+}
+
+.ace-zombies-ate-my-neighbors .ace_variable {
+  color: rgba(255,128,0,1)
+}
+
+.ace-zombies-ate-my-neighbors .ace_variable.ace_parameter {
+  color: rgba(253,151,31,1)
+}
+
+.ace-zombies-ate-my-neighbors .ace_entity.ace_name.ace_function,
+.ace-zombies-ate-my-neighbors .ace_entity.ace_other.ace_attribute-name {
+  color: rgba(166,226,46,1)
+}
