@@ -19,7 +19,7 @@ build:
 
 deploy:
 	@ git checkout -f dev
-	@ jekyll build
+	@ bundle exec jekyll build
 	@ git checkout master
 	@ mv _site .site
 	@ rm -rf *
@@ -31,18 +31,16 @@ deploy:
 	@ git checkout dev
 
 install:
-	@ gem install jekyll
-	@ gem install jekyll-paginate-v2
-	@ gem install jekyll-lunr-js-search
+	@ bundle install
 
 serve:
-	@ jekyll serve
+	@ bundle exec jekyll serve
 
 clean-tmp:
 	@ rm -rf tmp master.zip
 
 clean: clean-tmp
-	@ jekyll clean
+	@ bundle exec jekyll clean
 
 
 .PHONY: build deploy install serve clean-tmp deploy

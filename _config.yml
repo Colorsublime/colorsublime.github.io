@@ -10,7 +10,7 @@ baseurl:
 encoding:           "utf-8"
 markdown_ext:       "markdown,md"
 
-gems:
+plugins:
   - jekyll-paginate-v2
   - jekyll-lunr-js-search
 
