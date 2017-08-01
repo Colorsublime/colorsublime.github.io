@@ -35,6 +35,7 @@ function initEditor($wrapper, themeId, language) {
   var editor = ace.edit($wrapper[0])
   editor.setTheme('ace/theme/' + themeId.split('theme-')[1])
   editor.getSession().setMode('ace/mode/' + language)
+  editor.setOption('showPrintMargin', false)
   $wrapper.data('editor', editor)
 }
 

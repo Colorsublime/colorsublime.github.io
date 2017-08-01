@@ -30,6 +30,11 @@ deploy:
 	@ git push origin master
 	@ git checkout dev
 
+install:
+	@ gem install jekyll
+	@ gem install jekyll-paginate-v2
+	@ gem install jekyll-lunr-js-search
+
 serve:
 	@ jekyll serve
 
@@ -40,4 +45,4 @@ clean: clean-tmp
 	@ jekyll clean
 
 
-.PHONY: build serve clean-tmp deploy
+.PHONY: build deploy install serve clean-tmp deploy
