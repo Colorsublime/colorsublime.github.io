@@ -1,6 +1,6 @@
 language: ruby
 rvm:
-  - '2.4.0p0'
+  - '2.4.1'
 
 node_js: '7.4.0'
 
