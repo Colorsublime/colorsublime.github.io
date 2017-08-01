@@ -47,22 +47,22 @@
     <div class="pagination">
       {% if paginator.previous_page %}
         <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
-      {% else %}
-        <span class="previous">Previous</span>
       {% endif %}
       {% if paginator.page_trail %}
         <ul>
         {% for trail in paginator.page_trail %}
-          <li {% if page.url == trail.path %} class="active" {% endif %}>
-              <a href="{{ trail.path | prepend: site.baseurl }}" title="{{trail.title}}">{{ trail.num }}</a>
+          <li>
+              {% if paginator.page == trail.num %}
+                {{ trail.num }}
+              {% else %}
+                <a href="{{ trail.path | prepend: site.baseurl }}" title="{{trail.title}}">{{ trail.num }}</a>
+              {% endif %}
           </li>
         {% endfor %}
         </ul>
       {% endif %}
       {% if paginator.next_page %}
         <a href="{{ paginator.next_page_path }}" class="next">Next</a>
-      {% else %}
-        <span class="next">Next</span>
       {% endif %}
     </div>
   {% endif %}
