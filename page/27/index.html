@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang='en'>
 <head>
-  <meta charset='UTF-8'>
+  <meta charset='utf-8'>
 
   <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
@@ -64,6 +64,25 @@
 <main class='content'>
   
 
+  <div class='search pure-g'>
+  <form class='form pure-u-1' method='get'>
+    <input type='search' id='search-query' name='q' placeholder='Find your favorite theme...' autocomplete='off'>
+    <button><i class='icon-search'></i></button>
+  </form>
+  <section class='results pure-u-1' id='search-results' style='display: none;'> </section>
+  
+  <script id='search-results-template' type='text/mustache'>
+    {{#entries}}
+      <article>
+        <h2>
+          <a href='{{url}}'>{{title}}</a>
+        </h2>
+      </article>
+    {{/entries}}
+  </script>
+  
+</div>
+
   <ul class="themes-collection pure-g">
       
         <li class="pure-u-1 pure-u-md-1-3">
@@ -80,7 +99,7 @@
               <a class='button secondary' href='/themes/Oceanic%20Reef/' class='btn preview'>
                 Preview <i class='icon-eye-open'></i>
               </a>
-              <a class='button secondary' href='https://raw.githubusercontent.com/Colorsublime/Colorsublime-Themes/master/themes/Oceanic-Reef.tmTheme' target='_blank'>
+              <a download class='button secondary' href='https://raw.githubusercontent.com/Colorsublime/Colorsublime-Themes/master/themes/Oceanic-Reef.tmTheme' target='_blank'>
                 Download <i class='icon-download'></i>
               </a>
             </div>
@@ -101,7 +120,7 @@
               <a class='button secondary' href='/themes/Paraiso%20(dark)/' class='btn preview'>
                 Preview <i class='icon-eye-open'></i>
               </a>
-              <a class='button secondary' href='https://raw.githubusercontent.com/Colorsublime/Colorsublime-Themes/master/themes/Paraiso_dark.tmTheme' target='_blank'>
+              <a download class='button secondary' href='https://raw.githubusercontent.com/Colorsublime/Colorsublime-Themes/master/themes/Paraiso_dark.tmTheme' target='_blank'>
                 Download <i class='icon-download'></i>
               </a>
             </div>
@@ -122,7 +141,7 @@
               <a class='button secondary' href='/themes/Paraiso%20(light)/' class='btn preview'>
                 Preview <i class='icon-eye-open'></i>
               </a>
-              <a class='button secondary' href='https://raw.githubusercontent.com/Colorsublime/Colorsublime-Themes/master/themes/Paraiso_light.tmTheme' target='_blank'>
+              <a download class='button secondary' href='https://raw.githubusercontent.com/Colorsublime/Colorsublime-Themes/master/themes/Paraiso_light.tmTheme' target='_blank'>
                 Download <i class='icon-download'></i>
               </a>
             </div>
@@ -143,7 +162,7 @@
               <a class='button secondary' href='/themes/Pastel/' class='btn preview'>
                 Preview <i class='icon-eye-open'></i>
               </a>
-              <a class='button secondary' href='https://raw.githubusercontent.com/Colorsublime/Colorsublime-Themes/master/themes/Pastel.tmTheme' target='_blank'>
+              <a download class='button secondary' href='https://raw.githubusercontent.com/Colorsublime/Colorsublime-Themes/master/themes/Pastel.tmTheme' target='_blank'>
                 Download <i class='icon-download'></i>
               </a>
             </div>
@@ -164,7 +183,7 @@
               <a class='button secondary' href='/themes/Pastels%20on%20Dark/' class='btn preview'>
                 Preview <i class='icon-eye-open'></i>
               </a>
-              <a class='button secondary' href='https://raw.githubusercontent.com/Colorsublime/Colorsublime-Themes/master/themes/Pastels_on_Dark.tmTheme' target='_blank'>
+              <a download class='button secondary' href='https://raw.githubusercontent.com/Colorsublime/Colorsublime-Themes/master/themes/Pastels_on_Dark.tmTheme' target='_blank'>
                 Download <i class='icon-download'></i>
               </a>
             </div>
@@ -185,7 +204,7 @@
               <a class='button secondary' href='/themes/Patriot/' class='btn preview'>
                 Preview <i class='icon-eye-open'></i>
               </a>
-              <a class='button secondary' href='https://raw.githubusercontent.com/Colorsublime/Colorsublime-Themes/master/themes/Patriot.tmTheme' target='_blank'>
+              <a download class='button secondary' href='https://raw.githubusercontent.com/Colorsublime/Colorsublime-Themes/master/themes/Patriot.tmTheme' target='_blank'>
                 Download <i class='icon-download'></i>
               </a>
             </div>
@@ -206,7 +225,7 @@
               <a class='button secondary' href='/themes/Peacock/' class='btn preview'>
                 Preview <i class='icon-eye-open'></i>
               </a>
-              <a class='button secondary' href='https://raw.githubusercontent.com/Colorsublime/Colorsublime-Themes/master/themes/Peacock.tmTheme' target='_blank'>
+              <a download class='button secondary' href='https://raw.githubusercontent.com/Colorsublime/Colorsublime-Themes/master/themes/Peacock.tmTheme' target='_blank'>
                 Download <i class='icon-download'></i>
               </a>
             </div>
@@ -227,7 +246,7 @@
               <a class='button secondary' href='/themes/Piodine/' class='btn preview'>
                 Preview <i class='icon-eye-open'></i>
               </a>
-              <a class='button secondary' href='https://raw.githubusercontent.com/Colorsublime/Colorsublime-Themes/master/themes/Piodine.tmTheme' target='_blank'>
+              <a download class='button secondary' href='https://raw.githubusercontent.com/Colorsublime/Colorsublime-Themes/master/themes/Piodine.tmTheme' target='_blank'>
                 Download <i class='icon-download'></i>
               </a>
             </div>
@@ -248,7 +267,7 @@
               <a class='button secondary' href='/themes/Poppins/' class='btn preview'>
                 Preview <i class='icon-eye-open'></i>
               </a>
-              <a class='button secondary' href='https://raw.githubusercontent.com/Colorsublime/Colorsublime-Themes/master/themes/Poppins.tmTheme' target='_blank'>
+              <a download class='button secondary' href='https://raw.githubusercontent.com/Colorsublime/Colorsublime-Themes/master/themes/Poppins.tmTheme' target='_blank'>
                 Download <i class='icon-download'></i>
               </a>
             </div>
@@ -294,6 +313,9 @@
   
 </main>
 
+  <footer class='main-footer'>
+  <small>&copy;  2017 | All Rights Reserved. </small>
+</footer>
   <div><!-- end .container -->
   
 <script type="ace/template" id="htmlTemplate">
@@ -465,10 +487,12 @@ msg['Subject'] = 'The contents of %s' % textfile
 msg['From'] = me
 msg['To'] = you
 </script>
-  <script src="/ace/build/src-min/ace.js"></script>
+
+  <script src='/ace/build/src-min/ace.js'></script>
+  <script src='/assets/js/search.min.js'></script>
   <script src='/assets/js/index.js'></script>
 
-  <script type="text/javascript">
+  <script type='text/javascript'>
 
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-37852645-1']);

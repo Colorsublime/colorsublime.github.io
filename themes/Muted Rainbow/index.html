@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='utf-8'>
+
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+
+  <title>
+    Muted rainbow
+  </title>
+  <meta property='og:title' content='Muted rainbow'/>
+  <meta property='og:type' content='website'/>
+  <meta property='og:url' content='http://colorsublime.com/'/>
+  <meta property='og:image' content='http://colorsublime.com/img/share.png'/>
+  <meta property='og:site_name' content='Colorsublime'/>
+
+  
+    <meta name='description' content='Color your Sublime Text editor trying your favorite theme online before downloading it for free'>
+    <meta property='og:description'
+        content='Color your Sublime Text editor trying your favorite theme online before downloading it for free'/>
+  
+
+  <link rel='shortcut icon' href='/assets/img/favicon.ico'>
+  <link rel='apple-itouch-icon' href='/assets/img/favicon.png'>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css'>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
+  <link rel='stylesheet' href='/assets/css/styles.css'>
+</head>
+<body>
+  <nav class='nav'>
+  <ul class='pure-g'>
+    <li class='pure-u-1 pure-u-md-1-3'>
+      <a title='Homepage' href='/'>
+        <i class='icon-home'></i>
+      </a>
+    </li>
+    <li class='pure-u-1 pure-u-md-1-3'>
+      <a title='Submit a theme' target='_blank' href='https://github.com/Colorsublime/Colorsublime-Themes'>
+        <i class='icon-github'></i>
+      </a>
+    </li>
+    <li class='pure-u-1 pure-u-md-1-3 '>
+      <a title='How to install a theme' href='/how-to-install-a-theme'><i class='icon-info-sign'></i></a>
+    </li>
+  </ul>
+</nav>
+  <div class='container'>
+
+
+<main class='content'>
+  <div class='theme-detail'>
+    <div class='theme' id='theme-mutedrainbow_sky' data-language='javascript'>
+      <h2 class='title'>Muted Rainbow</h2>
+      
+        <p class='metadata'>
+          By <b>lxzdxmxn</b>  <i></i>
+        </p>
+      
+      <div class='editor'>function foo(items) {
+  const x = 2;
+  const y = 'unicorn';
+
+  return x + items;
+}</div>
+      <a download href='https://raw.githubusercontent.com/Colorsublime/Colorsublime-Themes/master/themes/mutedrainbow_sky.tmTheme' target='_blank' class='button secondary'>
+        Download
+        <i class='icon-download'></i>
+      </a>
+    </div>
+    
+    </div>
+</main>
+
+  <footer class='main-footer'>
+  <small>&copy;  2017 | All Rights Reserved. </small>
+</footer>
+  <div><!-- end .container -->
+  
+<script type="ace/template" id="htmlTemplate">
+&lt;!doctype html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;utf-8&quot;&gt;
+  &lt;title&gt;Title&lt;/title&gt;
+  &lt;meta name=&quot;description&quot; content=&quot;The HTML5 Herald&quot;&gt;
+  &lt;meta name=&quot;author&quot; content=&quot;SitePoint&quot;&gt;
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;css/styles.css?v=1.0&quot;&gt;
+  &lt;!--[if lt IE 9]&gt;
+  &lt;script src=&quot;http://html5shiv.googlecode.com/svn/trunk/html5.js&quot;&gt;&lt;/script&gt;
+  &lt;![endif]--&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;script src=&quot;js/scripts.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</script>
+<script type="ace/template" id="javaTemplate">
+public enum SimpleSingleton {
+  INSTANCE;
+  public void doSomething() {
+  }
+}
+
+//Call the method from Singleton:
+SimpleSingleton.INSTANCE.doSomething();
+</script>
+<script type="ace/template" id="javascriptTemplate">
+// shim layer with setTimeout fallback
+window.requestAnimFrame = (function(){
+  return  window.requestAnimationFrame       ||
+  window.webkitRequestAnimationFrame ||
+  window.mozRequestAnimationFrame    ||
+  window.oRequestAnimationFrame      ||
+  window.msRequestAnimationFrame     ||
+  function( callback ){
+    window.setTimeout(callback, 1000 / 60);
+  };
+})();
+// usage:
+// instead of setInterval(render, 16) ....
+
+(function animloop(){
+  requestAnimFrame(animloop);
+  render();
+})();
+// place the rAF *before* the render() to assure as close to
+// 60fps with the setTimeout fallback.
+</script>
+<script type="ace/template" id="latexTemplate">
+\begin{enumerate}
+\item
+The ``enumerate'' environment numbers the list elements, like this.
+
+Items in a list can contain multiple paragraphs.
+These paragraphs are appropriately spaced and indented according to their
+position in the list.
+\begin{itemize}
+\item The ``itemize'' environment sets off list items with ``bullets'',
+like this. Finally, the ``description'' environment lets you put your own
+\begin{description}
+\item[A] label on each item, like this ``A''.
+\item[If the label is long,] the first line of the item text will
+be spaced over to the right as needed.
+\end{description}
+</script>
+<script type="ace/template" id="cssTemplate">
+p:first-letter{
+  display:block;
+  margin:5px 0 0 5px;
+  float:left;
+  color:#FF3366;
+  font-size:60px;
+  font-family:Georgia;
+}
+</script>
+<script type="ace/template" id="rubyTemplate">
+def checkRegistry(line)
+registryHives = ["HKEY_CURRENT_USER","HKEY_CLASSES_ROOT","HKEY_LOCAL_MACHINE"]
+
+registryHives.each do | hive |
+if line =~ /#{hive}/
+  puts "[+] Registry Access to Hive : #{hive}"
+end
+end
+end
+</script>
+<script type="ace/template" id="phpTemplate">
+&lt;?php
+
+class Home_Controller extends Base_Controller {
+
+  public function action_index()
+  {
+    $themes = Theme::order_by('updated_at', 'desc')-&gt;paginate(9);
+    return View::make('home.index')
+    -&gt;with('themes', $themes);
+  }
+
+}
+</script>
+<script type="ace/template" id="scssTemplate">
+// Accent colors
+// -------------------------
+$blue:                  #007eb3;
+$blueDark:              #0064cd;
+$green:                 #46a546;
+$red:                   #9d261d;
+$yellow:                #ffc40d;
+$orange:                #f89406;
+$pink:                  #bc0085;
+$purple:                #7a43b6;
+body {
+  font-size: 1em;
+  line-height: 1.4;
+  font-family: $customRegular;
+
+}
+h1,h2,h3,h4 {
+  font-family: $customThin;
+  font-weight: normal;
+}
+</script>
+<script type="ace/template" id="sqlTemplate">
+SELECT user_id FROM users WHERE user_id = 1
+</script>
+<script type="ace/template" id="markdownTemplate">
+An h1 header
+============
+
+Paragraphs are separated by a blank line.
+
+2nd paragraph. *Italic*, **bold**, `monospace`. Itemized lists
+look like:
+
+* this one
+* that one
+* the other one
+
+Note that --- not considering the asterisk --- the actual text
+content starts at 4-columns in.
+
+> Block quotes are
+> written like so.
+>
+> They can span multiple paragraphs,
+> if you like.
+</script>
+<script type="ace/template" id="pythonTemplate">
+# Import smtplib for the actual sending function
+import smtplib
+
+# Import the email modules we will need
+from email.mime.text import MIMEText
+
+# Open a plain text file for reading.  For this example, assume that
+# the text file contains only ASCII characters.
+fp = open(textfile, 'rb')
+# Create a text/plain message
+msg = MIMEText(fp.read())
+fp.close()
+
+# me == the sender's email address
+# you == the recipient's email address
+msg['Subject'] = 'The contents of %s' % textfile
+msg['From'] = me
+msg['To'] = you
+</script>
+
+  <script src='/ace/build/src-min/ace.js'></script>
+  <script src='/assets/js/search.min.js'></script>
+  <script src='/assets/js/index.js'></script>
+
+  <script type='text/javascript'>
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-37852645-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
+</body>
+</html>
