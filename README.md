@@ -2,6 +2,8 @@
 
 [colorsublime.github.io](https://colorsublime.github.io)
 
+[![Build Status](https://travis-ci.org/Colorsublime/colorsublime.github.io.svg?branch=master)](https://travis-ci.org/Colorsublime/colorsublime.github.io)
+
 # Local Development
 
 ## Installation
