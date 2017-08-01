@@ -23,10 +23,19 @@ const
     markdown: $('#markdownTemplate').text()
   }
 
-function initEditor($wrapper, themeId, Language) {
-  var editor = ace.edit($wrapper)
+function unescapeHtml(safe) {
+  return safe.replace(/&amp;/g, '&')
+      .replace(/&lt;/g, '<')
+      .replace(/&gt;/g, '>')
+      .replace(/&quot;/g, '"')
+      .replace(/&#039;/g, "'")
+}
+
+function initEditor($wrapper, themeId, language) {
+  var editor = ace.edit($wrapper[0])
   editor.setTheme('ace/theme/' + themeId.split('theme-')[1])
-  editor.getSession().setMode('ace/mode/' + Language)
+  editor.getSession().setMode('ace/mode/' + language)
+  $wrapper.data('editor', editor)
 }
 
 // Load the ace editor inside all the div having "editor" class
@@ -34,7 +43,7 @@ function bootThemes() {
   $('.theme').each(function(i, el) {
     var $el = $(el)
     var $editor = $('.editor', el)
-    initEditor($editor.get(0), $el.attr('id'), $el.data('language'))
+    initEditor($editor, $el.attr('id'), $el.data('language'))
     $editor.addClass('loaded')
   })
 }
@@ -48,21 +57,19 @@ $('#search-query').lunrSearch({
   emptyMsg: '<p>Nothing found.</p>'     // shown message if search returns no results
 })
 
-/*
-var changeLanguage = function(e) {
-  var initialLang = language || langArray[window.parseInt(Math.random() * langArray.length)],
-    $overlayContent = $overlay.find(".content"),
-    $liActive = $overlay.find("#" + initialLang),
-    snippet = snippets[initialLang];
 
-  $liActive.siblings().removeClass("active");
-  $liActive.addClass("active");
+function changeLanguage(e) {
+  var language = e.currentTarget.getAttribute('id'),
+    editor = $('.editor').data('editor'),
+    $liActive = $('#' + language),
+    snippet = snippets[language]
 
-  $overlayContent.find(".editor").remove();
-  $overlayContent.append("<div class=editor>" + snippet + "</div>");
-
-  initEditor($overlay.find(".editor"), $container.find("section.active").attr("id") || $container.find(".content").attr("id"), initialLang);
-  trackEvent("editorLanguage/" + $this.attr("id"));
-}*/
+  $liActive.siblings().removeClass('active')
+  $liActive.addClass('active')
+  editor.session.setMode('ace/mode/' + language)
+  editor.setValue(unescapeHtml(snippets[language]).trim())
+  editor.clearSelection()
+}
 
 bootThemes()
+$('.languages-menu').on('click', 'li', changeLanguage)

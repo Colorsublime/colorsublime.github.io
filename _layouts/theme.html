@@ -15,13 +15,13 @@
 
   return x + items;
 }</div>
-      <a download href='{{ site.github_download_base_url }}{{ page.FileName }}' target='_blank' class='button secondary'>
+      {% include languages-menu.html %}
+      <a download href='{{ site.github_download_base_url }}{{ page.FileName }}' target='_blank' class='button primary'>
         Download
         <i class='icon-download'></i>
       </a>
     </div>
-    {% include languages-menu.html %}
-    </div>
+  </div>
 </main>
 
 {% include tail.html %}

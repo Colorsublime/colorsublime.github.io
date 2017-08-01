@@ -44,7 +44,7 @@
         border: 2px solid #222;
         color: #222;
 
-        &:hover, &:active, &:focus {
+        &.active, &:hover, &:active, &:focus {
             border: 2px solid $color-secondary-1-4;
             color: $color-secondary-1-4;
         }
