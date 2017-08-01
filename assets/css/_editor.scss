@@ -1,9 +1,13 @@
 .editor {
   width:100%;
-  min-height:180px;
+  min-height: 50vh;
   border-radius: 0 0 10px 10px;
   border: 2px solid #222;
   box-sizing: border-box;
+
+  @include mq($lg-breakpoint) {
+     min-height:180px;
+  }
 
   .ace_gutter {
     color:#3d3d3d;

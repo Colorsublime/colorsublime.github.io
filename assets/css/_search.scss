@@ -17,7 +17,6 @@
       font-size: 1.4rem;
     }
 
-
     h2 {
       margin: 0 0 0.5rem;
       font-size: 1.2rem;
@@ -27,7 +26,7 @@
   .form {
     position: relative;
     display: flex;
-    padding: 0 6px;
+    padding: 0;
 
     > input {
       padding: $lateral-padding;
@@ -42,7 +41,7 @@
       background: #222;
       height: calc(100% - 4px);
       position: absolute;
-      right: 8px;
+      right: 2px;
       top: 2px;
     }
   }

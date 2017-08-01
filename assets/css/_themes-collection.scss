@@ -1,11 +1,20 @@
 .themes-collection {
   padding: 0;
   margin: 0;
+  justify-content: space-between;
 
   > li {
     box-sizing: border-box;
-    padding: 6px;
+    padding: 0;
     margin: 0 0 1rem;
+
+    @include mq($md-breakpoint) {
+      width: 100%;
+    }
+
+    @include mq($lg-breakpoint) {
+      width: 32.5%;
+    }
   }
 
   .title {

@@ -6,7 +6,6 @@ a {
   }
 }
 
-
 .container {
   max-width: $container-width;
   margin: 0 auto;
@@ -16,11 +15,20 @@ a {
 .content {
   margin-bottom: 2rem;
 
+  > h1 {
+    margin-bottom: 0.2rem;
+  }
+
+  > p {
+    margin-top: 0;
+  }
+
   > ol {
     padding: 0 20px;
 
     > li {
       margin: 0 0 1rem;
+
       > img {
         margin: 0.5rem 0;
         display: block;

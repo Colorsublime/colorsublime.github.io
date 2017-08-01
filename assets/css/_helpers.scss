@@ -1,0 +1,5 @@
+@mixin mq($query) {
+  @media screen and (min-width: #{$query}) {
+    @content;
+  }
+}

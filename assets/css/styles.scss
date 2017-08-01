@@ -2,9 +2,12 @@
 # global style
 ---
 
-// general stuff
+// helpers and variables
 @import 'variables';
+@import 'helpers';
 @import 'colors';
+
+// general stuff
 @import 'buttons';
 @import 'fonts';
 @import 'icons';
@@ -21,4 +24,3 @@
 @import 'editor';
 @import 'nav';
 @import 'pagination';
-@import 'header';

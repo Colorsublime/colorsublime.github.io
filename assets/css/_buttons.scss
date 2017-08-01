@@ -1,52 +1,52 @@
 .button {
-    display: inline-flex;
-    align-content: center;
-    justify-content: center;
-    text-decoration: none;
-    padding: 12px 16px 9px;
-    border-radius: 5px;
-    color: inherit;
+  display: inline-flex;
+  align-content: center;
+  justify-content: center;
+  text-decoration: none;
+  padding: 12px 16px 9px;
+  border-radius: 5px;
+  color: inherit;
 
-    > [class^='icon-'],
-    > [class*=' icon-'] {
-        padding: 2px 0 0 10px;
+  > [class^='icon-'],
+  > [class*=' icon-'] {
+    padding: 2px 0 0 10px;
+  }
+
+  // sizes
+  &.xsmall {
+    font-size: 70%;
+  }
+
+  &.small {
+    font-size: 85%;
+  }
+
+  &.large {
+    font-size: 110%;
+  }
+
+  &.xlarge {
+    font-size: 125%;
+  }
+
+  // colors
+
+  &.primary {
+    background: #222;
+    color: white;
+
+    &:hover, &:active, &:focus {
+      background: $color-secondary-1-4;
     }
+  }
 
-    // sizes
-    &.xsmall {
-        font-size: 70%;
+  &.secondary {
+    border: 2px solid #222;
+    color: #222;
+
+    &.active, &:hover, &:active, &:focus {
+      border: 2px solid $color-secondary-1-4;
+      color: $color-secondary-1-4;
     }
-
-    &.small {
-        font-size: 85%;
-    }
-
-    &.large {
-        font-size: 110%;
-    }
-
-    &.xlarge {
-        font-size: 125%;
-    }
-
-    // colors
-
-    &.primary {
-        background: #222;
-        color: white;
-
-        &:hover, &:active, &:focus {
-            background: $color-secondary-1-4;
-        }
-    }
-
-    &.secondary {
-        border: 2px solid #222;
-        color: #222;
-
-        &.active, &:hover, &:active, &:focus {
-            border: 2px solid $color-secondary-1-4;
-            color: $color-secondary-1-4;
-        }
-    }
+  }
 }
