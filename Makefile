@@ -18,7 +18,17 @@ build:
 	@ make clean-tmp
 
 deploy:
-	@ git subtree push --prefix _site origin master
+	@ git checkout -f dev
+	@ jekyll build
+	@ git checkout master
+	@ mv _site .site
+	@ rm -rf *
+	@ mv .site/* .
+	@ rm -rf .site
+	@ git add .
+	@ git commit -m"New release"
+	@ git push origin master
+	@ git checkout dev
 
 serve:
 	@ jekyll serve
