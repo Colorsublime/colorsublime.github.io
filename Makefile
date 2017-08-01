@@ -20,7 +20,8 @@ build:
 deploy:
 	@ git checkout -f dev
 	@ bundle exec jekyll build
-	@ git checkout master
+	@ git checkout -f master
+	@ rm -rf .bundle
 	@ mv _site .site
 	@ rm -rf *
 	@ mv .site/* .
@@ -28,7 +29,7 @@ deploy:
 	@ git add .
 	@ git commit -m"New release"
 	@ git push origin master
-	@ git checkout dev
+	@ git checkout -f dev
 
 install:
 	@ bundle install
