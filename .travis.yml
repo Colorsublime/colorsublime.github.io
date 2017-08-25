@@ -4,6 +4,9 @@ rvm:
 
 node_js: '7.4.0'
 
+notifications:
+  email: false
+
 # Assume bundler is being used, therefore
 # the `install` step will run `bundle install` by default.
 script: make install
@@ -22,9 +25,6 @@ sudo: true
 cache:
   directories:
     - node_modules
-
-notifications:
-  email: false
 
 deploy:
   provider: script
