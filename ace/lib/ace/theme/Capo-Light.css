@@ -71,6 +71,10 @@
   background-color: rgba(231,221,185,1)
 }
 
+.ace--capo--light .ace_constant {
+  color: rgba(136,19,145,1)
+}
+
 .ace--capo--light .ace_entity.ace_name.ace_tag,
 .ace--capo--light .ace_entity.ace_other.ace_attribute-name,
 .ace--capo--light .ace_meta.ace_tag,
