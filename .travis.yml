@@ -25,9 +25,3 @@ sudo: true
 cache:
   directories:
     - node_modules
-
-deploy:
-  provider: script
-  script: make build && make deploy
-  on:
-    branch: dev
