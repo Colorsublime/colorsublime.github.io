@@ -52,7 +52,10 @@
   border-color: rgba(0,0,0,1)
 }
 
-.ace--tricolore .ace_keyword {
+.ace--tricolore .ace_keyword,
+.ace--tricolore .ace_markup.ace_heading,
+.ace--tricolore .ace_meta.ace_tag,
+.ace--tricolore .ace_storage {
   color: rgba(0,17,158,1)
 }
 
@@ -80,16 +83,9 @@
   color: rgba(192,11,21,1)
 }
 
-.ace--tricolore .ace_support.ace_class {
-  color: rgba(122,93,183,1)
-}
-
+.ace--tricolore .ace_support.ace_class,
 .ace--tricolore .ace_support.ace_type {
   color: rgba(122,93,183,1)
-}
-
-.ace--tricolore .ace_storage {
-  color: rgba(0,17,158,1)
 }
 
 .ace--tricolore .ace_invalid {
@@ -106,6 +102,7 @@
   color: rgba(137,137,137,1)
 }
 
+.ace--tricolore .ace_entity.ace_name.ace_function,
 .ace--tricolore .ace_variable {
   color: rgba(36,45,74,1)
 }
@@ -114,24 +111,9 @@
   color: rgba(75,139,75,1)
 }
 
+.ace--tricolore .ace_entity.ace_other.ace_attribute-name,
 .ace--tricolore .ace_variable.ace_parameter {
   font-style: italic
-}
-
-.ace--tricolore .ace_meta.ace_tag {
-  color: rgba(0,17,158,1)
-}
-
-.ace--tricolore .ace_entity.ace_other.ace_attribute-name {
-  font-style: italic
-}
-
-.ace--tricolore .ace_entity.ace_name.ace_function {
-  color: rgba(36,45,74,1)
-}
-
-.ace--tricolore .ace_markup.ace_heading {
-  color: rgba(0,17,158,1)
 }
 
 .ace--tricolore .ace_markup.ace_list {

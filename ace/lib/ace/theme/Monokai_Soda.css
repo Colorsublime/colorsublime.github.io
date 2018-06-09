@@ -52,49 +52,27 @@
   border-color: rgba(248,248,242,1)
 }
 
-.ace--monokai--soda .ace_keyword {
-  color: rgba(249,38,114,1)
-}
-
-.ace--monokai--soda .ace_constant.ace_language {
-  color: rgba(174,129,255,1)
-}
-
-.ace--monokai--soda .ace_constant.ace_numeric {
-  color: rgba(174,129,255,1)
-}
-
-.ace--monokai--soda .ace_constant.ace_character {
-  color: rgba(174,129,255,1)
-}
-
-.ace--monokai--soda .ace_constant.ace_other {
-  color: rgba(174,129,255,1)
-}
-
-.ace--monokai--soda .ace_support.ace_function {
-  color: rgba(102,217,239,1)
-}
-
-.ace--monokai--soda .ace_support.ace_constant {
-  color: rgba(102,217,239,1)
-}
-
-.ace--monokai--soda .ace_support.ace_class {
-  font-style: italic;
-  color: rgba(102,217,239,1)
-}
-
-.ace--monokai--soda .ace_support.ace_type {
-  font-style: italic;
-  color: rgba(102,217,239,1)
-}
-
+.ace--monokai--soda .ace_entity.ace_name.ace_tag,
+.ace--monokai--soda .ace_keyword,
 .ace--monokai--soda .ace_storage {
   color: rgba(249,38,114,1)
 }
 
-.ace--monokai--soda .ace_storage.ace_type {
+.ace--monokai--soda .ace_constant.ace_character,
+.ace--monokai--soda .ace_constant.ace_language,
+.ace--monokai--soda .ace_constant.ace_numeric,
+.ace--monokai--soda .ace_constant.ace_other {
+  color: rgba(174,129,255,1)
+}
+
+.ace--monokai--soda .ace_support.ace_constant,
+.ace--monokai--soda .ace_support.ace_function {
+  color: rgba(102,217,239,1)
+}
+
+.ace--monokai--soda .ace_storage.ace_type,
+.ace--monokai--soda .ace_support.ace_class,
+.ace--monokai--soda .ace_support.ace_type {
   font-style: italic;
   color: rgba(102,217,239,1)
 }
@@ -117,6 +95,8 @@
   color: rgba(117,113,94,1)
 }
 
+.ace--monokai--soda .ace_entity.ace_name.ace_function,
+.ace--monokai--soda .ace_entity.ace_other.ace_attribute-name,
 .ace--monokai--soda .ace_variable {
   color: rgba(166,226,46,1)
 }
@@ -124,16 +104,4 @@
 .ace--monokai--soda .ace_variable.ace_parameter {
   font-style: italic;
   color: rgba(253,151,31,1)
-}
-
-.ace--monokai--soda .ace_entity.ace_other.ace_attribute-name {
-  color: rgba(166,226,46,1)
-}
-
-.ace--monokai--soda .ace_entity.ace_name.ace_function {
-  color: rgba(166,226,46,1)
-}
-
-.ace--monokai--soda .ace_entity.ace_name.ace_tag {
-  color: rgba(249,38,114,1)
 }

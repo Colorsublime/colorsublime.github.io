@@ -52,15 +52,20 @@
   border-color: rgba(222,227,236,1)
 }
 
-.ace--berry-nice .ace_keyword {
+.ace--berry-nice .ace_entity.ace_name.ace_tag,
+.ace--berry-nice .ace_keyword,
+.ace--berry-nice .ace_keyword.ace_other.ace_unit,
+.ace--berry-nice .ace_storage.ace_type {
   color: rgba(38,155,166,1)
 }
 
-.ace--berry-nice .ace_keyword.ace_other.ace_unit {
-  color: rgba(38,155,166,1)
-}
-
-.ace--berry-nice .ace_constant.ace_language {
+.ace--berry-nice .ace_constant.ace_character,
+.ace--berry-nice .ace_constant.ace_language,
+.ace--berry-nice .ace_constant.ace_other,
+.ace--berry-nice .ace_entity.ace_other.ace_attribute-name,
+.ace--berry-nice .ace_storage,
+.ace--berry-nice .ace_support.ace_constant,
+.ace--berry-nice .ace_support.ace_function {
   color: rgba(216,69,111,1)
 }
 
@@ -68,56 +73,22 @@
   color: rgba(255,255,255,1)
 }
 
-.ace--berry-nice .ace_constant.ace_character {
-  color: rgba(216,69,111,1)
-}
-
-.ace--berry-nice .ace_constant.ace_other {
-  color: rgba(216,69,111,1)
-}
-
-.ace--berry-nice .ace_support.ace_function {
-  color: rgba(216,69,111,1)
-}
-
-.ace--berry-nice .ace_support.ace_constant {
-  color: rgba(216,69,111,1)
-}
-
+.ace--berry-nice .ace_entity.ace_name.ace_function,
+.ace--berry-nice .ace_string,
 .ace--berry-nice .ace_support.ace_constant.ace_property-value {
   color: rgba(192,226,221,1)
 }
 
-.ace--berry-nice .ace_support.ace_class {
-  font-style: italic;
-  color: rgba(216,69,111,1)
-}
-
+.ace--berry-nice .ace_support.ace_class,
 .ace--berry-nice .ace_support.ace_type {
   font-style: italic;
   color: rgba(216,69,111,1)
 }
 
-.ace--berry-nice .ace_storage {
-  color: rgba(216,69,111,1)
-}
-
-.ace--berry-nice .ace_storage.ace_type {
-  color: rgba(38,155,166,1)
-}
-
-.ace--berry-nice .ace_invalid {
-  color: rgba(248,248,240,1);
-  background-color: rgba(0,168,198,1)
-}
-
+.ace--berry-nice .ace_invalid,
 .ace--berry-nice .ace_invalid.ace_deprecated {
   color: rgba(248,248,240,1);
   background-color: rgba(0,168,198,1)
-}
-
-.ace--berry-nice .ace_string {
-  color: rgba(192,226,221,1)
 }
 
 .ace--berry-nice .ace_comment {
@@ -131,16 +102,4 @@
 .ace--berry-nice .ace_variable.ace_parameter {
   font-style: italic;
   color: rgba(116,198,198,1)
-}
-
-.ace--berry-nice .ace_entity.ace_other.ace_attribute-name {
-  color: rgba(216,69,111,1)
-}
-
-.ace--berry-nice .ace_entity.ace_name.ace_function {
-  color: rgba(192,226,221,1)
-}
-
-.ace--berry-nice .ace_entity.ace_name.ace_tag {
-  color: rgba(38,155,166,1)
 }

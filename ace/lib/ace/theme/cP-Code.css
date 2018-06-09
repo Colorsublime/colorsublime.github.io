@@ -64,36 +64,21 @@
   color: rgba(174,129,255,1)
 }
 
-.ace-c-p--code .ace_constant.ace_character {
-  color: rgba(179,144,240,1)
-}
-
+.ace-c-p--code .ace_constant.ace_character,
 .ace-c-p--code .ace_constant.ace_other {
   color: rgba(179,144,240,1)
 }
 
-.ace-c-p--code .ace_support.ace_function {
-  color: rgba(102,217,239,1)
-}
-
-.ace-c-p--code .ace_support.ace_constant {
-  color: rgba(102,217,239,1)
-}
-
-.ace-c-p--code .ace_support.ace_class {
-  color: rgba(102,217,239,1)
-}
-
+.ace-c-p--code .ace_storage.ace_type,
+.ace-c-p--code .ace_support.ace_class,
+.ace-c-p--code .ace_support.ace_constant,
+.ace-c-p--code .ace_support.ace_function,
 .ace-c-p--code .ace_support.ace_type {
   color: rgba(102,217,239,1)
 }
 
 .ace-c-p--code .ace_storage {
   color: rgba(249,38,114,1)
-}
-
-.ace-c-p--code .ace_storage.ace_type {
-  color: rgba(102,217,239,1)
 }
 
 .ace-c-p--code .ace_invalid {
