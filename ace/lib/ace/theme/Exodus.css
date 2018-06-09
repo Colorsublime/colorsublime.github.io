@@ -56,19 +56,11 @@
   color: rgba(137,221,255,1)
 }
 
-.ace--exodus .ace_constant.ace_language {
-  color: rgba(247,118,105,1)
-}
-
-.ace--exodus .ace_constant.ace_numeric {
-  color: rgba(247,118,105,1)
-}
-
-.ace--exodus .ace_constant.ace_character {
-  color: rgba(247,118,105,1)
-}
-
-.ace--exodus .ace_constant.ace_other {
+.ace--exodus .ace_constant.ace_character,
+.ace--exodus .ace_constant.ace_language,
+.ace--exodus .ace_constant.ace_numeric,
+.ace--exodus .ace_constant.ace_other,
+.ace--exodus .ace_support.ace_constant {
   color: rgba(247,118,105,1)
 }
 
@@ -76,15 +68,7 @@
   color: rgba(120,194,185,1)
 }
 
-.ace--exodus .ace_support.ace_constant {
-  color: rgba(247,118,105,1)
-}
-
-.ace--exodus .ace_support.ace_class {
-  font-style: italic;
-  color: rgba(127,202,195,1)
-}
-
+.ace--exodus .ace_support.ace_class,
 .ace--exodus .ace_support.ace_type {
   font-style: italic;
   color: rgba(127,202,195,1)

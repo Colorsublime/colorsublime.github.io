@@ -52,15 +52,81 @@
   border-color: rgba(201,197,183,1)
 }
 
+.ace--martian .ace_entity.ace_name.ace_tag,
+.ace--martian .ace_keyword,
+.ace--martian .ace_keyword.ace_operator,
+.ace--martian .ace_storage,
+.ace--martian .ace_storage.ace_type {
+  color: rgba(221,81,15,1)
+}
+
+.ace--martian .ace_constant,
+.ace--martian .ace_constant.ace_numeric {
+  color: rgba(181,197,255,1)
+}
+
 .ace--martian .ace_constant.ace_language {
   color: rgba(163,102,221,1)
 }
 
-.ace--martian .ace_constant.ace_numeric {
-  color: rgba(181,197,255,1)
+.ace--martian .ace_constant.ace_character,
+.ace--martian .ace_constant.ace_character.ace_escape,
+.ace--martian .ace_constant.ace_other {
+  color: rgba(83,137,79,1)
+}
+
+.ace--martian .ace_support,
+.ace--martian .ace_support.ace_function {
+  color: rgba(121,213,252,1)
+}
+
+.ace--martian .ace_support.ace_constant {
+  color: rgba(238,238,238,1);
+  background-color: rgba(56,76,79,1)
 }
 
 .ace--martian .ace_support.ace_class,
 .ace--martian .ace_support.ace_type {
   color: rgba(88,158,173,1)
+}
+
+.ace--martian .ace_invalid.ace_illegal {
+  font-style: italic
+}
+
+.ace--martian .ace_invalid.ace_deprecated {
+  background-color: rgba(56,43,7,1)
+}
+
+.ace--martian .ace_string {
+  color: rgba(120,226,148,1)
+}
+
+.ace--martian .ace_string.ace_regexp {
+  color: rgba(27,163,77,1)
+}
+
+.ace--martian .ace_comment {
+  color: rgba(109,100,96,1)
+}
+
+.ace--martian .ace_variable {
+  color: rgba(201,197,183,1)
+}
+
+.ace--martian .ace_variable.ace_language,
+.ace--martian .ace_variable.ace_parameter {
+  color: rgba(255,255,255,1)
+}
+
+.ace--martian .ace_entity.ace_other.ace_attribute-name {
+  color: rgba(239,183,71,1)
+}
+
+.ace--martian .ace_entity.ace_name.ace_function {
+  color: rgba(255,185,45,1)
+}
+
+.ace--martian .ace_entity.ace_name {
+  color: rgba(214,209,197,1)
 }
