@@ -52,32 +52,19 @@
   border-color: rgba(36,41,46,1)
 }
 
-.ace--git-hub--light .ace_keyword {
-  color: rgba(215,58,73,1)
-}
-
-.ace--git-hub--light .ace_constant {
-  color: rgba(0,92,197,1)
-}
-
-.ace--git-hub--light .ace_support {
-  color: rgba(0,92,197,1)
-}
-
-.ace--git-hub--light .ace_support.ace_constant {
-  color: rgba(0,92,197,1)
-}
-
+.ace--git-hub--light .ace_keyword,
+.ace--git-hub--light .ace_storage,
+.ace--git-hub--light .ace_storage.ace_type,
 .ace--git-hub--light .ace_support.ace_type {
   color: rgba(215,58,73,1)
 }
 
-.ace--git-hub--light .ace_storage {
-  color: rgba(215,58,73,1)
-}
-
-.ace--git-hub--light .ace_storage.ace_type {
-  color: rgba(215,58,73,1)
+.ace--git-hub--light .ace_constant,
+.ace--git-hub--light .ace_markup.ace_heading,
+.ace--git-hub--light .ace_support,
+.ace--git-hub--light .ace_support.ace_constant,
+.ace--git-hub--light .ace_variable.ace_language {
+  color: rgba(0,92,197,1)
 }
 
 .ace--git-hub--light .ace_invalid.ace_illegal {
@@ -93,10 +80,7 @@
   color: rgba(179,29,40,1)
 }
 
-.ace--git-hub--light .ace_string {
-  color: rgba(3,47,98,1)
-}
-
+.ace--git-hub--light .ace_string,
 .ace--git-hub--light .ace_string.ace_regexp {
   color: rgba(3,47,98,1)
 }
@@ -109,20 +93,12 @@
   color: rgba(227,98,9,1)
 }
 
-.ace--git-hub--light .ace_variable.ace_language {
-  color: rgba(0,92,197,1)
-}
-
 .ace--git-hub--light .ace_entity.ace_name {
   color: rgba(111,66,193,1)
 }
 
 .ace--git-hub--light .ace_entity.ace_name.ace_tag {
   color: rgba(34,134,58,1)
-}
-
-.ace--git-hub--light .ace_markup.ace_heading {
-  color: rgba(0,92,197,1)
 }
 
 .ace--git-hub--light .ace_markup.ace_list {

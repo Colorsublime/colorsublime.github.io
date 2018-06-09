@@ -13,6 +13,7 @@
   color: rgba(0,0,0,1)
 }
 
+.ace--espresso--soda .ace_constant.ace_character.ace_entity,
 .ace--espresso--soda .ace_cursor {
   color: rgba(0,0,0,1)
 }
@@ -52,7 +53,10 @@
   border-color: rgba(0,0,0,1)
 }
 
-.ace--espresso--soda .ace_keyword {
+.ace--espresso--soda .ace_entity.ace_name.ace_function,
+.ace--espresso--soda .ace_keyword,
+.ace--espresso--soda .ace_storage,
+.ace--espresso--soda .ace_support.ace_function {
   color: rgba(97,134,47,1)
 }
 
@@ -60,22 +64,17 @@
   color: rgba(98,111,201,1)
 }
 
-.ace--espresso--soda .ace_constant {
+.ace--espresso--soda .ace_constant,
+.ace--espresso--soda .ace_constant.ace_language,
+.ace--espresso--soda .ace_constant.ace_numeric,
+.ace--espresso--soda .ace_support.ace_constant,
+.ace--espresso--soda .ace_variable.ace_language {
   color: rgba(118,83,193,1);
   background-color: rgba(243,242,255,1)
 }
 
-.ace--espresso--soda .ace_constant.ace_language {
-  color: rgba(118,83,193,1);
-  background-color: rgba(243,242,255,1)
-}
-
-.ace--espresso--soda .ace_constant.ace_numeric {
-  color: rgba(118,83,193,1);
-  background-color: rgba(243,242,255,1)
-}
-
-.ace--espresso--soda .ace_constant.ace_character {
+.ace--espresso--soda .ace_constant.ace_character,
+.ace--espresso--soda .ace_string {
   color: rgba(188,103,15,1);
   background-color: rgba(251,233,173,0.26)
 }
@@ -84,32 +83,12 @@
   background-color: rgba(251,233,173,2.04)
 }
 
-.ace--espresso--soda .ace_constant.ace_character.ace_entity {
-  color: rgba(0,0,0,1)
-}
-
-.ace--espresso--soda .ace_support.ace_function {
-  color: rgba(97,134,47,1)
-}
-
-.ace--espresso--soda .ace_support.ace_constant {
-  color: rgba(118,83,193,1);
-  background-color: rgba(243,242,255,1)
-}
-
 .ace--espresso--soda .ace_support.ace_class {
   color: rgba(58,29,114,1)
 }
 
+.ace--espresso--soda .ace_storage.ace_type,
 .ace--espresso--soda .ace_support.ace_type {
-  color: rgba(103,0,185,1)
-}
-
-.ace--espresso--soda .ace_storage {
-  color: rgba(97,134,47,1)
-}
-
-.ace--espresso--soda .ace_storage.ace_type {
   color: rgba(103,0,185,1)
 }
 
@@ -124,11 +103,6 @@
   background-color: rgba(239,207,207,1)
 }
 
-.ace--espresso--soda .ace_string {
-  color: rgba(188,103,15,1);
-  background-color: rgba(251,233,173,0.26)
-}
-
 .ace--espresso--soda .ace_string.ace_regexp {
   color: rgba(105,157,54,1)
 }
@@ -141,21 +115,12 @@
   color: rgba(76,143,199,1)
 }
 
-.ace--espresso--soda .ace_variable.ace_language {
-  color: rgba(118,83,193,1);
-  background-color: rgba(243,242,255,1)
-}
-
 .ace--espresso--soda .ace_meta.ace_selector {
   color: rgba(58,119,191,1)
 }
 
 .ace--espresso--soda .ace_entity.ace_other.ace_attribute-name {
   color: rgba(79,159,207,1)
-}
-
-.ace--espresso--soda .ace_entity.ace_name.ace_function {
-  color: rgba(97,134,47,1)
 }
 
 .ace--espresso--soda .ace_entity.ace_name.ace_tag {

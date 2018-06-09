@@ -13,7 +13,9 @@
   color: rgba(242,255,252,1)
 }
 
-.ace--bijan .ace_cursor {
+.ace--bijan .ace_constant.ace_numeric,
+.ace--bijan .ace_cursor,
+.ace--bijan .ace_variable.ace_parameter {
   color: rgba(255,178,112,1)
 }
 
@@ -52,54 +54,35 @@
   border-color: rgba(242,255,252,1)
 }
 
+.ace--bijan .ace_constant.ace_character,
+.ace--bijan .ace_constant.ace_other,
+.ace--bijan .ace_entity.ace_other.ace_attribute-name,
 .ace--bijan .ace_keyword.ace_operator {
   color: rgba(186,160,248,1)
 }
 
-.ace--bijan .ace_constant.ace_language {
+.ace--bijan .ace_constant.ace_language,
+.ace--bijan .ace_variable.ace_language {
   font-style: italic;
   color: rgba(255,109,126,1)
 }
 
-.ace--bijan .ace_constant.ace_numeric {
-  color: rgba(255,178,112,1)
-}
-
-.ace--bijan .ace_constant.ace_character {
-  color: rgba(186,160,248,1)
-}
-
-.ace--bijan .ace_constant.ace_other {
-  color: rgba(186,160,248,1)
-}
-
-.ace--bijan .ace_support.ace_function {
-  font-style: italic;
-  color: rgba(124,213,241,1)
-}
-
-.ace--bijan .ace_support.ace_constant {
-  font-style: italic;
-  color: rgba(186,160,248,1)
-}
-
-.ace--bijan .ace_support.ace_class {
-  font-style: italic;
-  color: rgba(124,213,241,1)
-}
-
+.ace--bijan .ace_support.ace_class,
+.ace--bijan .ace_support.ace_function,
 .ace--bijan .ace_support.ace_type {
   font-style: italic;
   color: rgba(124,213,241,1)
 }
 
-.ace--bijan .ace_storage {
-  color: rgba(255,109,126,1)
-}
-
-.ace--bijan .ace_storage.ace_type {
+.ace--bijan .ace_storage.ace_type,
+.ace--bijan .ace_support.ace_constant {
   font-style: italic;
   color: rgba(186,160,248,1)
+}
+
+.ace--bijan .ace_entity.ace_name.ace_tag,
+.ace--bijan .ace_storage {
+  color: rgba(255,109,126,1)
 }
 
 .ace--bijan .ace_invalid {
@@ -120,27 +103,7 @@
   color: rgba(184,196,195,1)
 }
 
+.ace--bijan .ace_entity.ace_name.ace_function,
 .ace--bijan .ace_variable {
   color: rgba(124,213,241,1)
-}
-
-.ace--bijan .ace_variable.ace_language {
-  font-style: italic;
-  color: rgba(255,109,126,1)
-}
-
-.ace--bijan .ace_variable.ace_parameter {
-  color: rgba(255,178,112,1)
-}
-
-.ace--bijan .ace_entity.ace_other.ace_attribute-name {
-  color: rgba(186,160,248,1)
-}
-
-.ace--bijan .ace_entity.ace_name.ace_function {
-  color: rgba(124,213,241,1)
-}
-
-.ace--bijan .ace_entity.ace_name.ace_tag {
-  color: rgba(255,109,126,1)
 }
