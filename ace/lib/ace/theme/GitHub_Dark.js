@@ -30,9 +30,9 @@
 
 define(function(require, exports, module) {
 
-exports.isDark = false;
-exports.cssClass = "ace-my-pascal2018";
-exports.cssText = require("../requirejs/text!./myPascal2018.css");
+exports.isDark = true;
+exports.cssClass = "ace--git-hub--dark";
+exports.cssText = require("../requirejs/text!./GitHub_Dark.css");
 
 var dom = require("../lib/dom");
 dom.importCssString(exports.cssText, exports.cssClass);
