@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- if you want to get the name of the text in the code to change the color, put the coursor on it and press CTRL + ALT + SHIFT + P then check the SublimeTextconsole bar at the bottom  -->
+<plist version="1.0">
+    <dict>
+
+        <key>name</key>
+        <string>Capo-Light</string>
+        <key>settings</key>
+
+        <array>
+
+            <dict>
+                <key>settings</key>
+                <dict>
+					<key>tagsForeground</key>
+					<string>#FF0000</string><!-- rosu -->
+					<key>tagsOptions</key>
+					<string>underline</string>
+                    <key>background</key>
+                    <string>#dadada</string><!-- gri deschis -->
+                    <key>caret</key>
+                    <string>#af1212</string><!-- rosu inchis -->
+                    <key>foreground</key>
+                    <string>#2a2a2a</string><!-- aproape negru -->
+                    <key>invisibles</key>
+                    <string>#6e6e6e</string><!-- gri inghis -->
+                    <key>lineHighlight</key>
+                    <string>#e7ddb9</string><!-- aproape galben -->
+                    <key>selection</key>
+                    <string>#e7ddb9</string><!-- aproape galben -->
+                </dict>
+            </dict>
+
+            <dict>
+                <key>scope</key>
+                <string>comment, meta.tag</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#6e6e6e</string><!-- gri inchis -->
+                </dict>
+            </dict>
+
+            <dict>
+                <key>scope</key>
+                <string>constant, support.constant, meta.property-value, entity.name.tag, keyword.other.unit.css</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#881391</string><!-- violet -->
+                </dict>
+            </dict>
+
+            <dict>
+                <key>scope</key>
+                <string>variable, entity.other.attribute-name, support.other.namespace, support.class, support.type.property-name, meta.property-name, meta.instance.constructor</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#0066cc</string><!-- albastru -->
+                </dict>
+            </dict>
+
+            <dict>
+                <key>scope</key>
+                <string>variable.other.property, meta.property.object</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#0066cc</string><!-- albastru mai deschis -->
+                </dict>
+            </dict>
+
+            <dict>
+                <key>scope</key>
+                <string>keyword.operator, storage, keyword, punctuation.separator, meta.group.braces.round.function.arguments</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#0000bb</string><!-- albastru inchis -->
+                </dict>
+            </dict>    
+
+            <dict>
+                <key>scope</key>
+                <string>meta.separator, invalid</string>
+                <key>settings</key>
+                <dict>
+                    <key>background</key>
+                    <string>#af1212</string><!-- rosu inchis -->
+                    <key>foreground</key>
+                    <string>#dadada</string><!-- gri deschis -->
+                </dict>
+            </dict>                    
+
+            <dict>
+                <key>scope</key>
+                <string>entity.other.attribute-name.class, entity.name.tag.css, keyword.other, string.quoted.double, string.quoted.single, punctuation.definition.string</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#af1212</string><!-- rosu inchis -->
+                </dict>
+            </dict>
+
+            <dict>
+                <key>scope</key>
+                <string>variable.function, entity.name.function, meta.function-call</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#007700</string><!-- verde deschis -->
+                </dict>
+            </dict>
+
+            <dict>
+                <key>scope</key>
+                <string>support.function</string>
+                <key>settings</key>
+                <dict>
+                    <key>background</key>
+                    <string>#e7ddb9</string>
+                    <key>foreground</key>
+                    <string>#007700</string><!-- verde deschis -->
+                </dict>
+            </dict>
+
+        </array>
+
+    </dict>
+</plist>

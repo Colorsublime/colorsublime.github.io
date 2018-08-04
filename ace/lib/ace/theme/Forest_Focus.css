@@ -1,0 +1,118 @@
+.ace--forest--focus .ace_gutter {
+  background: rgba(35,32,35,1);
+  color: rgb(110,111,101)
+}
+
+.ace--forest--focus .ace_print-margin {
+  width: 1px;
+  background: #e8e8e8
+}
+
+.ace--forest--focus {
+  background-color: rgba(35,32,35,1);
+  color: rgba(184,189,167,1)
+}
+
+.ace--forest--focus .ace_cursor {
+  color: rgba(51,153,102,1)
+}
+
+.ace--forest--focus .ace_marker-layer .ace_selection {
+  background: rgba(221,240,255,0.51)
+}
+
+.ace--forest--focus.ace_multiselect .ace_selection.ace_start {
+  box-shadow: 0 0 3px 0px rgba(35,32,35,1);
+  border-radius: 2px
+}
+
+.ace--forest--focus .ace_marker-layer .ace_step {
+  background: rgb(198, 219, 174)
+}
+
+.ace--forest--focus .ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 1px solid rgba(64,64,64,1)
+}
+
+.ace--forest--focus .ace_marker-layer .ace_active-line {
+  background: rgba(255,255,255,0.08)
+}
+
+.ace--forest--focus .ace_gutter-active-line {
+  background-color: rgba(255,255,255,0.08)
+}
+
+.ace--forest--focus .ace_marker-layer .ace_selected-word {
+  border: 1px solid rgba(221,240,255,0.51)
+}
+
+.ace--forest--focus .ace_fold {
+  background-color: rgba(94,171,48,1);
+  border-color: rgba(184,189,167,1)
+}
+
+.ace--forest--focus .ace_keyword {
+  color: rgba(94,171,48,1)
+}
+
+.ace--forest--focus .ace_constant {
+  font-style: italic;
+  color: rgba(92,130,175,2.55)
+}
+
+.ace--forest--focus .ace_support {
+  color: rgba(201,98,72,2.55)
+}
+
+.ace--forest--focus .ace_support.ace_function {
+  color: rgba(51,153,102,2.55)
+}
+
+.ace--forest--focus .ace_support.ace_constant {
+  color: rgba(207,106,76,2.55)
+}
+
+.ace--forest--focus .ace_storage {
+  color: rgba(201,145,82,2.55)
+}
+
+.ace--forest--focus .ace_invalid.ace_illegal {
+  color: rgba(248,248,248,2.55);
+  background-color: rgba(86,45,86,1.91)
+}
+
+.ace--forest--focus .ace_invalid.ace_deprecated {
+  text-decoration: underline;
+  font-style: italic;
+  color: rgba(210,168,161,2.55)
+}
+
+.ace--forest--focus .ace_string {
+  color: rgba(159,183,96,1)
+}
+
+.ace--forest--focus .ace_string.ace_regexp {
+  color: rgba(233,192,98,2.55)
+}
+
+.ace--forest--focus .ace_comment {
+  font-style: italic;
+  color: rgba(139,125,108,2.55)
+}
+
+.ace--forest--focus .ace_variable {
+  color: rgba(51,153,102,2.55)
+}
+
+.ace--forest--focus .ace_meta.ace_tag {
+  color: rgba(113,130,66,2.55)
+}
+
+.ace--forest--focus .ace_markup.ace_heading {
+  color: rgba(207,106,76,2.55)
+}
+
+.ace--forest--focus .ace_markup.ace_list {
+  color: rgba(249,238,152,2.55)
+}
