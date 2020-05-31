@@ -65,10 +65,12 @@
   color: rgba(201,98,72,2.55)
 }
 
-.ace--forest--focus .ace_support.ace_function {
+.ace--forest--focus .ace_support.ace_function,
+.ace--forest--focus .ace_variable {
   color: rgba(51,153,102,2.55)
 }
 
+.ace--forest--focus .ace_markup.ace_heading,
 .ace--forest--focus .ace_support.ace_constant {
   color: rgba(207,106,76,2.55)
 }
@@ -101,16 +103,8 @@
   color: rgba(139,125,108,2.55)
 }
 
-.ace--forest--focus .ace_variable {
-  color: rgba(51,153,102,2.55)
-}
-
 .ace--forest--focus .ace_meta.ace_tag {
   color: rgba(113,130,66,2.55)
-}
-
-.ace--forest--focus .ace_markup.ace_heading {
-  color: rgba(207,106,76,2.55)
 }
 
 .ace--forest--focus .ace_markup.ace_list {

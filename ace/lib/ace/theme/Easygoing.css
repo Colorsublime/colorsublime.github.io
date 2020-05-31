@@ -17,6 +17,7 @@
   color: rgba(251,251,251,2.55)
 }
 
+.ace--easygoing .ace_marker-layer .ace_active-line,
 .ace--easygoing .ace_marker-layer .ace_selection {
   background: rgba(34,34,34,2.55)
 }
@@ -33,10 +34,6 @@
 .ace--easygoing .ace_marker-layer .ace_bracket {
   margin: -1px 0 0 -1px;
   border: 1px solid rgba(68,68,68,2.55)
-}
-
-.ace--easygoing .ace_marker-layer .ace_active-line {
-  background: rgba(34,34,34,2.55)
 }
 
 .ace--easygoing .ace_gutter-active-line {
@@ -64,10 +61,7 @@
   color: rgba(230,62,62,1)
 }
 
-.ace--easygoing .ace_constant.ace_character {
-  color: rgba(237,109,66,1)
-}
-
+.ace--easygoing .ace_constant.ace_character,
 .ace--easygoing .ace_constant.ace_other {
   color: rgba(237,109,66,1)
 }
@@ -80,11 +74,7 @@
   color: rgba(167,102,237,2.55)
 }
 
-.ace--easygoing .ace_support.ace_class {
-  font-style: italic;
-  color: rgba(51,187,178,2.55)
-}
-
+.ace--easygoing .ace_support.ace_class,
 .ace--easygoing .ace_support.ace_type {
   font-style: italic;
   color: rgba(51,187,178,2.55)
@@ -126,11 +116,8 @@
   color: rgba(249,150,34,2.55)
 }
 
+.ace--easygoing .ace_entity.ace_name.ace_function,
 .ace--easygoing .ace_entity.ace_other.ace_attribute-name {
-  color: rgba(165,223,48,2.55)
-}
-
-.ace--easygoing .ace_entity.ace_name.ace_function {
   color: rgba(165,223,48,2.55)
 }
 

@@ -1,0 +1,139 @@
+.ace--monokai-dimmed-76 .ace_gutter {
+  background: rgba(39,40,34,1);
+  color: rgb(117,117,112)
+}
+
+.ace--monokai-dimmed-76 .ace_print-margin {
+  width: 1px;
+  background: #e8e8e8
+}
+
+.ace--monokai-dimmed-76 {
+  background-color: rgba(39,40,34,1);
+  color: rgba(194,194,190,1)
+}
+
+.ace--monokai-dimmed-76 .ace_cursor {
+  color: rgba(194,194,188,1)
+}
+
+.ace--monokai-dimmed-76 .ace_marker-layer .ace_selection {
+  background: rgba(73,72,62,1)
+}
+
+.ace--monokai-dimmed-76.ace_multiselect .ace_selection.ace_start {
+  box-shadow: 0 0 3px 0px rgba(39,40,34,1);
+  border-radius: 2px
+}
+
+.ace--monokai-dimmed-76 .ace_marker-layer .ace_step {
+  background: rgb(198, 219, 174)
+}
+
+.ace--monokai-dimmed-76 .ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 1px solid rgba(59,58,50,1)
+}
+
+.ace--monokai-dimmed-76 .ace_marker-layer .ace_active-line {
+  background: rgba(62,61,50,1)
+}
+
+.ace--monokai-dimmed-76 .ace_gutter-active-line {
+  background-color: rgba(62,61,50,1)
+}
+
+.ace--monokai-dimmed-76 .ace_marker-layer .ace_selected-word {
+  border: 1px solid rgba(73,72,62,1)
+}
+
+.ace--monokai-dimmed-76 .ace_fold {
+  background-color: rgba(142,194,39,1);
+  border-color: rgba(194,194,190,1)
+}
+
+.ace--monokai-dimmed-76 .ace_keyword {
+  color: rgba(194,29,89,1)
+}
+
+.ace--monokai-dimmed-76 .ace_constant.ace_language {
+  color: rgba(132,99,194,1)
+}
+
+.ace--monokai-dimmed-76 .ace_constant.ace_numeric {
+  color: rgba(134,97,194,1)
+}
+
+.ace--monokai-dimmed-76 .ace_constant.ace_character {
+  color: rgba(132,99,194,1)
+}
+
+.ace--monokai-dimmed-76 .ace_constant.ace_other {
+  color: rgba(132,99,194,1)
+}
+
+.ace--monokai-dimmed-76 .ace_support.ace_function {
+  color: rgba(83,175,194,1)
+}
+
+.ace--monokai-dimmed-76 .ace_support.ace_constant {
+  color: rgba(83,175,194,1)
+}
+
+.ace--monokai-dimmed-76 .ace_support.ace_class {
+  font-style: italic;
+  color: rgba(83,175,194,1)
+}
+
+.ace--monokai-dimmed-76 .ace_support.ace_type {
+  font-style: italic;
+  color: rgba(83,175,194,1)
+}
+
+.ace--monokai-dimmed-76 .ace_storage {
+  color: rgba(194,29,89,1)
+}
+
+.ace--monokai-dimmed-76 .ace_storage.ace_type {
+  font-style: italic;
+  color: rgba(83,175,194,1)
+}
+
+.ace--monokai-dimmed-76 .ace_invalid {
+  color: rgba(194,194,188,1);
+  background-color: rgba(249,38,114,1)
+}
+
+.ace--monokai-dimmed-76 .ace_invalid.ace_deprecated {
+  color: rgba(194,194,188,1);
+  background-color: rgba(174,129,255,1)
+}
+
+.ace--monokai-dimmed-76 .ace_string {
+  color: rgba(194,184,97,1)
+}
+
+.ace--monokai-dimmed-76 .ace_comment {
+  color: rgba(105,95,85,1)
+}
+
+.ace--monokai-dimmed-76 .ace_variable {
+  color: rgba(194,194,178,1)
+}
+
+.ace--monokai-dimmed-76 .ace_variable.ace_parameter {
+  font-style: italic;
+  color: rgba(194,114,23,1)
+}
+
+.ace--monokai-dimmed-76 .ace_entity.ace_other.ace_attribute-name {
+  color: rgba(142,194,39,1)
+}
+
+.ace--monokai-dimmed-76 .ace_entity.ace_name.ace_function {
+  color: rgba(142,194,39,1)
+}
+
+.ace--monokai-dimmed-76 .ace_entity.ace_name.ace_tag {
+  color: rgba(194,29,89,1)
+}

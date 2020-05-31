@@ -69,7 +69,9 @@
   color: rgba(255,215,95,1)
 }
 
-.ace--chelevra--material .ace_storage {
+.ace--chelevra--material .ace_storage,
+.ace--chelevra--material .ace_storage.ace_type,
+.ace--chelevra--material .ace_support.ace_type {
   font-style: italic;
   color: rgba(198,245,106,1)
 }

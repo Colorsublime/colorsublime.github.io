@@ -52,6 +52,10 @@
   border-color: rgba(248,248,242,1)
 }
 
+.ace--code--lover .ace_keyword.ace_operator {
+  color: rgba(186,160,248,1)
+}
+
 .ace--code--lover .ace_keyword {
   color: rgba(134,79,249,1)
 }
@@ -71,6 +75,11 @@
 
 .ace--code--lover .ace_support.ace_function {
   color: rgba(103,190,237,1)
+}
+
+.ace--code--lover .ace_support.ace_constant {
+  font-style: italic;
+  color: rgba(186,160,248,1)
 }
 
 .ace--code--lover .ace_support.ace_class,
@@ -114,6 +123,11 @@
 .ace--code--lover .ace_variable.ace_parameter {
   font-style: italic;
   color: rgba(253,151,31,1)
+}
+
+.ace--code--lover .ace_variable.ace_language {
+  font-style: italic;
+  color: rgba(255,109,126,1)
 }
 
 .ace--code--lover .ace_entity.ace_other.ace_attribute-name {
