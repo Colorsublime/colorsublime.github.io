@@ -56,47 +56,28 @@
   color: rgba(54,123,240,1)
 }
 
-.ace-cyberpunk .ace_constant.ace_language {
-  color: rgba(242,128,208,1)
-}
-
-.ace-cyberpunk .ace_constant.ace_numeric {
-  color: rgba(242,128,208,1)
-}
-
-.ace-cyberpunk .ace_constant.ace_character {
-  color: rgba(242,128,208,1)
-}
-
+.ace-cyberpunk .ace_constant.ace_character,
+.ace-cyberpunk .ace_constant.ace_language,
+.ace-cyberpunk .ace_constant.ace_numeric,
 .ace-cyberpunk .ace_constant.ace_other {
   color: rgba(242,128,208,1)
 }
 
+.ace-cyberpunk .ace_support.ace_constant,
 .ace-cyberpunk .ace_support.ace_function {
   color: rgba(153,102,184,1)
 }
 
-.ace-cyberpunk .ace_support.ace_constant {
-  color: rgba(153,102,184,1)
-}
-
-.ace-cyberpunk .ace_support.ace_class {
-  font-style: italic;
-  color: rgba(153,102,184,1)
-}
-
+.ace-cyberpunk .ace_storage.ace_type,
+.ace-cyberpunk .ace_support.ace_class,
 .ace-cyberpunk .ace_support.ace_type {
   font-style: italic;
   color: rgba(153,102,184,1)
 }
 
+.ace-cyberpunk .ace_entity.ace_name.ace_tag,
 .ace-cyberpunk .ace_storage {
   color: rgba(34,85,136,1)
-}
-
-.ace-cyberpunk .ace_storage.ace_type {
-  font-style: italic;
-  color: rgba(153,102,184,1)
 }
 
 .ace-cyberpunk .ace_invalid {
@@ -117,6 +98,8 @@
   color: rgba(59,86,140,1)
 }
 
+.ace-cyberpunk .ace_entity.ace_name.ace_function,
+.ace-cyberpunk .ace_entity.ace_other.ace_attribute-name,
 .ace-cyberpunk .ace_variable {
   color: rgba(211,110,201,1)
 }
@@ -124,16 +107,4 @@
 .ace-cyberpunk .ace_variable.ace_parameter {
   font-style: italic;
   color: rgba(34,119,255,1)
-}
-
-.ace-cyberpunk .ace_entity.ace_other.ace_attribute-name {
-  color: rgba(211,110,201,1)
-}
-
-.ace-cyberpunk .ace_entity.ace_name.ace_function {
-  color: rgba(211,110,201,1)
-}
-
-.ace-cyberpunk .ace_entity.ace_name.ace_tag {
-  color: rgba(34,85,136,1)
 }

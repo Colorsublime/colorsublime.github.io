@@ -13,10 +13,14 @@
   color: rgba(88,110,117,1)
 }
 
-.ace--sahara .ace_cursor {
+.ace--sahara .ace_cursor,
+.ace--sahara .ace_entity.ace_name.ace_tag,
+.ace--sahara .ace_keyword,
+.ace--sahara .ace_variable.ace_language {
   color: rgba(172,167,154,1)
 }
 
+.ace--sahara .ace_marker-layer .ace_active-line,
 .ace--sahara .ace_marker-layer .ace_selection {
   background: rgba(238,232,213,1)
 }
@@ -35,10 +39,6 @@
   border: 1px solid rgba(147,161,161,1.28)
 }
 
-.ace--sahara .ace_marker-layer .ace_active-line {
-  background: rgba(238,232,213,1)
-}
-
 .ace--sahara .ace_gutter-active-line {
   background-color: rgba(238,232,213,1)
 }
@@ -52,23 +52,16 @@
   border-color: rgba(88,110,117,1)
 }
 
-.ace--sahara .ace_keyword {
-  color: rgba(172,167,154,1)
-}
-
-.ace--sahara .ace_constant.ace_language {
+.ace--sahara .ace_constant.ace_language,
+.ace--sahara .ace_entity.ace_name.ace_function,
+.ace--sahara .ace_variable {
   color: rgba(218,165,69,1)
 }
 
-.ace--sahara .ace_constant.ace_numeric {
-  color: rgba(218,99,95,1.53)
-}
-
-.ace--sahara .ace_constant.ace_character {
-  color: rgba(218,99,95,1.53)
-}
-
-.ace--sahara .ace_constant.ace_other {
+.ace--sahara .ace_constant.ace_character,
+.ace--sahara .ace_constant.ace_numeric,
+.ace--sahara .ace_constant.ace_other,
+.ace--sahara .ace_string.ace_regexp {
   color: rgba(218,99,95,1.53)
 }
 
@@ -76,10 +69,7 @@
   color: rgba(104,104,104,1)
 }
 
-.ace--sahara .ace_support.ace_class {
-  color: rgba(162,162,162,2.55)
-}
-
+.ace--sahara .ace_support.ace_class,
 .ace--sahara .ace_support.ace_type {
   color: rgba(162,162,162,2.55)
 }
@@ -88,34 +78,11 @@
   color: rgba(88,110,117,1)
 }
 
+.ace--sahara .ace_entity.ace_other.ace_attribute-name,
 .ace--sahara .ace_string {
   color: rgba(147,161,161,1)
 }
 
-.ace--sahara .ace_string.ace_regexp {
-  color: rgba(218,99,95,1.53)
-}
-
 .ace--sahara .ace_comment {
   color: rgba(147,161,161,1.52)
-}
-
-.ace--sahara .ace_variable {
-  color: rgba(218,165,69,1)
-}
-
-.ace--sahara .ace_variable.ace_language {
-  color: rgba(172,167,154,1)
-}
-
-.ace--sahara .ace_entity.ace_other.ace_attribute-name {
-  color: rgba(147,161,161,1)
-}
-
-.ace--sahara .ace_entity.ace_name.ace_function {
-  color: rgba(218,165,69,1)
-}
-
-.ace--sahara .ace_entity.ace_name.ace_tag {
-  color: rgba(172,167,154,1)
 }

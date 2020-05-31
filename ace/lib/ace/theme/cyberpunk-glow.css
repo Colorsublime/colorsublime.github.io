@@ -56,23 +56,16 @@
   color: rgba(54,123,240,1)
 }
 
-.ace-cyberpunk-glow .ace_constant.ace_language {
-  color: rgba(242,128,208,1)
-}
-
-.ace-cyberpunk-glow .ace_constant.ace_numeric {
-  color: rgba(242,128,208,1)
-}
-
-.ace-cyberpunk-glow .ace_constant.ace_character {
-  color: rgba(242,128,208,1)
-}
-
+.ace-cyberpunk-glow .ace_constant.ace_character,
+.ace-cyberpunk-glow .ace_constant.ace_language,
+.ace-cyberpunk-glow .ace_constant.ace_numeric,
 .ace-cyberpunk-glow .ace_constant.ace_other {
   color: rgba(242,128,208,1)
 }
 
-.ace-cyberpunk-glow .ace_support.ace_function {
+.ace-cyberpunk-glow .ace_entity.ace_name.ace_function,
+.ace-cyberpunk-glow .ace_support.ace_function,
+.ace-cyberpunk-glow .ace_variable {
   color: rgba(255,0,193,1);
   background-color: rgba(62,21,52,1)
 }
@@ -81,23 +74,16 @@
   color: rgba(153,102,184,1)
 }
 
-.ace-cyberpunk-glow .ace_support.ace_class {
-  font-style: italic;
-  color: rgba(153,102,184,1)
-}
-
+.ace-cyberpunk-glow .ace_storage.ace_type,
+.ace-cyberpunk-glow .ace_support.ace_class,
 .ace-cyberpunk-glow .ace_support.ace_type {
   font-style: italic;
   color: rgba(153,102,184,1)
 }
 
+.ace-cyberpunk-glow .ace_entity.ace_name.ace_tag,
 .ace-cyberpunk-glow .ace_storage {
   color: rgba(34,85,136,1)
-}
-
-.ace-cyberpunk-glow .ace_storage.ace_type {
-  font-style: italic;
-  color: rgba(153,102,184,1)
 }
 
 .ace-cyberpunk-glow .ace_invalid {
@@ -120,11 +106,6 @@
   background-color: rgba(6,16,34,1)
 }
 
-.ace-cyberpunk-glow .ace_variable {
-  color: rgba(255,0,193,1);
-  background-color: rgba(62,21,52,1)
-}
-
 .ace-cyberpunk-glow .ace_variable.ace_parameter {
   font-style: italic;
   color: rgba(34,119,255,1)
@@ -132,13 +113,4 @@
 
 .ace-cyberpunk-glow .ace_entity.ace_other.ace_attribute-name {
   color: rgba(211,110,201,1)
-}
-
-.ace-cyberpunk-glow .ace_entity.ace_name.ace_function {
-  color: rgba(255,0,193,1);
-  background-color: rgba(62,21,52,1)
-}
-
-.ace-cyberpunk-glow .ace_entity.ace_name.ace_tag {
-  color: rgba(34,85,136,1)
 }

@@ -52,11 +52,15 @@
   border-color: rgba(194,194,190,1)
 }
 
-.ace--monokai-dimmed-76 .ace_keyword {
+.ace--monokai-dimmed-76 .ace_entity.ace_name.ace_tag,
+.ace--monokai-dimmed-76 .ace_keyword,
+.ace--monokai-dimmed-76 .ace_storage {
   color: rgba(194,29,89,1)
 }
 
-.ace--monokai-dimmed-76 .ace_constant.ace_language {
+.ace--monokai-dimmed-76 .ace_constant.ace_character,
+.ace--monokai-dimmed-76 .ace_constant.ace_language,
+.ace--monokai-dimmed-76 .ace_constant.ace_other {
   color: rgba(132,99,194,1)
 }
 
@@ -64,37 +68,14 @@
   color: rgba(134,97,194,1)
 }
 
-.ace--monokai-dimmed-76 .ace_constant.ace_character {
-  color: rgba(132,99,194,1)
-}
-
-.ace--monokai-dimmed-76 .ace_constant.ace_other {
-  color: rgba(132,99,194,1)
-}
-
+.ace--monokai-dimmed-76 .ace_support.ace_constant,
 .ace--monokai-dimmed-76 .ace_support.ace_function {
   color: rgba(83,175,194,1)
 }
 
-.ace--monokai-dimmed-76 .ace_support.ace_constant {
-  color: rgba(83,175,194,1)
-}
-
-.ace--monokai-dimmed-76 .ace_support.ace_class {
-  font-style: italic;
-  color: rgba(83,175,194,1)
-}
-
+.ace--monokai-dimmed-76 .ace_storage.ace_type,
+.ace--monokai-dimmed-76 .ace_support.ace_class,
 .ace--monokai-dimmed-76 .ace_support.ace_type {
-  font-style: italic;
-  color: rgba(83,175,194,1)
-}
-
-.ace--monokai-dimmed-76 .ace_storage {
-  color: rgba(194,29,89,1)
-}
-
-.ace--monokai-dimmed-76 .ace_storage.ace_type {
   font-style: italic;
   color: rgba(83,175,194,1)
 }
@@ -126,14 +107,7 @@
   color: rgba(194,114,23,1)
 }
 
+.ace--monokai-dimmed-76 .ace_entity.ace_name.ace_function,
 .ace--monokai-dimmed-76 .ace_entity.ace_other.ace_attribute-name {
   color: rgba(142,194,39,1)
-}
-
-.ace--monokai-dimmed-76 .ace_entity.ace_name.ace_function {
-  color: rgba(142,194,39,1)
-}
-
-.ace--monokai-dimmed-76 .ace_entity.ace_name.ace_tag {
-  color: rgba(194,29,89,1)
 }
